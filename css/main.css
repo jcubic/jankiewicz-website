@@ -1,0 +1,224 @@
+article, aside, dialog, figure, footer, header, hgroup, menu, nav, section { 
+    display: block; 
+}
+@font-face {
+    font-family: 'bodonitown';
+    src: url('bodonitown-font.eot');
+    src: local('☺'), url('bodonitown-font.woff') format('woff'), url('bodonitown-font.ttf') format('truetype'), url('bodonitown-font.svg#font') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'brassiere';
+    src: url('brassiere-font.eot');
+    src: local('☺'), url('brassiere-font.woff') format('woff'), url('brassiere-font.ttf') format('truetype'), url('brassiere-font.svg#font') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+html {
+    background: #68864f url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAPxCAYAAAA7b8cNAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAADlSURBVFiF5ZdbDoMgFETvuCGX0P2vqv0w1pp6HwNeCvTHhJgT4GTAUbA+nouIyPaAiCyCfRh44Bj6GNS3HyxihDZvhDhjYeKYgzHEa9JXZbK48KcSiWLfbIFYxhAv1ssfCKJaU5eG9C040ftWZ7PZx5S2WyU2yF4vCOWGBjuhPktGD+4WfhA9kfIvROP8wWDnuvpKDaksXOIWsZOVk3PqTKy7+4/KX1L0WpXjMkPbHLn5u6kXm2ynYoOG9FVV2aXL8WCG/qMcDxY9rRyHN93q94HXlFlOdnVzleM0u1QvDm866/57AcvhCh1vfe8lAAAAAElFTkSuQmCC) no-repeat;
+    -o-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -khtml-background-size: 100% 100%; 
+    background-size: 100% 100%;
+    background: -webkit-gradient(linear,left top,left bottom,from(#012f3f),to(#68864f)) no-repeat;
+    background: -moz-linear-gradient(top, #012f3f, #68864f) no-repeat;
+    width:100%;
+    height:100%;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr=#012f3f,endColorstr=#68864f,GradientType=0);
+}
+body, html {
+    margin: 0;
+    padding: 0;
+}
+header h1 {
+    display: none;
+}
+/*********** LAYOUT ELEMENTS *********/
+#grid {
+    background: url(images/grid-background.gif);
+    opacity: 0.08;
+    filter: alpha(opacity = 0.08);
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#map {
+    background: transparent url(images/poland-map.png) no-repeat center center;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/poland-map.png', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/poland-map.png', sizingMethod='scale')";
+    opacity: 0.4;
+    filter: alpha(opacity = 0.4);
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=40);
+    width: 50%;
+    height: 358px;
+    position: absolute;
+    right: 0;
+    margin-right: 50px;
+    bottom: 125px;
+    z-index: 100;
+}
+/* SPRITE */
+header#logo, #marker, #sponsorzy {
+    background: transparent url(images/sprite.png) no-repeat;
+}
+header#logo {
+    background-position: 0 -251px;
+    width: 41px;
+    height: 69px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 20px;
+    z-index: 300;
+}
+#marker {
+    background-position: 0 -331px;
+    position: absolute;
+    width: 11%;
+    height: 75px;
+    right: 16%;
+    bottom: 245px;
+    z-index: 200;
+}
+#sponsorzy {
+    background-position: 0 -407px;
+    position: absolute;
+    width: 384px;
+    height: 57px;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    top: 0;
+    z-index: 200;
+}
+/*********** CONTENT *********/
+section p::selection, section abbr::selection {
+    background-color: #f60;
+}
+section p::-moz-selection {
+    background-color: #f60;
+}
+section abbr::-moz-selection {
+    background-color: #f60;
+}
+section#content {
+    position: absolute;
+    left: 29px;
+    top: 100px;
+    width: 41%;/* 387px; */
+    z-index: 200;
+    height: 300px;
+    overflow: hidden;
+}
+section#content p {
+    margin: 0;
+    padding: 0 0 5px 0;
+    text-indent: 2em;
+}
+section#content p.small {
+    font-size: 0.8em;
+    text-indent: 0;
+    padding-top: 1em;
+}
+section#content p, section#content a {
+    font-family: bodonitown, Times, serif;
+    color: #fff;
+    text-align: justify;
+}
+section#content p {
+    font-size: 1.2em;
+}
+section#content a {
+    color: #fff;
+}
+section#content a:hover {
+    color: #f60;
+}
+/*********** FOOTER *********/
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+footer #footer_top {
+    /* 1px background IE render differently rgb colors in html and png files */
+    background: url(images/footer-background.png) no-repeat center center;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/footer-background.png', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/footer-background.png', sizingMethod='scale')";
+    margin: 0 auto -1px; /* in Firefox when you zoom out there is 1px space */
+    width: 100%;
+    height: 118px;
+    position: relative;
+    top: 0;
+}
+footer nav {
+    background: url(images/footer-background-px.png) repeat;
+    overflow: auto;
+}
+footer ul {
+    padding: 0;
+    height: 75px;
+    width: 1068px;
+    margin: 0 auto;
+    list-style: none;
+}
+footer ul li {
+    display: inline;
+    list-style-type: none;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+footer ul li, footer ul li a, footer ul li a span {
+    text-align: center;
+    width: 152px;
+}
+footer ul li a span {
+    margin: 0;
+    text-indent: 0;
+}
+footer ul li a span, footer ul li a {
+    text-decoration: none;
+}
+footer ul li a span.title {
+    font-family: brassiere, Arial, sans;
+    font-size: 1em;
+    text-transform: lowercase;
+    color: #f60;
+    margin: 0;
+    float: left;
+}
+footer ul li a:hover span.title {
+    color: #fa0;
+    float: left;
+    text-decoration: underline;
+}
+footer ul li a span.description {
+    font-family: bodonitown, Times, serif;
+    font-size: 0.8em;
+    color: #fff;
+    margin: 0;
+    clear: both;
+    text-decoration: none;
+}
+footer ul li a :hover span.description {
+    background: transparent;
+}
+footer ul li a:focus, footer ul li a:focus span.description, footer ul li a:active, footer ul li a:active span.description {
+    background: #012F3F;
+    outline: none;
+}
+footer a span::selection, footer a span abbr::selection {
+    background-color: #f60;
+    color: #fff;
+}
+footer a span::-moz-selection {
+    background-color: #f60;
+    color: #fff;
+}
+footer a span abbr::-moz-selection {
+    background-color: #f60;
+    color: #fff;
+}

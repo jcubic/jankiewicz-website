@@ -1,0 +1,10 @@
+Unbound variable `t.toType'
+Unbound variable `t.toType'
+Right-hand side of 'instanceof' is not callable
+symbol p.greet is not a function
+symbol p.greet is not a function
+symbol bar.square is not a function
+Expecting record, got instance in expression `person-first`
+Unbound variable `:foo'
+Unbound variable `equal'
+Unbound variable `char'

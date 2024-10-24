@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:codesearch="http://www.google.com/codesearch/schemas/sitemap/1.0">
+<url>
+  <loc>http://jcubic.pl/</loc>
+  <lastmod>2014-06-14</lastmod>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>http://jcubic.pl/jakub-jankiewicz-avatar.html</loc>
+  <lastmod>2012-04-17</lastmod>
+  <image:image>
+     <image:loc>http://images.jcubic.pl/jakub-jankiewicz-avatar-big.png</image:loc>
+     <image:title>Jakub Jankiewicz vector image use for avatar</image:title>
+  </image:image>
+</url>
+
+<url>
+  <loc>http://jcubic.pl/projects.php</loc>
+  <lastmod>2014-03-10</lastmod>
+</url>
+<url>
+  <loc>http://jcubic.pl/tutorials.php</loc>
+  <lastmod>2010-12-01</lastmod>
+</url>
+<url>
+  <loc>http://jcubic.pl/lisp_tutorial.php</loc>
+  <lastmod>2010-12-01</lastmod>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>http://jcubic.pl/dojo_tutorial.php</loc>
+  <lastmod>2010-10-14</lastmod>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>http://jcubic.pl/struct.scm</loc>
+  <lastmod>2010-10-14</lastmod>
+</url>
+<url>
+  <loc>http://jcubic.pl/rapidshare.py</loc>
+  <lastmod>2010-10-14</lastmod>
+</url>
+<url>
+  <loc>http://jcubic.pl/similar.py</loc>
+  <lastmod>2010-10-14</lastmod>
+</url>
+<url>
+  <loc>http://jcubic.pl/change_ip.rb</loc>
+  <lastmod>2010-10-14</lastmod>
+</url>
+<url>
+  <loc>http://jcubic.pl/download.rb</loc>
+  <lastmod>2010-10-14</lastmod>
+</url>
+<url>
+  <loc>http://jcubic.pl/przeklej.rb</loc>
+  <lastmod>2010-10-14</lastmod>
+</url>
+<url>
+  <loc>http://jcubic.pl/gnu.php</loc>
+  <lastmod>2011-01-06</lastmod>
+</url>
+</urlset>
