@@ -1,9 +1,7 @@
 <?php
-/*
-require('utils.php');
-hit();
-header("X-Powered-By: ");
-*/
+
+require('../utils.php');
+
 ?>
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pl">
@@ -329,6 +327,6 @@ header {
     <script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-database.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-auth.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/jquery.terminal/css/jquery.terminal.min.css" rel="stylesheet"/>
-    <script src="/js/terminal.js"></script>
+    <script src="/<?= with_hash('js/terminal.js') ?>"></script>
 </body>
 </html>

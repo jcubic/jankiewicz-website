@@ -1,17 +1,6 @@
 <?php
-/*
-require('utils.php');
-hit();
-header("X-Powered-By: ");
-*/
 
-function str_hash($str) {
-    return dechex(crc32($str));
-}
-
-function with_hash($filename) {
-    return $filename . "?nocache=" . str_hash(file_get_contents($filename));
-}
+require('./utils.php');
 
 ?>
 <!DOCTYPE HTML>
