@@ -110,6 +110,17 @@ function prompt() {
 
 const dirs = Object.keys(directories);
 
+const files = [
+    'chat',
+    'reset',
+    'record'
+];
+
+const home = (() => {
+    let result = dirs.map(dir => `<blue class="directory">${dir}</blue>`);
+    result = result.concat(files.map(file => `<green class="command">${file}</green>`));
+    return result.join('\n');
+})();
 
 const commands = {
     help() {
@@ -131,6 +142,8 @@ const commands = {
                     const dir = dirs[0];
                     this.echo(directories[dir].join('\n'));
                 }
+            } else if (cwd === '..') {
+                this.echo(home);
             } else if (cwd === root) {
                 if (dir in directories) {
                     this.echo(directories[dir].join('\n'));
@@ -141,7 +154,7 @@ const commands = {
                 this.error('Invalid directory');
             }
         } else if (cwd === root) {
-            this.echo(dirs.map(dir => `<blue class="directory">${dir}</blue>`).join('\n'));
+            this.echo(home);
         } else {
             const dir = cwd.substring(2);
             this.echo(directories[dir].join('\n'));
