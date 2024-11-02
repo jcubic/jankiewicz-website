@@ -201,7 +201,9 @@ $(function() {
         keymap: {
             ENTER(e, origin) {
                 const command = this.get_command();
-                _paq.push(['trackEvent', 'REPL', 'command', command]);
+                if (window._paq) {
+                    _paq.push(['trackEvent', 'REPL', 'command', command]);
+                }
                 origin();
             }
         },
