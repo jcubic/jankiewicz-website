@@ -133,7 +133,9 @@ const commands = {
     },
     ls(dir = null) {
         if (dir) {
-            if (dir.startsWith('~/')) {
+            if (dir.match(/^~\/?$/)) {
+                this.echo(home);
+            } else if (dir.startsWith('~/')) {
                 const path = dir.substring(2);
                 const dirs = path.split('/');
                 if (dirs.length > 1) {
