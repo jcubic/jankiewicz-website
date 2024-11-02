@@ -229,7 +229,11 @@ header {
                   You can email me at <a data-type="email">jcubic [at] jcubic [dot] pl</a>,
                   you can also download my Resume <a href="https://jcu.bi/cv-en">English</a> / <a href="https://jcu.bi/cv-pl">Polish</a>.
                 </p>
-                <p>You can also see <a href="/now">what I'm doing now</a>.</a>
+                <p>
+                  You can also see <a href="/now">what I'm doing now</a>, or
+                  hire me if you need <a href="https://support.jcubic.pl/">support
+                  for any of my Open Source projects</a>.
+                </p>
                 <div class="profiles">
                     <ul>
                         <li>

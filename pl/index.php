@@ -218,7 +218,10 @@ header {
                 </p>
                 <p>
                   Możesz do mnie napisać poprzez adress <a data-type="email">jcubic [at] jcubic [dot] pl</a>,
-                  możesz także pobrać moje CV <a href="https://jcu.bi/cv-en">Angielskie</a> / <a href="https://jcu.bi/cv-pl">Polskie</a>.
+                  możesz także pobrać moje CV <a href="https://jcu.bi/cv-en">Angielskie</a> /
+                  <a href="https://jcu.bi/cv-pl">Polskie</a>. Jestem także do dyspozycji jeśli potrzebujesz
+                  <a href="https://support.jcubic.pl/">wsparcia z którymkolwiek z moich projektów
+                  Open Source</a>.
                 </p>
                 <div class="profiles">
                     <ul>
