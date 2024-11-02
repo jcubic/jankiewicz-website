@@ -125,7 +125,6 @@ const commands = {
             if (dir.startsWith('~/')) {
                 const path = dir.substring(2);
                 const dirs = path.split('/');
-                console.log(dirs);
                 if (dirs.length > 1) {
                     this.error('Invalid directory');
                 } else {
@@ -201,9 +200,7 @@ $(function() {
         keymap: {
             ENTER(e, origin) {
                 const command = this.get_command();
-                if (window._paq) {
-                    _paq.push(['trackEvent', 'REPL', 'command', command]);
-                }
+                track('command', command);
                 origin();
             }
         },
@@ -213,12 +210,22 @@ $(function() {
     });
 
     term.on('click', '.command', function() {
-        term.exec($(this).text());
+        const command = $(this).text();
+        track('click', command);
+        term.exec(command);
     });
 
     term.on('click', '.directory', function() {
         const dir = $(this).text();
-        term.exec(`cd ~/${dir}`);
+        const command = `cd ~/${dir}`;
+        track('click', command);
+        term.exec(command);
     });
 
 });
+
+function track(label, data) {
+    if (window._paq) {
+        _paq.push(['trackEvent', 'REPL', label, data]);
+    }
+}
