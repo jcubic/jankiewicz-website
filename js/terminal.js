@@ -111,14 +111,52 @@ function prompt() {
 const dirs = Object.keys(directories);
 
 const files = [
-    'chat',
-    'reset',
-    'record'
+    {name: 'chat', size: 14156},
+    {name: 'reset', size: 26},
+    {name: 'record', size: 241}
 ];
 
 const home = (() => {
     let result = dirs.map(dir => `<blue class="directory">${dir}</blue>`);
-    result = result.concat(files.map(file => `<green class="command">${file}</green>`));
+    result = result.concat(files.map(file => `<green class="command">${file.name}</green>`));
+    return result.join('\n');
+})();
+
+// ref: https://stackoverflow.com/a/60180035/387194
+function random_date(from, to) {
+    const fromTime = from.getTime();
+    const toTime = to.getTime();
+    return new Date(fromTime + Math.random() * (toTime - fromTime));
+}
+
+function pad_number(number, digits = 2) {
+    return number.toString().padStart(digits, '0');
+}
+
+function pad_size(size, spaces = 7) {
+    return size.toString().padStart(7, ' ');
+}
+
+function format_date(date) {
+    const year = date.getFullYear();
+    const month = date.getMonth() + 1;
+    const day = date.getDate();
+    return [year, pad_number(month), pad_number(day)].join('-');
+}
+
+const home_detail = (() => {
+    const from = new Date('2018-02-12');
+    const to = new Date();
+    const date = () => {
+        return format_date(random_date(from, to));
+    };
+    let result = dirs.map(dir => {
+        return `drwxr-xr-x. 1 kuba kuba ${pad_size(4096)} ${date()} <blue class="directory">${dir}</blue>`;
+    });
+    result = result.concat(files.map(file => {
+        const size = pad_size(file.size);
+        return `-rwxr-xr-x. 1 kuba kuba ${size} ${date()} <green class="command">${file.name}</green>`;
+    }));
     return result.join('\n');
 })();
 
@@ -132,10 +170,10 @@ const commands = {
         firebase_chat(term, 'chat');
     },
     ls(...args) {
-        const { _: [dir] } = $.terminal.parse_options(args);
+        const { _: [dir], l } = $.terminal.parse_options(args, { boolean: ['l', 'a']});
         if (dir) {
             if (dir.match(/^~\/?$/)) {
-                this.echo(home);
+                this.echo(l ? home_detail : home);
             } else if (dir.startsWith('~/')) {
                 const path = dir.substring(2);
                 const dirs = path.split('/');
@@ -146,7 +184,7 @@ const commands = {
                     this.echo(directories[dir].join('\n'));
                 }
             } else if (cwd === '..') {
-                this.echo(home);
+                this.echo(l ? home_detail : home);
             } else if (cwd === root) {
                 if (dir in directories) {
                     this.echo(directories[dir].join('\n'));
@@ -157,7 +195,7 @@ const commands = {
                 this.error('Invalid directory');
             }
         } else if (cwd === root) {
-            this.echo(home);
+            this.echo(l ? home_detail : home);
         } else {
             const dir = cwd.substring(2);
             this.echo(directories[dir].join('\n'));
