@@ -131,7 +131,8 @@ const commands = {
     chat() {
         firebase_chat(term, 'chat');
     },
-    ls(dir = null) {
+    ls(...args) {
+        const { _: [dir] } = $.terminal.parse_options(args);
         if (dir) {
             if (dir.match(/^~\/?$/)) {
                 this.echo(home);
