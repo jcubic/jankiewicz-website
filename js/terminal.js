@@ -134,7 +134,7 @@ function pad_number(number, digits = 2) {
 }
 
 function pad_size(size, spaces = 7) {
-    return size.toString().padStart(7, ' ');
+    return size.toString().padStart(spaces, ' ');
 }
 
 function format_date(date) {
@@ -144,21 +144,25 @@ function format_date(date) {
     return [year, pad_number(month), pad_number(day)].join('-');
 }
 
-const home_detail = (() => {
+const home_detail = (human_readable = false) => {
     const from = new Date('2018-02-12');
     const to = new Date();
     const date = () => {
         return format_date(random_date(from, to));
     };
+    function calcuate_size(number) {
+        return human_readable ? pad_size(human_file_size(number), 4) : pad_size(number);
+    }
     let result = dirs.map(dir => {
-        return `drwxr-xr-x. 1 kuba kuba ${pad_size(4096)} ${date()} <blue class="directory">${dir}</blue>`;
+        const size = calcuate_size(4096);
+        return `drwxr-xr-x. 1 kuba kuba ${size} ${date()} <blue class="directory">${dir}</blue>`;
     });
     result = result.concat(files.map(file => {
-        const size = pad_size(file.size);
+        const size = calcuate_size(file.size);
         return `-rwxr-xr-x. 1 kuba kuba ${size} ${date()} <green class="command">${file.name}</green>`;
     }));
     return result.join('\n');
-})();
+};
 
 const commands = {
     help() {
@@ -170,10 +174,14 @@ const commands = {
         firebase_chat(term, 'chat');
     },
     ls(...args) {
-        const { _: [dir], l } = $.terminal.parse_options(args, { boolean: ['l', 'a']});
+        const { _: [dir], l, h } = $.terminal.parse_options(args, { boolean: ['l', 'a', 'h']});
+
+        const print_home = () => {
+            this.echo(l ? home_detail(h) : home);
+        };
         if (dir) {
             if (dir.match(/^~\/?$/)) {
-                this.echo(l ? home_detail : home);
+                print_home();
             } else if (dir.startsWith('~/')) {
                 const path = dir.substring(2);
                 const dirs = path.split('/');
@@ -184,7 +192,7 @@ const commands = {
                     this.echo(directories[dir].join('\n'));
                 }
             } else if (cwd === '..') {
-                this.echo(l ? home_detail : home);
+                print_home();
             } else if (cwd === root) {
                 if (dir in directories) {
                     this.echo(directories[dir].join('\n'));
@@ -195,7 +203,7 @@ const commands = {
                 this.error('Invalid directory');
             }
         } else if (cwd === root) {
-            this.echo(l ? home_detail : home);
+            print_home();
         } else {
             const dir = cwd.substring(2);
             this.echo(directories[dir].join('\n'));
@@ -282,4 +290,25 @@ function track(label, data) {
     if (window._paq) {
         _paq.push(['trackEvent', 'REPL', label, data]);
     }
+}
+
+// ref: https://stackoverflow.com/a/14919494/387194
+function human_file_size(bytes, dp=0) {
+  const thresh = 1024;
+
+  if (Math.abs(bytes) < thresh) {
+    return bytes.toString();
+  }
+
+  const units = ['K', 'M', 'G', 'T', 'P', 'E', 'Z', 'Y']
+  let u = -1;
+  const r = 10**dp;
+
+  do {
+    bytes /= thresh;
+    ++u;
+  } while (Math.round(Math.abs(bytes) * r) / r >= thresh && u < units.length - 1);
+
+
+  return bytes.toFixed(dp) + units[u];
 }
