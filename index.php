@@ -318,6 +318,7 @@ header {
     <script src="/<?= with_hash('js/script.js') ?>"></script>
     <script src="https://cdn.jsdelivr.net/gh/jcubic/static/js/wcwidth.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery.terminal/js/jquery.terminal.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.terminal/js/unix_formatting.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery.terminal/js/xml_formatting.js"></script>
     <script src="https://terminal.jcubic.pl/js/favico.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sysend"></script>

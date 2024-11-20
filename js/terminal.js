@@ -113,14 +113,15 @@ const dirs = Object.keys(directories);
 const files = [
     {name: 'chat', size: 14156},
     {name: 'reset', size: 26},
-    {name: 'record', size: 241}
+    {name: 'record', size: 241},
+    {name: '.dmr', size: 4759}
 ];
 
-const home = (() => {
+const home = (all = false) => {
     let result = dirs.map(dir => `<blue class="directory">${dir}</blue>`);
-    result = result.concat(files.map(file => `<green class="command">${file.name}</green>`));
+    result = result.concat(list_files(all).map(file => `<green class="command">${file.name}</green>`));
     return result.join('\n');
-})();
+};
 
 // ref: https://stackoverflow.com/a/60180035/387194
 function random_date(from, to) {
@@ -144,7 +145,14 @@ function format_date(date) {
     return [year, pad_number(month), pad_number(day)].join('-');
 }
 
-const home_detail = (human_readable = false) => {
+function list_files(all = false) {
+    if (all) {
+        return files;
+    }
+    return files.filter(file => !file.name.startsWith('.'));
+}
+
+const home_detail = (human_readable = false, all = false) => {
     const from = new Date('2018-02-12');
     const to = new Date();
     const date = () => {
@@ -157,7 +165,7 @@ const home_detail = (human_readable = false) => {
         const size = calcuate_size(4096);
         return `drwxr-xr-x. 1 kuba kuba ${size} ${date()} <blue class="directory">${dir}</blue>`;
     });
-    result = result.concat(files.map(file => {
+    result = result.concat(list_files(all).map(file => {
         const size = calcuate_size(file.size);
         return `-rwxr-xr-x. 1 kuba kuba ${size} ${date()} <green class="command">${file.name}</green>`;
     }));
@@ -173,11 +181,17 @@ const commands = {
     chat() {
         firebase_chat(term, 'chat');
     },
+    ['.dmr']() {
+        const url = 'https://cdn.jsdelivr.net/gh/jcubic/ansidec@master/example/unix_v.ans';
+        return fetch(url).then(res => res.text()).then(text => {
+            term.echo(text, { ansi: true });
+        });
+    },
     ls(...args) {
-        const { _: [dir], l, h } = $.terminal.parse_options(args, { boolean: ['l', 'a', 'h']});
+        const { _: [dir], l, h, a } = $.terminal.parse_options(args, { boolean: ['l', 'a', 'h']});
 
         const print_home = () => {
-            this.echo(l ? home_detail(h) : home);
+            this.echo(l ? home_detail(h, a) : home(a));
         };
         if (dir) {
             if (dir.match(/^~\/?$/)) {
