@@ -205,11 +205,11 @@ header {
                 <p lang="en" itemscope itemtype="http://data-vocabulary.org/Person"> My
                   name is Jakub T. Jankiewicz. I'm <span itemprop="title">Senior Web
                   Developer</span> from Poland. I&nbsp;Love to work with JavaScript,
-                  TypeScript and CSS.  Also enjoing working with ReactJS/React Native and
-                  learning Next.js and GraphQL.  I'm also Open Source developer, Polish
-                  Wikipedia Editor (where I'm also a Mentor and WikiTrainer), a blog
-                  author, and trying to be a good mentor to new programmers, but not in
-                  organized way (I want to change that in the future).
+                  TypeScript and CSS.  Also enjoing working with ReactJS / React Native
+                  and learning Next.js and GraphQL.  I'm also Open Source developer,
+                  Polish Wikipedia Editor (where I'm also a Mentor and WikiTrainer), a
+                  blog author, and trying to be a good mentor to new programmers, but not
+                  in organized way (I want to change that in the future).
                 </p>
                 <p> You can email me at <a data-type="email">jcubic [at] jcubic [dot]
                   pl</a>, and download my Resume
