@@ -201,25 +201,25 @@ header {
                      <img alt="Jakub Jankiewicz autoportret" src="/images/portret.jpg?v=2" style="width: 136px;"/>
                   </a>
                 </p>
-                <p itemscope itemtype="http://data-vocabulary.org/Person">
-                  Nazywam się Jakub T. Jankiewicz. Jestem <span itemprop="title">Programistą aplikacji internetowych</span>
-                  z Polski. Kocham pracować z językimi JavaScript oraz TypeScript i CSS.
-                  Uwielbiam pracować z ReactJS. Uczę się także frameworka Next.js oraz GraphQL.
-                  Jestem także programistą Open Source, Redaktorem Polskiej Wikipedii (gdzie jestem przewodnikiem dla Nowicjuszy oraz WikiTrenerem), bloggerem oraz
-                  staram się być dobrym mentorem dla nowych programistów, ale nie w zorganizowany sposób
-                  (chciałbym to zmienić w przyszłości)
+                <p itemscope itemtype="http://data-vocabulary.org/Person"> Nazywam się
+                  Jakub T. Jankiewicz. Jestem <span itemprop="title">Programistą aplikacji
+                  internetowych</span> z Polski. Kocham pracować z językimi JavaScript
+                  oraz TypeScript i CSS.  Uwielbiam pracować z ReactJS oraz React
+                  Native. Uczę się także frameworka Next.js oraz GraphQL.  Jestem także
+                  programistą Open Source, Redaktorem Polskiej Wikipedii (gdzie jestem
+                  przewodnikiem dla Nowicjuszy oraz WikiTrenerem), bloggerem oraz staram
+                  się być dobrym mentorem dla nowych programistów, ale nie w zorganizowany
+                  sposób (chciałbym to zmienić w przyszłości).
                 </p>
                 <p>
-                  Używam systemu GNU/Linux oraz edytora GNU Emacs. Do grafiki głównie programu
-                  <a href="http://inkscape.org">Inkscape</a>. Uwielbiam także fotografię oraz projektowanie
-                  logo oraz logotypoów i czytanie komiksów (głównie powieści graficznych).
-                </p>
-                <p>
-                  Możesz do mnie napisać poprzez adress <a data-type="email">jcubic [at] jcubic [dot] pl</a>,
-                  możesz także pobrać moje CV <a href="https://jcu.bi/cv-en">Angielskie</a> /
-                  <a href="https://jcu.bi/cv-pl">Polskie</a>. Jestem także do dyspozycji jeśli potrzebujesz
-                  <a href="https://support.jcubic.pl/">wsparcia z którymkolwiek z moich projektów
-                  Open Source</a>.
+                  Możesz do mnie napisać poprzez adress <a data-type="email">jcubic [at]
+                  jcubic [dot] pl</a>, możesz także pobrać moje CV
+                  <a href="https://jcu.bi/cv-en">Angielskie</a> /
+                  <a href="https://jcu.bi/cv-pl">Polskie</a>. Jestem do dyspozycji jeśli
+                  potrzebujesz <a href="https://support.jcubic.pl/">wsparcia z
+                  którymkolwiek z moich projektów Open Source</a>, możesz też
+                  <a href="https://github.com/sponsors/jcubic">wesprzeć moje wysiłki w pracy
+                  nad OSS</a>.
                 </p>
                 <div class="profiles">
                     <ul>

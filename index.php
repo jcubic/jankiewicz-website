@@ -202,26 +202,24 @@ header {
                      <img alt="Jakub Jankiewicz autoportret" src="/images/portret.jpg?v=2" style="width: 136px;"/>
                   </a>
                 </p>
-                <p lang="en" itemscope itemtype="http://data-vocabulary.org/Person">
-                  My name is Jakub T. Jankiewicz. I'm <span itemprop="title">Senior Web Developer</span>
-                  from Poland. I&nbsp;Love to work with JavaScript, TypeScript and CSS.
-                  Also enjoing working with ReactJS and learning Next.js and GraphQL.
-                  I'm also Open Source developer, Polish Wikipedia Editor (where I'm also a Mentor and WikiTrainer),
-                  a blog author, and trying to be a good mentor to new programmers,
-                  but not in organized way (I want to change that in the future).</p>
-                <p>
-                  I'm using GNU/Linux and GNU&nbsp;Emacs editor. For graphics mostly
-                  <a href="http://inkscape.org">Inkscape</a>. I enjoy photography, designing logos and logotypes,
-                  and reading comic books (mostly graphic novels).
+                <p lang="en" itemscope itemtype="http://data-vocabulary.org/Person"> My
+                  name is Jakub T. Jankiewicz. I'm <span itemprop="title">Senior Web
+                  Developer</span> from Poland. I&nbsp;Love to work with JavaScript,
+                  TypeScript and CSS.  Also enjoing working with ReactJS/React Native and
+                  learning Next.js and GraphQL.  I'm also Open Source developer, Polish
+                  Wikipedia Editor (where I'm also a Mentor and WikiTrainer), a blog
+                  author, and trying to be a good mentor to new programmers, but not in
+                  organized way (I want to change that in the future).
                 </p>
-                <p>
-                  You can email me at <a data-type="email">jcubic [at] jcubic [dot] pl</a>,
-                  you can also download my Resume <a href="https://jcu.bi/cv-en">English</a> / <a href="https://jcu.bi/cv-pl">Polish</a>.
+                <p> You can email me at <a data-type="email">jcubic [at] jcubic [dot]
+                  pl</a>, and download my Resume
+                  <a href="https://jcu.bi/cv-en">English</a> /
+                  <a href="https://jcu.bi/cv-pl">Polish</a>.
                 </p>
-                <p>
-                  You can also see <a href="/now">what I'm doing now</a>, or
-                  hire me if you need <a href="https://support.jcubic.pl/">support
-                  for any of my Open Source projects</a>.
+                <p> You can also see <a href="/now">what I'm doing now</a>, hire me if you
+                  need <a href="https://support.jcubic.pl/">support for any of my Open
+                  Source projects</a>, or just
+                  <a href="https://github.com/sponsors/jcubic">sponsor my OSS work</a>.
                 </p>
                 <div class="profiles">
                     <ul>
