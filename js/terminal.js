@@ -301,8 +301,8 @@ $(function() {
 });
 
 function track(label, data) {
-    if (window._paq) {
-        _paq.push(['trackEvent', 'REPL', label, data]);
+    if (window.umami) {
+        umami.track('REPL', { label, data });
     }
 }
 

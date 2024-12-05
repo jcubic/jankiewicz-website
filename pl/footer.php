@@ -34,4 +34,5 @@
     //]]>
     </script>
     <!-- End Open Web Analytics Code -->
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="fc7d267c-fdc6-4b03-bfce-944828a2fe9b"></script>
     <? endif; ?>
