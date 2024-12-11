@@ -113,7 +113,7 @@ const dirs = Object.keys(directories);
 const files = [
     {name: 'chat', size: 14156},
     {name: 'reset', size: 57},
-    {name: 'credits', size: 597},
+    {name: 'credits', size: 620},
     {name: 'record', size: 331},
     {name: '.dmr', size: 4759}
 ];
@@ -240,7 +240,7 @@ const commands = {
     credits() {
         return [
             '',
-            '<white>Used libraries:</white>',
+            '<white>Used libraries, artwork, and services:</white>',
             '* <a href="https://terminal.jcubic.pl">jQuery Terminal</a>',
             '* <a href="https://www.npmjs.com/package/wcwidth">wcwidth</a>',
             '* <a href="https://www.npmjs.com/package/randomcolor">Random Color</a>',
