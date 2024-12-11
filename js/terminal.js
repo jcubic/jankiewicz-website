@@ -228,6 +228,8 @@ const commands = {
             cwd = root;
         } else if (dir.startsWith('~/') && dirs.includes(dir.substring(2))) {
             cwd = dir;
+        } else if (dir.startsWith('../') && cwd !== root && dirs.includes(dir.substring(3))) {
+            cwd = root + '/' + dir.substring(3);
         } else if (dirs.includes(dir)) {
             cwd = root + '/' + dir;
         } else {
@@ -266,6 +268,9 @@ $(function() {
             if (['cd', 'ls'].includes(name)) {
                 if (rest.startsWith('~/')) {
                     return dirs.map(dir => `~/${dir}`);
+                }
+                if (rest.startsWith('../') && cwd != root) {
+                    return dirs.map(dir => `../${dir}`);
                 }
                 if (cwd === root) {
                     return dirs;
