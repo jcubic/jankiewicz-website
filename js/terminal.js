@@ -112,8 +112,9 @@ const dirs = Object.keys(directories);
 
 const files = [
     {name: 'chat', size: 14156},
-    {name: 'reset', size: 26},
-    {name: 'record', size: 241},
+    {name: 'reset', size: 57},
+    {name: 'credits', size: 597},
+    {name: 'record', size: 331},
     {name: '.dmr', size: 4759}
 ];
 
@@ -235,6 +236,19 @@ const commands = {
         } else {
             this.error('Wrong directory');
         }
+    },
+    credits() {
+        return [
+            '',
+            '<white>Used libraries:</white>',
+            '* <a href="https://terminal.jcubic.pl">jQuery Terminal</a>',
+            '* <a href="https://www.npmjs.com/package/wcwidth">wcwidth</a>',
+            '* <a href="https://www.npmjs.com/package/randomcolor">Random Color</a>',
+            '* <a href="https://github.com/patorjk/figlet.js/">Figlet.js</a>',
+            '* <a href="https://firebase.google.com/">Firebase</a>',
+            '* <a href="https://sanderfocus.nl/">Dennis Ritchie ANSI Art</a>',
+            ''
+        ].join('\n');
     },
     record(arg = null) {
         if (arg == 'start') {
