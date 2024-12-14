@@ -318,6 +318,8 @@ header {
     <script src="https://cdn.jsdelivr.net/npm/jquery.terminal/js/jquery.terminal.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery.terminal/js/unix_formatting.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery.terminal/js/xml_formatting.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs/prism.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.terminal/js/prism.js"></script>
     <script src="https://terminal.jcubic.pl/js/favico.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sysend"></script>
     <script src="https://cdn.jsdelivr.net/npm/randomcolor/randomColor.js"></script>
@@ -327,7 +329,8 @@ header {
     <script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-database.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-auth.js"></script>
     <script src="https://terminal.jcubic.pl/<?= with_hash('js/chat.js') ?>"></script>
-    <link href="https://cdn.jsdelivr.net/npm/jquery.terminal/css/jquery.terminal.min.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/jquery.terminal/css/jquery.terminal.min.css" rel="stylesheet" />
+    <link href="https://unpkg.com/terminal-prism/css/prism-coy.css" rel="stylesheet" />
     <script src="/<?= with_hash('js/terminal.js') ?>"></script>
 </body>
 </html>

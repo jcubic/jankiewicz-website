@@ -179,6 +179,20 @@ const commands = {
         const list = lf.format(cmd);
         this.echo(`available commands: ${list}`);
     },
+    ['?']() {
+        this.exec('help', { silent: true });
+    },
+    cat(file = null) {
+        if (!file) {
+            return this.read();
+        }
+        if (commands[file]) {
+            const code = commands[file].toString();
+            this.echo(' '.repeat(4) + $.terminal.prism('javascript', code));
+        } else {
+            this.error('file not found');
+        }
+    },
     chat() {
         firebase_chat(term, 'chat');
     },
