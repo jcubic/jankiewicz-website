@@ -110,14 +110,6 @@ function prompt() {
 
 const dirs = Object.keys(directories);
 
-const files = [
-    {name: 'chat', size: 14156},
-    {name: 'reset', size: 57},
-    {name: 'credits', size: 620},
-    {name: 'record', size: 331},
-    {name: '.dmr', size: 4759}
-];
-
 const home = (all = false) => {
     let result = dirs.map(dir => `<blue class="directory">${dir}</blue>`);
     result = result.concat(list_files(all).map(file => `<green class="command">${file.name}</green>`));
@@ -288,6 +280,12 @@ const commands = {
     }
 };
 
+const files = [
+    'chat', 'reset', 'credits', 'record', 'blog', '.dmr'
+].map(name => {
+    const size = commands[name]?.toString().length || 0;
+    return { name, size };
+});
 
 $(function() {
     window.term = $('#term > div').terminal([commands, function(command) {
