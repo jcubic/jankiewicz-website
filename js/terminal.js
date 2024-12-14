@@ -264,7 +264,8 @@ const commands = {
             '<white>Used libraries, artwork, and services:</white>',
             '* <a href="https://terminal.jcubic.pl">jQuery Terminal</a>',
             '* <a href="https://www.npmjs.com/package/wcwidth">wcwidth</a>',
-            '* <a href="https://www.npmjs.com/package/randomcolor">Random Color</a>',
+            '* <a href="https://www.npmjs.com/package/randomcolor">' +
+                'Random Color</a>',
             '* <a href="https://github.com/patorjk/figlet.js/">Figlet.js</a>',
             '* <a href="https://firebase.google.com/">Firebase</a>',
             '* <a href="https://sanderfocus.nl/">Dennis Ritchie ANSI Art</a>',
@@ -277,8 +278,8 @@ const commands = {
         } else if (arg == 'stop') {
             term.history_state(false);
         } else {
-            term.echo('save commands in url hash so you can share the link\n\n' +
-                      'usage: record [stop|start]');
+            term.echo('save commands in url hash so you can share ' +
+                      'the link\n\nusage: record [stop|start]');
         }
     },
     reset() {
