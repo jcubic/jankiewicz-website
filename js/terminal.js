@@ -254,13 +254,18 @@ const commands = {
         return [
             '',
             '<white>Used libraries, artwork, and services:</white>',
-            '* <a href="https://terminal.jcubic.pl">jQuery Terminal</a>',
-            '* <a href="https://www.npmjs.com/package/wcwidth">wcwidth</a>',
+            '* <a href="https://terminal.jcubic.pl">' +
+                'jQuery Terminal</a>',
+            '* <a href="https://www.npmjs.com/package/wcwidth">' +
+                'wcwidth</a>',
             '* <a href="https://www.npmjs.com/package/randomcolor">' +
                 'Random Color</a>',
-            '* <a href="https://github.com/patorjk/figlet.js/">Figlet.js</a>',
-            '* <a href="https://firebase.google.com/">Firebase</a>',
-            '* <a href="https://sanderfocus.nl/">Dennis Ritchie ANSI Art</a>',
+            '* <a href="https://github.com/patorjk/figlet.js/">' +
+                'Figlet.js</a>',
+            '* <a href="https://firebase.google.com/">' +
+                'Firebase</a>',
+            '* <a href="https://sanderfocus.nl/">' +
+                'Dennis Ritchie ANSI Art</a>',
             ''
         ].join('\n');
     },
