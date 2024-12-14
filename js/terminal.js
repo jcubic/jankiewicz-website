@@ -175,7 +175,9 @@ const home_detail = (human_readable = false, all = false) => {
 
 const commands = {
     help() {
-        const cmd = Object.keys(commands).map(cmd => `<white class="command">${cmd}</white>`);
+        const cmd = Object.keys(commands).map(cmd => {
+            return `<white class="command">${cmd}</white>`;
+        });
         const list = lf.format(cmd);
         this.echo(`available commands: ${list}`);
     },
@@ -197,13 +199,16 @@ const commands = {
         firebase_chat(term, 'chat');
     },
     ['.dmr']() {
-        const url = 'https://cdn.jsdelivr.net/gh/jcubic/ansidec@master/example/unix_v.ans';
+        const url = 'https://cdn.jsdelivr.net/gh/jcubic/' +
+              'ansidec@master/example/unix_v.ans';
         return fetch(url).then(res => res.text()).then(text => {
-            term.echo(text, { ansi: true });
+            this.echo(text, { ansi: true });
         });
     },
     ls(...args) {
-        const { _: [dir], l, h, a } = $.terminal.parse_options(args, { boolean: ['l', 'a', 'h']});
+        const { _: [dir], l, h, a } = $.terminal.parse_options(args, {
+            boolean: ['l', 'a', 'h']
+        });
 
         const print_home = () => {
             this.echo(l ? home_detail(h, a) : home(a));
@@ -241,9 +246,11 @@ const commands = {
     cd(dir = null) {
         if (dir === null || (dir === '..' && cwd !== root)) {
             cwd = root;
-        } else if (dir.startsWith('~/') && dirs.includes(dir.substring(2))) {
+        } else if (dir.startsWith('~/') &&
+                   dirs.includes(dir.substring(2))) {
             cwd = dir;
-        } else if (dir.startsWith('../') && cwd !== root && dirs.includes(dir.substring(3))) {
+        } else if (dir.startsWith('../') && cwd !== root &&
+                   dirs.includes(dir.substring(3))) {
             cwd = root + '/' + dir.substring(3);
         } else if (dirs.includes(dir)) {
             cwd = root + '/' + dir;
