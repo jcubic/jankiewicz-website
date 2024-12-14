@@ -283,7 +283,7 @@ const commands = {
         const articles = await fetch_rss();
         await figlet_ready;
         const ascii = figlet_render('Blog');
-        const message = '<white>This is less command, use <i>q</i> to exit</white>';
+        const message = '<white>This is a less command, use <i>q</i> to exit</white>';
         const links = articles.map(({link, title}, index) => {
             return `* <a href="${link}" class="post" data-index="${index}">${
                      title
