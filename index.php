@@ -318,6 +318,7 @@ header {
     <script src="https://cdn.jsdelivr.net/npm/jquery.terminal/js/jquery.terminal.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery.terminal/js/unix_formatting.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery.terminal/js/xml_formatting.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.terminal/js/less.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/prismjs/prism.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery.terminal/js/prism.js"></script>
     <script src="https://terminal.jcubic.pl/js/favico.min.js"></script>

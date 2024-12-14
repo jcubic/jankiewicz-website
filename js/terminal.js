@@ -279,6 +279,42 @@ const commands = {
                       'the link\n\nusage: record [stop|start]');
         }
     },
+    async blog() {
+        const articles = await fetch_rss();
+        await figlet_ready;
+        const ascii = figlet_render('Blog');
+        const message = '<white>This is less command, use <i>q</i> to exit</white>';
+        const links = articles.map(({link, title}, index) => {
+            return `* <a href="${link}" class="post" data-index="${index}">${
+                     title
+                    }</a>`;
+        }).join('\n');
+        this.less(ascii + `\n${message}\n\n` + links, {
+            formatters: true,
+            onExit() {
+                term.off('click', 'a.post', handler);
+            }
+        });
+        const handler = (e) => {
+            const $target = $(e.target);
+            const index = $target.data('index');
+            const { title, link, description: html } = articles[index];
+            const description = $.terminal.apply_formatters(html);
+            this.less([
+                `# <bold><white>${title}</white></bold>`,
+                '',
+                description,
+                '',
+                escape_brackets(`<a href="${link}">[ more ]</a>`),
+            ].join('\n'), {
+                wrap: true,
+                keepWords: true,
+                formatters: true
+            });
+            return false;
+        }
+        term.on('click', 'a.post', handler);
+    },
     reset() {
         cwd = root;
         this.clear();
@@ -291,6 +327,55 @@ const files = [
     const size = commands[name]?.toString().length || 0;
     return { name, size };
 });
+
+const escape_brackets = $.terminal.escape_brackets;
+
+$.terminal.xml_formatter.tags.p = $.terminal.xml_formatter.tags.span;
+
+const { promise: figlet_ready, resolve } = Promise.withResolvers();
+
+const font = 'Slant';
+figlet.defaults({ fontPath: 'https://cdn.jsdelivr.net/npm/figlet/fonts' });
+figlet.preloadFonts([font], resolve);
+
+async function fetch_rss() {
+    const response = await fetch('https://jakub.jankiewicz.org/blog/rss.xml');
+    const xmlText = await response.text();
+    const parser = new DOMParser();
+    const xmlDoc = parser.parseFromString(xmlText, 'application/xml');
+    const items = Array.from(xmlDoc.querySelectorAll('item'));
+    function text(node, query) {
+        return node.querySelector(query)?.textContent ?? '';
+    }
+
+    return items.map(item => ({
+        title: text(item, 'title'),
+        link: text(item, 'link'),
+        description: decode_html(text(item, 'description'))
+    }));
+}
+
+function decode_html(str) {
+    let html = str?.replace(/\n/g, ' ').replace(/\s+/g, ' ');
+    if (!html?.match(/&/)) {
+        return html;
+    }
+    html = $('<div>').html(html).html();
+    return html;
+}
+
+function trim(str) {
+    return str.replace(/[\n\s]+$/, '');
+}
+
+function figlet_render(text) {
+    const cols = term.cols();
+    return trim(figlet.textSync(text, {
+        font: font,
+        width: cols,
+        whitespaceBreak: true
+    }));
+}
 
 $(function() {
     window.term = $('#term > div').terminal([commands, function(command) {
