@@ -192,7 +192,7 @@ const commands = {
             const code = commands[file].toString();
             this.echo(' '.repeat(4) + $.terminal.prism('javascript', code));
         } else {
-            this.error('file not found');
+            this.error('Invalid filename');
         }
     },
     chat() {
@@ -255,7 +255,7 @@ const commands = {
         } else if (dirs.includes(dir)) {
             cwd = root + '/' + dir;
         } else {
-            this.error('Wrong directory');
+            this.error('Invalid directory');
         }
     },
     credits() {
