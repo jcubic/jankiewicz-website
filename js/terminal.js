@@ -211,7 +211,7 @@ const commands = {
             const code = commands[file].toString();
             this.echo(' '.repeat(4) + $.terminal.prism('javascript', code));
         } else {
-            this.error('Invalid filename');
+            this.error('Invalid filename.');
         }
     },
     chat() {
@@ -239,7 +239,7 @@ const commands = {
                 const path = dir.substring(2);
                 const dirs = path.split('/');
                 if (dirs.length > 1) {
-                    this.error('Invalid directory');
+                    this.error('Invalid directory.');
                 } else {
                     const dir = dirs[0];
                     this.echo(directories[dir].join('\n'));
@@ -250,10 +250,10 @@ const commands = {
                 if (dir in directories) {
                     this.echo(directories[dir].join('\n'));
                 } else {
-                    this.error('Invalid directory');
+                    this.error('Invalid directory.');
                 }
             } else {
-                this.error('Invalid directory');
+                this.error('Invalid directory.');
             }
         } else if (cwd === root) {
             print_home();
@@ -273,8 +273,10 @@ const commands = {
             cwd = root + '/' + dir.substring(3);
         } else if (dirs.includes(dir)) {
             cwd = root + '/' + dir;
+        } else if (files.find(cmd => cmd.name === dir)) {
+            this.error(`Invalid directory. '${dir}' is a file.`);
         } else {
-            this.error('Invalid directory');
+            this.error('Invalid directory.');
         }
     },
     credits() {
