@@ -21,18 +21,24 @@ const fs = require('fs');
       image_url: 'https://jakub.jankiewicz.org/favicon.ico',
     });
 
+    const items = [];
+
     ul.find('a').each((_, element) => {
       const link = $(element).attr('href');
       const title = $(element).text();
 
       if (link && title) {
-        feed.item({
+        items.push({
           title,
           url: link,
           description: title,
         });
       }
     });
+
+    items.reverse();
+
+    items.forEach(item => feed.item(item));
 
     fs.writeFileSync('../rss.xml', feed.xml({ indent: true }), 'utf8');
   } catch (error) {

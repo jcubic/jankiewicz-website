@@ -9,25 +9,121 @@
             <link>https://jakub.jankiewicz.org/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 15 Dec 2024 21:13:21 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 15 Dec 2024 21:34:09 GMT</lastBuildDate>
         <atom:link href="https://jakub.jankiewicz.org/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[How to create interactive terminal like website?]]></title>
-            <description><![CDATA[How to create interactive terminal like website?]]></description>
-            <link>https://itnext.io/how-to-create-interactive-terminal-like-website-888bb0972288?</link>
-            <guid isPermaLink="true">https://itnext.io/how-to-create-interactive-terminal-like-website-888bb0972288?</guid>
+            <title><![CDATA[My Old Blog]]></title>
+            <description><![CDATA[My Old Blog]]></description>
+            <link>https://jcubic.wordpress.com/</link>
+            <guid isPermaLink="true">https://jcubic.wordpress.com/</guid>
         </item>
         <item>
-            <title><![CDATA[Controlling Paint Worklet with JSON in CSS]]></title>
-            <description><![CDATA[Controlling Paint Worklet with JSON in CSS]]></description>
-            <link>https://itnext.io/controlling-paint-worklet-with-json-in-css-298a7b10e41c</link>
-            <guid isPermaLink="true">https://itnext.io/controlling-paint-worklet-with-json-in-css-298a7b10e41c</guid>
+            <title><![CDATA[How to Match Parentheses in JavaScript without Using Regex]]></title>
+            <description><![CDATA[How to Match Parentheses in JavaScript without Using Regex]]></description>
+            <link>https://www.freecodecamp.org/news/how-to-match-parentheses-in-javascript-without-using-regex/</link>
+            <guid isPermaLink="true">https://www.freecodecamp.org/news/how-to-match-parentheses-in-javascript-without-using-regex/</guid>
         </item>
         <item>
-            <title><![CDATA[Interactive R debugger (REPL) for shiny apps]]></title>
-            <description><![CDATA[Interactive R debugger (REPL) for shiny apps]]></description>
-            <link>https://itnext.io/interactive-r-debugger-repl-for-shiny-apps-87c769be4859</link>
-            <guid isPermaLink="true">https://itnext.io/interactive-r-debugger-repl-for-shiny-apps-87c769be4859</guid>
+            <title><![CDATA[How to Create a REST API Without a Server]]></title>
+            <description><![CDATA[How to Create a REST API Without a Server]]></description>
+            <link>https://www.freecodecamp.org/news/how-to-create-a-rest-api-without-a-server/</link>
+            <guid isPermaLink="true">https://www.freecodecamp.org/news/how-to-create-a-rest-api-without-a-server/</guid>
+        </item>
+        <item>
+            <title><![CDATA[How to Create an Interactive Terminal-Based Portfolio Website]]></title>
+            <description><![CDATA[How to Create an Interactive Terminal-Based Portfolio Website]]></description>
+            <link>https://www.freecodecamp.org/news/how-to-create-interactive-terminal-based-portfolio/</link>
+            <guid isPermaLink="true">https://www.freecodecamp.org/news/how-to-create-interactive-terminal-based-portfolio/</guid>
+        </item>
+        <item>
+            <title><![CDATA[How to Parse S-expressions in JavaScript]]></title>
+            <description><![CDATA[How to Parse S-expressions in JavaScript]]></description>
+            <link>https://www.freecodecamp.org/news/s-expressions-in-javascript/</link>
+            <guid isPermaLink="true">https://www.freecodecamp.org/news/s-expressions-in-javascript/</guid>
+        </item>
+        <item>
+            <title><![CDATA[Save chatGPT conversation as HTML file]]></title>
+            <description><![CDATA[Save chatGPT conversation as HTML file]]></description>
+            <link>https://dev.to/jcubic/save-chatgpt-as-html-file-dhh</link>
+            <guid isPermaLink="true">https://dev.to/jcubic/save-chatgpt-as-html-file-dhh</guid>
+        </item>
+        <item>
+            <title><![CDATA[Hack to Run React Application inside Service Worker]]></title>
+            <description><![CDATA[Hack to Run React Application inside Service Worker]]></description>
+            <link>https://dev.to/jcubic/hack-to-run-react-application-inside-service-worker-4p2f</link>
+            <guid isPermaLink="true">https://dev.to/jcubic/hack-to-run-react-application-inside-service-worker-4p2f</guid>
+        </item>
+        <item>
+            <title><![CDATA[How to become Front-End Developer]]></title>
+            <description><![CDATA[How to become Front-End Developer]]></description>
+            <link>https://dev.to/jcubic/how-to-become-software-development-50hp</link>
+            <guid isPermaLink="true">https://dev.to/jcubic/how-to-become-software-development-50hp</guid>
+        </item>
+        <item>
+            <title><![CDATA[Architecture for Non-Trivial R Shiny Applications]]></title>
+            <description><![CDATA[Architecture for Non-Trivial R Shiny Applications]]></description>
+            <link>https://dev.to/jcubic/architecture-for-non-trivial-r-shiny-applications-3816</link>
+            <guid isPermaLink="true">https://dev.to/jcubic/architecture-for-non-trivial-r-shiny-applications-3816</guid>
+        </item>
+        <item>
+            <title><![CDATA[CSRF Protection Problem and How to Fix it]]></title>
+            <description><![CDATA[CSRF Protection Problem and How to Fix it]]></description>
+            <link>https://www.freecodecamp.org/news/csrf-protection-problem-and-how-to-fix-it/</link>
+            <guid isPermaLink="true">https://www.freecodecamp.org/news/csrf-protection-problem-and-how-to-fix-it/</guid>
+        </item>
+        <item>
+            <title><![CDATA[JavaScript Online Interpreter]]></title>
+            <description><![CDATA[JavaScript Online Interpreter]]></description>
+            <link>https://dev.to/jcubic/javascript-online-interpreter-2dci</link>
+            <guid isPermaLink="true">https://dev.to/jcubic/javascript-online-interpreter-2dci</guid>
+        </item>
+        <item>
+            <title><![CDATA[How to make your first Open Source contribution in few seconds]]></title>
+            <description><![CDATA[How to make your first Open Source contribution in few seconds]]></description>
+            <link>https://dev.to/jcubic/how-to-make-your-first-open-source-contribution-in-few-seconds-pb9</link>
+            <guid isPermaLink="true">https://dev.to/jcubic/how-to-make-your-first-open-source-contribution-in-few-seconds-pb9</guid>
+        </item>
+        <item>
+            <title><![CDATA[How to get a literally free CDN]]></title>
+            <description><![CDATA[How to get a literally free CDN]]></description>
+            <link>https://dev.to/jcubic/how-to-get-a-literally-free-cdn-2gc1</link>
+            <guid isPermaLink="true">https://dev.to/jcubic/how-to-get-a-literally-free-cdn-2gc1</guid>
+        </item>
+        <item>
+            <title><![CDATA[GitHub Action to clear cache on Images in README]]></title>
+            <description><![CDATA[GitHub Action to clear cache on Images in README]]></description>
+            <link>https://dev.to/jcubic/github-action-to-clear-cache-on-images-in-readme-5g1n</link>
+            <guid isPermaLink="true">https://dev.to/jcubic/github-action-to-clear-cache-on-images-in-readme-5g1n</guid>
+        </item>
+        <item>
+            <title><![CDATA[How to create Web Server in Browser]]></title>
+            <description><![CDATA[How to create Web Server in Browser]]></description>
+            <link>https://itnext.io/how-to-create-web-server-in-browser-ffaa371d2b53</link>
+            <guid isPermaLink="true">https://itnext.io/how-to-create-web-server-in-browser-ffaa371d2b53</guid>
+        </item>
+        <item>
+            <title><![CDATA[RPC in Next.js]]></title>
+            <description><![CDATA[RPC in Next.js]]></description>
+            <link>https://dev.to/jcubic/rpc-in-next-js-5bd7</link>
+            <guid isPermaLink="true">https://dev.to/jcubic/rpc-in-next-js-5bd7</guid>
+        </item>
+        <item>
+            <title><![CDATA[Favicon for Next.js and TypeScript]]></title>
+            <description><![CDATA[Favicon for Next.js and TypeScript]]></description>
+            <link>https://dev.to/jcubic/favicon-for-next-js-and-typescript-9gk</link>
+            <guid isPermaLink="true">https://dev.to/jcubic/favicon-for-next-js-and-typescript-9gk</guid>
+        </item>
+        <item>
+            <title><![CDATA[How I’ve created Photo in single div CSS]]></title>
+            <description><![CDATA[How I’ve created Photo in single div CSS]]></description>
+            <link>https://dev.to/jcubic/how-i-ve-created-photo-in-single-div-css-45bm</link>
+            <guid isPermaLink="true">https://dev.to/jcubic/how-i-ve-created-photo-in-single-div-css-45bm</guid>
+        </item>
+        <item>
+            <title><![CDATA[How to Promote your Open Source Project with SEO]]></title>
+            <description><![CDATA[How to Promote your Open Source Project with SEO]]></description>
+            <link>https://itnext.io/seo-for-open-source-projects-1a6b17ffeb8b</link>
+            <guid isPermaLink="true">https://itnext.io/seo-for-open-source-projects-1a6b17ffeb8b</guid>
         </item>
         <item>
             <title><![CDATA[Simple way to create programming language that compile to
@@ -38,118 +134,22 @@
             <guid isPermaLink="true">https://hackernoon.com/creating-your-own-javascript-based-programming-language-has-never-been-easier-wju33by</guid>
         </item>
         <item>
-            <title><![CDATA[How to Promote your Open Source Project with SEO]]></title>
-            <description><![CDATA[How to Promote your Open Source Project with SEO]]></description>
-            <link>https://itnext.io/seo-for-open-source-projects-1a6b17ffeb8b</link>
-            <guid isPermaLink="true">https://itnext.io/seo-for-open-source-projects-1a6b17ffeb8b</guid>
+            <title><![CDATA[Interactive R debugger (REPL) for shiny apps]]></title>
+            <description><![CDATA[Interactive R debugger (REPL) for shiny apps]]></description>
+            <link>https://itnext.io/interactive-r-debugger-repl-for-shiny-apps-87c769be4859</link>
+            <guid isPermaLink="true">https://itnext.io/interactive-r-debugger-repl-for-shiny-apps-87c769be4859</guid>
         </item>
         <item>
-            <title><![CDATA[How I’ve created Photo in single div CSS]]></title>
-            <description><![CDATA[How I’ve created Photo in single div CSS]]></description>
-            <link>https://dev.to/jcubic/how-i-ve-created-photo-in-single-div-css-45bm</link>
-            <guid isPermaLink="true">https://dev.to/jcubic/how-i-ve-created-photo-in-single-div-css-45bm</guid>
+            <title><![CDATA[Controlling Paint Worklet with JSON in CSS]]></title>
+            <description><![CDATA[Controlling Paint Worklet with JSON in CSS]]></description>
+            <link>https://itnext.io/controlling-paint-worklet-with-json-in-css-298a7b10e41c</link>
+            <guid isPermaLink="true">https://itnext.io/controlling-paint-worklet-with-json-in-css-298a7b10e41c</guid>
         </item>
         <item>
-            <title><![CDATA[Favicon for Next.js and TypeScript]]></title>
-            <description><![CDATA[Favicon for Next.js and TypeScript]]></description>
-            <link>https://dev.to/jcubic/favicon-for-next-js-and-typescript-9gk</link>
-            <guid isPermaLink="true">https://dev.to/jcubic/favicon-for-next-js-and-typescript-9gk</guid>
-        </item>
-        <item>
-            <title><![CDATA[RPC in Next.js]]></title>
-            <description><![CDATA[RPC in Next.js]]></description>
-            <link>https://dev.to/jcubic/rpc-in-next-js-5bd7</link>
-            <guid isPermaLink="true">https://dev.to/jcubic/rpc-in-next-js-5bd7</guid>
-        </item>
-        <item>
-            <title><![CDATA[How to create Web Server in Browser]]></title>
-            <description><![CDATA[How to create Web Server in Browser]]></description>
-            <link>https://itnext.io/how-to-create-web-server-in-browser-ffaa371d2b53</link>
-            <guid isPermaLink="true">https://itnext.io/how-to-create-web-server-in-browser-ffaa371d2b53</guid>
-        </item>
-        <item>
-            <title><![CDATA[GitHub Action to clear cache on Images in README]]></title>
-            <description><![CDATA[GitHub Action to clear cache on Images in README]]></description>
-            <link>https://dev.to/jcubic/github-action-to-clear-cache-on-images-in-readme-5g1n</link>
-            <guid isPermaLink="true">https://dev.to/jcubic/github-action-to-clear-cache-on-images-in-readme-5g1n</guid>
-        </item>
-        <item>
-            <title><![CDATA[How to get a literally free CDN]]></title>
-            <description><![CDATA[How to get a literally free CDN]]></description>
-            <link>https://dev.to/jcubic/how-to-get-a-literally-free-cdn-2gc1</link>
-            <guid isPermaLink="true">https://dev.to/jcubic/how-to-get-a-literally-free-cdn-2gc1</guid>
-        </item>
-        <item>
-            <title><![CDATA[How to make your first Open Source contribution in few seconds]]></title>
-            <description><![CDATA[How to make your first Open Source contribution in few seconds]]></description>
-            <link>https://dev.to/jcubic/how-to-make-your-first-open-source-contribution-in-few-seconds-pb9</link>
-            <guid isPermaLink="true">https://dev.to/jcubic/how-to-make-your-first-open-source-contribution-in-few-seconds-pb9</guid>
-        </item>
-        <item>
-            <title><![CDATA[JavaScript Online Interpreter]]></title>
-            <description><![CDATA[JavaScript Online Interpreter]]></description>
-            <link>https://dev.to/jcubic/javascript-online-interpreter-2dci</link>
-            <guid isPermaLink="true">https://dev.to/jcubic/javascript-online-interpreter-2dci</guid>
-        </item>
-        <item>
-            <title><![CDATA[CSRF Protection Problem and How to Fix it]]></title>
-            <description><![CDATA[CSRF Protection Problem and How to Fix it]]></description>
-            <link>https://www.freecodecamp.org/news/csrf-protection-problem-and-how-to-fix-it/</link>
-            <guid isPermaLink="true">https://www.freecodecamp.org/news/csrf-protection-problem-and-how-to-fix-it/</guid>
-        </item>
-        <item>
-            <title><![CDATA[Architecture for Non-Trivial R Shiny Applications]]></title>
-            <description><![CDATA[Architecture for Non-Trivial R Shiny Applications]]></description>
-            <link>https://dev.to/jcubic/architecture-for-non-trivial-r-shiny-applications-3816</link>
-            <guid isPermaLink="true">https://dev.to/jcubic/architecture-for-non-trivial-r-shiny-applications-3816</guid>
-        </item>
-        <item>
-            <title><![CDATA[How to become Front-End Developer]]></title>
-            <description><![CDATA[How to become Front-End Developer]]></description>
-            <link>https://dev.to/jcubic/how-to-become-software-development-50hp</link>
-            <guid isPermaLink="true">https://dev.to/jcubic/how-to-become-software-development-50hp</guid>
-        </item>
-        <item>
-            <title><![CDATA[Hack to Run React Application inside Service Worker]]></title>
-            <description><![CDATA[Hack to Run React Application inside Service Worker]]></description>
-            <link>https://dev.to/jcubic/hack-to-run-react-application-inside-service-worker-4p2f</link>
-            <guid isPermaLink="true">https://dev.to/jcubic/hack-to-run-react-application-inside-service-worker-4p2f</guid>
-        </item>
-        <item>
-            <title><![CDATA[Save chatGPT conversation as HTML file]]></title>
-            <description><![CDATA[Save chatGPT conversation as HTML file]]></description>
-            <link>https://dev.to/jcubic/save-chatgpt-as-html-file-dhh</link>
-            <guid isPermaLink="true">https://dev.to/jcubic/save-chatgpt-as-html-file-dhh</guid>
-        </item>
-        <item>
-            <title><![CDATA[How to Parse S-expressions in JavaScript]]></title>
-            <description><![CDATA[How to Parse S-expressions in JavaScript]]></description>
-            <link>https://www.freecodecamp.org/news/s-expressions-in-javascript/</link>
-            <guid isPermaLink="true">https://www.freecodecamp.org/news/s-expressions-in-javascript/</guid>
-        </item>
-        <item>
-            <title><![CDATA[How to Create an Interactive Terminal-Based Portfolio Website]]></title>
-            <description><![CDATA[How to Create an Interactive Terminal-Based Portfolio Website]]></description>
-            <link>https://www.freecodecamp.org/news/how-to-create-interactive-terminal-based-portfolio/</link>
-            <guid isPermaLink="true">https://www.freecodecamp.org/news/how-to-create-interactive-terminal-based-portfolio/</guid>
-        </item>
-        <item>
-            <title><![CDATA[How to Create a REST API Without a Server]]></title>
-            <description><![CDATA[How to Create a REST API Without a Server]]></description>
-            <link>https://www.freecodecamp.org/news/how-to-create-a-rest-api-without-a-server/</link>
-            <guid isPermaLink="true">https://www.freecodecamp.org/news/how-to-create-a-rest-api-without-a-server/</guid>
-        </item>
-        <item>
-            <title><![CDATA[How to Match Parentheses in JavaScript without Using Regex]]></title>
-            <description><![CDATA[How to Match Parentheses in JavaScript without Using Regex]]></description>
-            <link>https://www.freecodecamp.org/news/how-to-match-parentheses-in-javascript-without-using-regex/</link>
-            <guid isPermaLink="true">https://www.freecodecamp.org/news/how-to-match-parentheses-in-javascript-without-using-regex/</guid>
-        </item>
-        <item>
-            <title><![CDATA[My Old Blog]]></title>
-            <description><![CDATA[My Old Blog]]></description>
-            <link>https://jcubic.wordpress.com/</link>
-            <guid isPermaLink="true">https://jcubic.wordpress.com/</guid>
+            <title><![CDATA[How to create interactive terminal like website?]]></title>
+            <description><![CDATA[How to create interactive terminal like website?]]></description>
+            <link>https://itnext.io/how-to-create-interactive-terminal-like-website-888bb0972288?</link>
+            <guid isPermaLink="true">https://itnext.io/how-to-create-interactive-terminal-like-website-888bb0972288?</guid>
         </item>
     </channel>
 </rss>
