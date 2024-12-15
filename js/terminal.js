@@ -197,7 +197,8 @@ const commands = {
             return `<white class="command">${cmd}</white>`;
         });
         const list = lf.format(cmd);
-        this.echo(`available commands: ${list}`);
+        this.echo(`available commands:\n${list}`, { keepWords: true });
+        this.echo('You can use &lt;TAB&gt; key to autocomplete');
     },
     ['?']() {
         this.exec('help', { silent: true });
