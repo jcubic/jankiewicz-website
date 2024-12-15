@@ -406,10 +406,16 @@ function figlet_render(text) {
 
 $(function() {
     window.term = $('#term > div').terminal([commands, function(command) {
-        const { name } = $.terminal.split_command(command);
+        const { name, args } = $.terminal.split_command(command);
         if (dirs.includes(name)) {
             this.echo(`<yellow>${name} is a directory. Try <white class="command">cd ${name}</white> command!</yellow>`);
         } else {
+            if (cwd !== root && name.startsWith('../')) {
+                const cmd = name.replace(/^..\//, '');
+                if (commands[cmd]) {
+                    return commands[cmd].apply(this, args);
+                }
+            }
             this.error(`Command '${name}' Not Found!`);
         }
     }], {
@@ -426,6 +432,9 @@ $(function() {
                 if (cwd === root) {
                     return dirs;
                 }
+            }
+            if (cwd !== root && name.startsWith('../')) {
+                return Object.keys(commands).map(cmd => `../${cmd}`);
             }
             return Object.keys(commands);
         },
