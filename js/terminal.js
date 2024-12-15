@@ -187,6 +187,8 @@ const commands = {
                     return 'displays tools used by the website';
                 case 'record':
                     return 'saves commands in url hash so you can share the link';
+                case 'star-wars':
+                    return 'play star wars movie as ASCII art';
                 case 'blog':
                     return 'displays blog using less like command';
                 case 'reset':
@@ -295,6 +297,8 @@ const commands = {
                 'Firebase</a>',
             '* <a href="https://sanderfocus.nl/">' +
                 'Dennis Ritchie ANSI Art</a>',
+            '* <a href="https://www.asciimation.co.nz/">' +
+                'STAR WARS ASCIIMATION</a>',
             ''
         ].join('\n');
     },
@@ -344,6 +348,59 @@ const commands = {
         }
         term.on('click', 'a.post', handler);
     },
+    async ['star-wars'](speed = 50) {
+        if (this.cols() < 67) {
+            this.error('not enough width to run the star wars');
+            return;
+        }
+        window.sw_frames = window.sw_frames ?? [];
+        const DELAY = speed;
+        if (typeof star_wars === 'undefined') {
+            await $.getScript('https://cdn.jsdelivr.net/gh/jcubic/static@master/js/star_wars.js');
+            const LINES_PER_FRAME = 14;
+            const lines = star_wars.length;
+            for (let i = 0; i < lines; i += LINES_PER_FRAME) {
+                sw_frames.push(star_wars.slice(i, i + LINES_PER_FRAME));
+            }
+        }
+        let stop = false;
+        function play(term, delay = DELAY) {
+            let i = 0;
+            let next_delay;
+            (function display() {
+                if (i == sw_frames.length) {
+                    i = 0;
+                }
+                if (!stop) {
+                    term.clear();
+                    if (sw_frames[i][0].match(/[0-9]+/)) {
+                        next_delay = sw_frames[i][0] * delay;
+                    } else {
+                        next_delay = delay;
+                    }
+                    term.echo(sw_frames[i++].slice(1).join('\n')+'\n');
+                    setTimeout(display, next_delay);
+                }
+            })();
+        }
+        const view = window.view = this.export_view();
+        function exit() {
+            stop = true;
+            this.cmd().show();
+            this.import_view(view);
+        }
+        this.push($.noop, {
+            onExit: exit,
+            keymap: {
+                'Q': exit,
+                'CTRL+C': exit,
+                'ESCAPE': exit
+            },
+            prompt: ''
+        });
+        this.cmd().hide();
+        play(this);
+    },
     reset() {
         cwd = root;
         this.clear();
@@ -351,7 +408,7 @@ const commands = {
 };
 
 const files = [
-    'chat', 'reset', 'credits', 'record', 'blog', '.dmr'
+    'chat', 'reset', 'credits', 'record', 'blog', 'star-wars', '.dmr'
 ].map(name => {
     const size = commands[name]?.toString().length || 0;
     return { name, size };
