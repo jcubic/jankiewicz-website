@@ -166,7 +166,33 @@ const home_detail = (human_readable = false, all = false) => {
 };
 
 const commands = {
-    help() {
+    help(arg = null) {
+        if (arg) {
+            switch (arg) {
+                case 'help':
+                    return 'display help message';
+                case '?':
+                    return 'alias for help';
+                case 'cat':
+                    return 'prints the contents of the file';
+                case 'chat':
+                    return 'runs terminal chat';
+                case '.dmr':
+                    return 'prints Dennis Ritchie ANSI Art';
+                case 'ls':
+                    return 'lists files';
+                case 'cd':
+                    return 'change directory';
+                case 'credits':
+                    return 'displays tools used by the website';
+                case 'record':
+                    return 'saves commands in url hash so you can share the link';
+                case 'blog':
+                    return 'displays blog using less like command';
+                case 'reset':
+                    return 'resets the terminal to original state';
+            }
+        }
         const cmd = Object.keys(commands).map(cmd => {
             return `<white class="command">${cmd}</white>`;
         });
