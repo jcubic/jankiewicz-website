@@ -186,13 +186,20 @@ const commands = {
                 case 'credits':
                     return 'displays tools used by the website';
                 case 'record':
-                    return 'saves commands in url hash so you can share the link';
+                    return 'saves commands in url hash, so you can share the link';
                 case 'star-wars':
-                    return 'play star wars movie as ASCII art';
+                    const link = 'https://pl.wikipedia.org/wiki/ASCII-Art';
+                    return `play star wars movie as <a href="${link}">ASCII ` +
+                           'art</a>. The command accepts one argument the nu' +
+                           'mber which is a delay between frames. Default va' +
+                           'lue is 50. Use smaller number to make the animat' +
+                           'ion faster.';
                 case 'blog':
                     return 'displays blog using less like command';
                 case 'reset':
                     return 'resets the terminal to original state';
+                default:
+                    return 'Invalid command.';
             }
         }
         const cmd = Object.keys(commands).map(cmd => {
