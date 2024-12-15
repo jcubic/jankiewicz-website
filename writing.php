@@ -50,8 +50,8 @@
           <li><a href="https://www.freecodecamp.org/news/how-to-create-interactive-terminal-based-portfolio/">How to Create an Interactive Terminal-Based Portfolio Website</a></li>
           <li><a href="https://www.freecodecamp.org/news/how-to-create-a-rest-api-without-a-server/">How to Create a REST API Without a Server</a></li>
           <li><a href="https://www.freecodecamp.org/news/how-to-match-parentheses-in-javascript-without-using-regex/">How to Match Parentheses in JavaScript without Using Regex</a></li>
-          <li><a href="https://jcubic.wordpress.com/">My Old Blog</a></li>
         </ul>
+        <p><a href="https://jcubic.wordpress.com/">My Old Blog</a></p>
         <h2>Articles in Polish</h2>
         <ul>
           <li><a href="https://bulldogjob.pl/news/1804-synchronizacja-stanu-aplikacji-www-miedzy-zakladkami">Synchronizacja stanu aplikacji www między zakładkami</a></li>
