@@ -355,13 +355,12 @@ const commands = {
         }
         term.on('click', 'a.post', handler);
     },
-    async ['star-wars'](speed = 50) {
+    async ['star-wars'](delay = 50) {
         if (this.cols() < 67) {
             this.error('not enough width to run the star wars');
             return;
         }
         window.sw_frames = window.sw_frames ?? [];
-        const DELAY = speed;
         if (typeof star_wars === 'undefined') {
             await $.getScript('https://cdn.jsdelivr.net/gh/jcubic/static@master/js/star_wars.js');
             const LINES_PER_FRAME = 14;
@@ -371,7 +370,7 @@ const commands = {
             }
         }
         let stop = false;
-        function play(term, delay = DELAY) {
+        function play(term) {
             let i = 0;
             let next_delay;
             (function display() {
