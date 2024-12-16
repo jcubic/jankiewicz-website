@@ -394,6 +394,7 @@ const commands = {
             stop = true;
             this.cmd().show();
             this.import_view(view);
+            return false;
         }
         this.push($.noop, {
             onExit: exit,
