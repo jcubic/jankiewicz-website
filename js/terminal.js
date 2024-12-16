@@ -481,7 +481,7 @@ $(function() {
                     return commands[cmd].apply(this, args);
                 }
             }
-            this.error(`Command '${name}' Not Found!`);
+            this.echo(`<red>Command '${name}' Not Found! Try <white class="command">help</white>.</red>`);
         }
     }], {
         greetings: false,
