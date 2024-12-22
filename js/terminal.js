@@ -355,6 +355,18 @@ const commands = {
         }
         term.on('click', 'a.post', handler);
     },
+    async uname(...args) {
+        if (!args.length) {
+            this.echo('Browser');
+        } else {
+            const {a} = $.terminal.parse_options(args, { boolean: ['a'] });
+            if (a) {
+                const res = await fetch('/filemtime.php?fname=js/terminal.js');
+                const date = await res.text();
+                this.echo(`Browser jcubic jQuery Terminal ${$.terminal.version}; ${date}`);
+            }
+        }
+    },
     async ['star-wars'](delay = 50) {
         if (this.cols() < 67) {
             this.error('not enough width to run the star wars');
