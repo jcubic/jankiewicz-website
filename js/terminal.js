@@ -505,8 +505,9 @@ $(function() {
         completion(string) {
             const { name, rest } = $.terminal.parse_command(this.get_command());
             if (['cd', 'ls'].includes(name)) {
-                if (rest.startsWith('~/')) {
-                    return dirs.map(dir => `~/${dir}`);
+                const m = rest.match(/(\.|~)\//);
+                if (m) {
+                    return dirs.map(dir => `${m[1]}/${dir}`);
                 }
                 if (rest.startsWith('../') && cwd !== root) {
                     return dirs.map(dir => `../${dir}`);
