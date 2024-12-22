@@ -216,6 +216,9 @@ const commands = {
         if (!file) {
             return this.read();
         }
+        if (is_relative(file)) {
+            file = file.replace(/.{1,2}\//, '');
+        }
         if (commands[file]) {
             const code = commands[file].toString();
             this.echo(' '.repeat(4) + $.terminal.prism('javascript', code));
@@ -516,9 +519,10 @@ $(function() {
                     return dirs;
                 }
             }
-            if (is_relative(name)) {
-                const prefix = name.match(/^(.{1,2})\//)[1];
-                return list_files(true).map(file => `${prefix}/${file.name}`);
+            const completion = name === 'cat' ? rest : string;
+            if (is_relative(completion)) {
+                const dir = completion.match(/^(.{1,2}|~)\//)[1];
+                return list_files(true).map(file => `${dir}/${file.name}`);
             }
             return Object.keys(commands);
         },
