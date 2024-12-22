@@ -470,14 +470,18 @@ function figlet_render(text) {
     }));
 }
 
+function is_relative(name) {
+    return (cwd === root && name.startsWith('./')) || (cwd !== root && name.startsWith('../'))
+}
+
 $(function() {
     window.term = $('#term > div').terminal([commands, function(command) {
         const { name, args } = $.terminal.split_command(command);
         if (dirs.includes(name)) {
             this.echo(`<yellow>${name} is a directory. Try <white class="command">cd ${name}</white> command!</yellow>`);
         } else {
-            if (cwd !== root && name.startsWith('../')) {
-                const cmd = name.replace(/^..\//, '');
+            if (is_relative(name)) {
+                const cmd = name.replace(/^.{1,2}\//, '');
                 if (commands[cmd]) {
                     return commands[cmd].apply(this, args);
                 }
@@ -492,15 +496,16 @@ $(function() {
                 if (rest.startsWith('~/')) {
                     return dirs.map(dir => `~/${dir}`);
                 }
-                if (rest.startsWith('../') && cwd != root) {
+                if (rest.startsWith('../') && cwd !== root) {
                     return dirs.map(dir => `../${dir}`);
                 }
                 if (cwd === root) {
                     return dirs;
                 }
             }
-            if (cwd !== root && name.startsWith('../')) {
-                return Object.keys(commands).map(cmd => `../${cmd}`);
+            if (is_relative(name)) {
+                const prefix = name.match(/^(.{1,2})\//)[1];
+                return list_files(true).map(file => `${prefix}/${file.name}`);
             }
             return Object.keys(commands);
         },
