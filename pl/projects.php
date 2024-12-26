@@ -16,6 +16,12 @@
         <h2>Projekty Open Source</h2>
         <ul class="projects">
           <li>
+            <a href="https://first-commit.koduj.org/" title="GitHub First Commit">
+              <img src="/images/projects/github-first-commit.png" alt="Logo GitHuba oraz: GitHub First Commit na żółtym tle"/>
+            </a>
+            <p><strong>GitHub First Commit</strong> to mała aplikacja napisana w Next.js i TypeScriptcie, która służy do pobierania informacji o pierwszym commicie gita w serwisie GitHub dla danego użytkoniwka. Aplikacja używa biblioteki komponentów <a href="https://mantine.dev/">Mantine</a>.</p>
+          </li>
+          <li>
             <a href="https://terminal.jcubic.pl/" title="jQuery Terminal: for Web based Terminal websites">
               <img src="/images/projects/jquery.terminal.png" alt="ASCII art with jQuery Terminal signature"/>
             </a>

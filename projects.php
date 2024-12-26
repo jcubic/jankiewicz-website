@@ -16,6 +16,12 @@
         <h2>Open Source Projects</h2>
         <ul class="projects">
           <li>
+            <a href="https://first-commit.koduj.org/" title="GitHub First Commit">
+              <img src="/images/projects/github-first-commit.png" alt="GitHub Octocat logo with text: GitHub First Commit on yellow background"/>
+            </a>
+            <p><strong>GitHub First Commit</strong> is small Next.js application written in TypeScript that retrieve information about the first git commit of the username on GitHub. The app use <a href="https://mantine.dev/">Mantine</a> component library.</p>
+          </li>
+          <li>
             <a href="https://terminal.jcubic.pl/" title="jQuery Terminal: for Web based Terminal websites">
               <img src="/images/projects/jquery.terminal.png" alt="ASCII art with jQuery Terminal signature"/>
             </a>
