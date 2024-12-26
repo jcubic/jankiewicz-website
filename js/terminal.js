@@ -526,12 +526,8 @@ $(function() {
             }
             return Object.keys(commands);
         },
-        keymap: {
-            ENTER(e, origin) {
-                const command = this.get_command();
-                track('command', command);
-                origin();
-            }
+        onBeforeCommand(command) {
+            track('command', command);
         },
         execHash: true,
         checkArity: false,
