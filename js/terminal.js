@@ -277,18 +277,24 @@ const commands = {
     cd(dir = null) {
         if (dir === null || (dir === '..' && cwd !== root)) {
             cwd = root;
-        } else if (dir.startsWith('~/') &&
-                   dirs.includes(dir.substring(2))) {
-            cwd = dir;
-        } else if (dir.startsWith('../') && cwd !== root &&
-                   dirs.includes(dir.substring(3))) {
-            cwd = root + '/' + dir.substring(3);
-        } else if (dirs.includes(dir)) {
-            cwd = root + '/' + dir;
-        } else if (files.find(cmd => cmd.name === dir)) {
-            this.error(`Invalid directory. '${dir}' is a file.`);
         } else {
-            this.error('Invalid directory.');
+            let name;
+            if (dir.startsWith('~/')) {
+                name = dir.substring(2);
+            } else if (dir.startsWith('./') && cwd === root) {
+                name = dir.substring(2);
+            } else if (dir.startsWith('../') && cwd !== root) {
+                name = dir.substring(3);
+            } else {
+                name = dir;
+            }
+            if (dirs.includes(name)) {
+                cwd = root + '/' + name;
+            } else if (files.find(cmd => cmd.name === name)) {
+                this.error(`Invalid directory. '${dir}' is a file.`);
+            } else {
+                this.error('Invalid directory.');
+            }
         }
     },
     credits() {
