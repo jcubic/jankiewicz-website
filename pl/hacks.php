@@ -5,9 +5,6 @@
     <title>Jakub T. Jankiewicz - Hacks</title>
     <meta name="Description" content="Kilka hacków, które zrobiłem głównie w JavaScript"/>
     <?php include('../head.php'); ?>
-    <link rel="alternate" href="https://jakub.jankiewicz.org/hacks.php" hreflang="x-default" />
-    <link rel="alternate" href="https://jakub.jankiewicz.org/pl/hacks.php" hreflang="pl" />
-    <link rel="alternate" href="https://jakub.jankiewicz.org/hacks.php" hreflang="en" />
     <link rel="canonical" href="https://jakub.jankiewicz.org/pl/hacks.php" />
 </head>
 <body id="tutorials">

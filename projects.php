@@ -5,9 +5,6 @@
     <title>Jakub T. Jankiewicz - Projects</title>
     <meta name="Description" content="Few projects I've created using JavaScript, Python and Ruby"/>
     <?php include('head.php'); ?>
-    <link rel="alternate" href="https://jakub.jankiewicz.org/projects.php" hreflang="x-default" />
-    <link rel="alternate" href="https://jakub.jankiewicz.org/pl/projects.php" hreflang="pl" />
-    <link rel="alternate" href="https://jakub.jankiewicz.org/projects.php" hreflang="en" />
     <link rel="canonical" href="https://jakub.jankiewicz.org/projects.php" />
 </head>
 <body id="projects">

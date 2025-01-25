@@ -5,9 +5,6 @@
     <title>Jakub T. Jankiewicz - Uses</title>
     <meta name="Description" content="Jakub Jankiewicz - Stuff I use"/>
     <?php include('../head.php'); ?>
-    <link rel="alternate" href="https://jakub.jankiewicz.org/uses/" hreflang="x-default" />
-    <link rel="alternate" href="https://jakub.jankiewicz.org/pl/uses/" hreflang="pl" />
-    <link rel="alternate" href="https://jakub.jankiewicz.org/uses/" hreflang="en" />
     <link rel="canonical" href="https://jakub.jankiewicz.org/uses/" />
 </head>
 <body id="tutorials">

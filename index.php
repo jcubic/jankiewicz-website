@@ -9,9 +9,6 @@ require('./utils.php');
     <meta charset="utf-8" />
     <title>Jakub T. Jankiewicz - Web Developer</title>
     <meta name="Description" content="My name is Jakub T. Jankiewicz. I'm Web Developer from Poland. I Love to work with JavaScript, jQuery library and CSS."/>
-    <link rel="alternate" href="https://jakub.jankiewicz.org/" hreflang="x-default" />
-    <link rel="alternate" href="https://jakub.jankiewicz.org/" hreflang="en" />
-    <link rel="alternate" href="https://jakub.jankiewicz.org/pl/" hreflang="pl" />
     <link rel="canonical" href="https://jakub.jankiewicz.org" />
     <meta name="ocs-site-verification" content="97605728a5a89b24fb4d4b1bdd47e4ee" />
     <script type="application/ld+json">

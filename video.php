@@ -5,9 +5,6 @@
     <title>Jakub T. Jankiewicz - Video Presentations</title>
     <meta name="Description" content="Jakub Jankiewicz - My Other Technical Articles"/>
     <?php include('head.php'); ?>
-    <link rel="alternate" href="https://jakub.jankiewicz.org/video.php" hreflang="x-default" />
-    <link rel="alternate" href="https://jakub.jankiewicz.org/pl/video.php" hreflang="pl" />
-    <link rel="alternate" href="https://jakub.jankiewicz.org/video.php" hreflang="en" />
     <link rel="canonical" href="https://jakub.jankiewicz.org/video.php" />
 </head>
 <body id="tutorials">

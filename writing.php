@@ -17,9 +17,6 @@
 }
     </style>
     <?php include('head.php'); ?>
-    <link rel="alternate" href="https://jakub.jankiewicz.org/writing.php" hreflang="x-default" />
-    <link rel="alternate" href="https://jakub.jankiewicz.org/pl/writing.php" hreflang="pl" />
-    <link rel="alternate" href="https://jakub.jankiewicz.org/writing.php" hreflang="en" />
     <link rel="canonical" href="https://jakub.jankiewicz.org/writing.php" />
 </head>
 <body id="tutorials">

@@ -5,9 +5,6 @@
     <title>Logo Design - Jakub T. Jankiewicz</title>
     <meta name="Description" content="Few logo and logtypes I've created using Inkscape Free Open Source Vector graphics program"/>
     <?php include('head.php'); ?>
-    <link rel="alternate" href="https://jakub.jankiewicz.org/logo.php" hreflang="x-default" />
-    <link rel="alternate" href="https://jakub.jankiewicz.org/pl/logo.php" hreflang="pl" />
-    <link rel="alternate" href="https://jakub.jankiewicz.org/logo.php" hreflang="en" />
     <link rel="canonical" href="https://jakub.jankiewicz.org/logo.php" />
 </head>
 <body id="projects">

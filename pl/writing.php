@@ -5,9 +5,6 @@
     <title>Jakub T. Jankiewicz - Inne Techniczne Artykuły</title>
     <meta name="Description" content="Jakub Jankiewicz - Moje techniczne artykuły opublikowane w inne serwisach"/>
     <?php include('../head.php'); ?>
-    <link rel="alternate" href="https://jakub.jankiewicz.org/writing.php" hreflang="x-default" />
-    <link rel="alternate" href="https://jakub.jankiewicz.org/pl/writing.php" hreflang="pl" />
-    <link rel="alternate" href="https://jakub.jankiewicz.org/writing.php" hreflang="en" />
     <link rel="canonical" href="https://jakub.jankiewicz.org/pl/writing.php" />
 </head>
 <body id="tutorials">
