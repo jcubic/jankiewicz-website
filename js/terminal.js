@@ -298,7 +298,7 @@ const commands = {
         }
     },
     credits() {
-        return [
+        this.echo([
             '',
             '<white>Used libraries, artwork, and services:</white>',
             '* <a href="https://terminal.jcubic.pl">' +
@@ -316,7 +316,7 @@ const commands = {
             '* <a href="https://www.asciimation.co.nz/">' +
                 'STAR WARS ASCIIMATION</a>',
             ''
-        ].join('\n');
+        ].join('\n'));
     },
     record(arg = null) {
         if (arg == 'start') {
