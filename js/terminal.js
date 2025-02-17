@@ -202,7 +202,7 @@ const commands = {
                     return 'Invalid command.';
             }
         }
-        const cmd = Object.keys(commands).map(cmd => {
+        const cmd = public_commands.map(cmd => {
             return `<white class="command">${cmd}</white>`;
         });
         const list = lf.format(cmd);
@@ -228,6 +228,9 @@ const commands = {
     },
     chat() {
         firebase_chat(term, 'chat');
+    },
+    sudo() {
+        this.error(`You're not in the sudoers file. This incident will be reported.`);
     },
     ['.dmr']() {
         const url = 'https://cdn.jsdelivr.net/gh/jcubic/' +
@@ -435,6 +438,12 @@ const commands = {
     }
 };
 
+const hidden = ['.dmr', 'sudo'];
+
+const public_commands = Object.keys(commands).filter(name => {
+    return !hidden.includes(name);
+});
+
 const files = [
     'chat', 'reset', 'credits', 'record', 'blog', 'star-wars', '.dmr'
 ].map(name => {
@@ -530,7 +539,7 @@ $(function() {
                 const dir = completion.match(/^(.{1,2}|~)\//)[1];
                 return list_files(true).map(file => `${dir}/${file.name}`);
             }
-            return Object.keys(commands);
+            return public_commands;
         },
         onBeforeCommand(command) {
             track('command', command);
