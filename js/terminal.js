@@ -208,6 +208,7 @@ const commands = {
         const list = lf.format(cmd);
         this.echo(`available commands:\n${list}`, { keepWords: true });
         this.echo('You can use &lt;TAB&gt; key to autocomplete');
+        this.echo('In less (like with <white>blog</white>) you can use `q` to exit and / to search.');
     },
     ['?']() {
         this.exec('help', { silent: true });
@@ -238,6 +239,9 @@ const commands = {
         return fetch(url).then(res => res.text()).then(text => {
             this.echo(text, { ansi: true });
         });
+    },
+    dir() {
+        this.error('This is based on Linux not Windows. Try <white>help</white>.');
     },
     ls(...args) {
         const { _: [dir], l, h, a } = $.terminal.parse_options(args, {
