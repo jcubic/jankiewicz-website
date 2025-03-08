@@ -10,6 +10,8 @@ require('../utils.php');
     <title>Jakub T. Jankiewicz - Programista aplikacji internetowych</title>
     <meta name="Description" content="Nazywam się Jakub T. Jankiewicz. Jestem programistą aplikacji internetowych z Polski. Pracuje głównie z językiem JavaScript."/>
     <link rel="canonical" href="https://jakub.jankiewicz.org/pl/" />
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed for Jakub T. Jankiewicz Blog"
+          href="https://jakub.jankiewicz.org/pl/blog/rss.xml" />
     <script type="application/ld+json">
      {
          "@context": "http://www.schema.org",

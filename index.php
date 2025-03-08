@@ -10,6 +10,8 @@ require('./utils.php');
     <title>Jakub T. Jankiewicz - Web Developer</title>
     <meta name="Description" content="My name is Jakub T. Jankiewicz. I'm Web Developer from Poland. I Love to work with JavaScript, jQuery library and CSS."/>
     <link rel="canonical" href="https://jakub.jankiewicz.org" />
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed for Jakub T. Jankiewicz Blog"
+          href="https://jakub.jankiewicz.org/blog/rss.xml" />
     <meta name="ocs-site-verification" content="97605728a5a89b24fb4d4b1bdd47e4ee" />
     <script type="application/ld+json">
      {
