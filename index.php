@@ -60,6 +60,7 @@ require('./utils.php');
              "https://bulldogjob.pl/readme/authors/jakub-t-jankiewicz",
              "https://dev.to/jcubic",
              "https://hackernoon.com/u/jcubic",
+             "https://www.wikidata.org/wiki/Q113688230",
              "https://www.youtube.com/@jcubic"
          ],
          "knowsAbout": [

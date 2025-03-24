@@ -58,6 +58,7 @@ require('../utils.php');
              "https://www.freecodecamp.org/news/author/jcubic/",
              "https://bulldogjob.pl/readme/authors/jakub-t-jankiewicz",
              "https://dev.to/jcubic",
+             "https://www.wikidata.org/wiki/Q113688230",
              "https://hackernoon.com/u/jcubic",
              "https://www.youtube.com/@jcubic"
          ],
