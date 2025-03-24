@@ -13,6 +13,7 @@
         <h2>Nagrania Video</h2>
         <ul>
           <li><a href="https://fosdem.org/2023/schedule/event/lipsscheme/">LIPS Scheme: Powerful introspection and extensibility (FOSDEM '23)</a></li>
+          <li><a href="https://youtu.be/3bdQZ67mpn8">ChatGPT w pomocy przy tworzeniu zapytań do Wikidata</a></li>
         </ul>
     </article>
     <?php include('footer.php'); ?>
