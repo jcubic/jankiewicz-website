@@ -58,7 +58,8 @@ require('../utils.php');
              "https://www.freecodecamp.org/news/author/jcubic/",
              "https://bulldogjob.pl/readme/authors/jakub-t-jankiewicz",
              "https://dev.to/jcubic",
-             "https://hackernoon.com/u/jcubic"
+             "https://hackernoon.com/u/jcubic",
+             "https://www.youtube.com/@jcubic"
          ],
          "knowsAbout": [
              "Front-End",
@@ -248,11 +249,6 @@ header {
                             </a>
                         </li>
                         <li>
-                            <a href="https://jcubic.deviantart.com/gallery/" title="Jakub Jankiewicz - DeviantArt profile" rel="me" data-tooltip="DeviantArt">
-                                <img src="/images/profiles/deviantart.png" alt="DeviantArt icon"/>
-                            </a>
-                        </li>
-                        <li>
                             <a href="https://stackoverflow.com/users/387194/jcubic?tab=profile" title="Jakub Jankiewicz - Stack Overflow profile" rel="me" data-tooltip="Stack Overflow">
                                 <img src="/images/profiles/stackoverflow.png" alt="Stackoverflow icon"/>
                             </a>
@@ -275,6 +271,11 @@ header {
                         <li>
                             <a href="https://www.facebook.com/jcubic" title="Jakub Jankiewicz - Facebook profile" rel="me" data-tooltip="Facebook">
                                 <img src="/images/profiles/facebook.png" alt="Facebok icon"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.freecodecamp.org/news/author/jcubic/" title="Jakub Jankiewicz - FreeCodeCamp profile" rel="me" data-tooltip="FreeCodeCamp">
+                                <img src="/images/profiles/free-code-camp.png" alt="FreeCodeCamp icon" />
                             </a>
                         </li>
                         <li>
