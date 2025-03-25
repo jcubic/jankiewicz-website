@@ -217,7 +217,7 @@ header {
                   <a href="https://jcu.bi/cv-en">English</a> /
                   <a href="https://jcu.bi/cv-pl">Polish</a>.
                 </p>
-                <p> You can also see <a href="/now">what I'm doing now</a>, hire me if you
+                <p> You can also see <a href="/now/">what I'm doing now</a>, hire me if you
                   need <a href="https://support.jcubic.pl/">support for any of my Open
                   Source projects</a>, or just
                   <a href="https://github.com/sponsors/jcubic">sponsor my OSS work</a>.
