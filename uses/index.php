@@ -41,6 +41,8 @@
             </ul>
           </li>
           <li>Manfrotto 190go! Carbon tripod</li>
+          <li>INNOREL V44 Arca-Swiss tripod head</li>
+          <li>Platipod Ultra</li>
           <li>Andoer H-35 Pro Arca-Swiss tripod head</li>
           <li>Stabil Arca-Swiss L-Bracket</li>
           <li>2x Rotolight NEO 3</li>
@@ -55,8 +57,7 @@
         </ul>
         <h3>Software</h3>
         <ul>
-          <li>Fedora Xfce GNU/Linux (personal)</li>
-          <li>Xubuntu GNU/Linux (work)</li>
+          <li>Fedora Xfce GNU/Linux</li>
           <li>GNU Emacs</li>
           <li>XFce Terminal with Bash</li>
           <li>Brave</li>
@@ -79,11 +80,9 @@
           <li>XFce</li>
           <li>Theme: Dark Adwaita</li>
           <li>Icons: Clarity (Canus)</li>
-          <li>Matrix XScreensaver</li>
         </ul>
         <h3>Web Browser Extensions</h3>
         <ul>
-          <li>uBlock Origin</li>
           <li>Bitwarden</li>
           <li>User-Agent Switcher for Chrome</li>
           <li>Cross Domain - CORS</li>
@@ -92,14 +91,11 @@
           <li>Tab Suspender</li>
           <li>Picture-in-Picture Extension (by Google)</li>
           <li>LanguageTool</li>
-          <li>Quicky AI</li>
-          <li>Read on reMarkable</li>
           <li>JSON Viewer</li>
           <li>Modern for Hacker News</li>
           <li>React Developer Tools</li>
           <li>Redux DevTool</li>
           <li>Tweet Hunter X: Sidebar for Twitter</li>
-          <li>Spotify Player</li>
           <li>YouTube NonStop</li>
         </ul>
         <h3>Dotfiles</h3>
