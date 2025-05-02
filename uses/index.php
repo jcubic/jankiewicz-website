@@ -42,7 +42,7 @@
           </li>
           <li>Manfrotto 190go! Carbon tripod</li>
           <li>INNOREL V44 Arca-Swiss tripod head</li>
-          <li>Platipod Ultra</li>
+          <li>Platypod Ultra</li>
           <li>Andoer H-35 Pro Arca-Swiss tripod head</li>
           <li>Stabil Arca-Swiss L-Bracket</li>
           <li>2x Rotolight NEO 3</li>
