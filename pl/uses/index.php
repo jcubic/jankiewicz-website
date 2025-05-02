@@ -40,6 +40,8 @@
             </ul>
           </li>
           <li>Statyw Manfrotto 190go! Carbon</li>
+          <li>Głowica Arca-Swiss: INNOREL V44</li>
+          <li>Płytka Platipod Ultra</li>
           <li>Głowica Arca-Swiss: Andoer H-35 Pro </li>
           <li>Uchwyt L-Bracket: Stabil Arca-Swiss </li>
           <li>2x Rotolight NEO 3</li>
@@ -80,7 +82,6 @@
           <li>XFce</li>
           <li>Motyw: Dark Adwaita</li>
           <li>ikony: Clarity (Canus)</li>
-          <li>Wygaszacz ekranu: Matrix XScreensaver</li>
         </ul>
         <h3>Rozszerzenia Przeglądarki Internetowej</h3>
         <ul>
@@ -92,14 +93,11 @@
           <li>Tab Suspender</li>
           <li>Picture-in-Picture Extension (by Google)</li>
           <li>LanguageTool</li>
-          <li>Quicky AI</li>
-          <li>Read on reMarkable</li>
           <li>JSON Viewer</li>
           <li>Modern for Hacker News</li>
           <li>React Developer Tools</li>
           <li>Redux DevTool</li>
           <li>Tweet Hunter X: Sidebar for Twitter</li>
-          <li>Spotify Player</li>
           <li>YouTube NonStop</li>
         </ul>
         <h3>Dotfiles</h3>
