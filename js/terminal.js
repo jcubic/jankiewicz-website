@@ -383,6 +383,9 @@ const commands = {
             }
         }
     },
+    whoami() {
+        this.echo('guest');
+    },
     async ['star-wars'](delay = 50) {
         if (this.cols() < 67) {
             this.error('not enough width to run the star wars');
