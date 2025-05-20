@@ -9,8 +9,14 @@
             <link>https://jakub.jankiewicz.org/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 15 Dec 2024 21:35:52 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 20 May 2025 22:40:02 GMT</lastBuildDate>
         <atom:link href="https://jakub.jankiewicz.org/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[My Open Source story @ opensource.org]]></title>
+            <description><![CDATA[My Open Source story @ opensource.org]]></description>
+            <link>https://opensource.org/maintainers/jcubic</link>
+            <guid isPermaLink="true">https://opensource.org/maintainers/jcubic</guid>
+        </item>
         <item>
             <title><![CDATA[How to Match Parentheses in JavaScript without Using Regex]]></title>
             <description><![CDATA[How to Match Parentheses in JavaScript without Using Regex]]></description>
