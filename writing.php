@@ -77,6 +77,7 @@
           <li><a href="https://bento.me/jcubic">Bento</a></li>
           <li><a href="https://www.cofolios.com/jcubic">Cofolios</a></li>
           <li><a href="https://heylink.me/jcubic">heylink</a></li>
+          <li><a href="https://leetcode.com/u/jcubic777/">leetcode.com/u/jcubic777</a></li>
         </ul>
     </article>
     <?php include('footer.php'); ?>
