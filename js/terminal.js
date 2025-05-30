@@ -208,10 +208,14 @@ const commands = {
         const list = lf.format(cmd);
         this.echo(`available commands:\n${list}`, { keepWords: true });
         this.echo('You can use &lt;TAB&gt; key to autocomplete');
-        this.echo('In less (like with <white>blog</white>) you can use `q` to exit and / to search.');
+        this.echo('In less (like with <white class="command">blog</white>) y' +
+                  'ou can use `q` to exit and / to search.');
     },
     ['?']() {
         this.exec('help', { silent: true });
+    },
+    echo(...args) {
+        this.echo(args.join(' '));
     },
     cat(file = null) {
         if (!file) {
@@ -383,6 +387,14 @@ const commands = {
             }
         }
     },
+    npm: fake,
+    pip: fake,
+    rm() {
+        this.echo('Nice try :)');
+    },
+    hi: hello,
+    hello,
+    yo: hello,
     whoami() {
         this.echo('guest');
     },
@@ -485,6 +497,14 @@ async function fetch_rss() {
     }));
 }
 
+function hello() {
+    this.echo('use <white class="command">chat</white> to say hi!');
+}
+
+function fake() {
+    this.echo('This is not a real terminal. Try using <white class="command>help</white>.');
+}
+
 function decode_html(str) {
     let html = str?.replace(/\n/g, ' ').replace(/\s+/g, ' ');
     if (!html?.match(/&/)) {
@@ -515,7 +535,8 @@ $(function() {
     window.term = $('#term > div').terminal([commands, function(command) {
         const { name, args } = $.terminal.split_command(command);
         if (dirs.includes(name)) {
-            this.echo(`<yellow>${name} is a directory. Try <white class="command">cd ${name}</white> command!</yellow>`);
+            this.echo(`<yellow>${name} is a directory. Try <white class="command">` +
+                      `cd ${name}</white> command!</yellow>`);
         } else {
             if (is_relative(name)) {
                 const cmd = name.replace(/^.{1,2}\//, '');
