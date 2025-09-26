@@ -36,6 +36,7 @@
           <li><a href="https://www.freecodecamp.org/news/how-to-create-a-rest-api-without-a-server/">How to Create a REST API Without a Server</a></li>
           <li><a href="https://www.freecodecamp.org/news/how-to-match-parentheses-in-javascript-without-using-regex/">How to Match Parentheses in JavaScript without Using Regex</a></li>
           <li><a href="https://opensource.org/maintainers/jcubic">My Open Source story @ opensource.org</a></li>
+          <li><a href="https://requestly.com/blog/endpoint-ft-jakub-t-jankiewicz-a-pragmatic-guide-to-open-source-ai-and-the-sdlc/">Interview with me on Requestly Blog</a></li>
         </ul>
         <p><a href="https://jcubic.wordpress.com/">Mój stary blog</a></p>
         <h2>Artykuły po Polsku</h2>
