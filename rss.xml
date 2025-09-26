@@ -9,8 +9,14 @@
             <link>https://jakub.jankiewicz.org/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 20 May 2025 22:40:02 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 26 Sep 2025 21:23:36 GMT</lastBuildDate>
         <atom:link href="https://jakub.jankiewicz.org/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Interview with me on Requestly Blog]]></title>
+            <description><![CDATA[Interview with me on Requestly Blog]]></description>
+            <link>https://requestly.com/blog/endpoint-ft-jakub-t-jankiewicz-a-pragmatic-guide-to-open-source-ai-and-the-sdlc/</link>
+            <guid isPermaLink="true">https://requestly.com/blog/endpoint-ft-jakub-t-jankiewicz-a-pragmatic-guide-to-open-source-ai-and-the-sdlc/</guid>
+        </item>
         <item>
             <title><![CDATA[My Open Source story @ opensource.org]]></title>
             <description><![CDATA[My Open Source story @ opensource.org]]></description>
