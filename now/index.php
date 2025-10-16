@@ -17,11 +17,11 @@
     <article>
         <h2>What I'm doing now</h2>
         <ul>
-          <li><strong>Working</strong>: I'm looking for a new job as React Developer. I'm re-learning <a href="https://nextjs.org/">Next.js</a>, working on my <a href="https://github.com/jcubic">Open Source projects</a>, mentoring people, and volunteering for Polish Wikipedia (where I'm a trainer and a mentor for newcomers).</li>
-          <li><strong>Writing</strong>: The last two articles I've written were <a href="https://jakub.jankiewicz.org/blog/zig-book-pdf/">How to build zig book as PDF on Fedora?</a> and <a href="https://jakub.jankiewicz.org/blog/charity-bragging-page/">Charity Bragging Page</a>.</li>
-          <li><strong>Reading</strong>: Started reading <a href="https://en.wikipedia.org/wiki/The_Lord_of_the_Ice_Garden">The Lord of the Ice Garden</a>.</li>
-          <li><strong>Listening</strong>: Recenlty enoying <a href="https://en.wikipedia.org/wiki/A_Complete_Unknown_(soundtrack)">Timothee Chalamet - A Complete Unknown Soundtrack</a> and some <a href="https://en.wikipedia.org/wiki/Melodic_death_metal">Melodic Death Metal</a>.</li>
-          <li><strong>Watching</strong>: Recently watched <a href="https://en.wikipedia.org/wiki/Back_to_Those_Days">Back to Those Days</a> and <a href="https://en.wikipedia.org/wiki/Darkest_Hour_(film)">Darkest Hour</a>. Rewatched <a href="https://en.wikipedia.org/wiki/The_Doors_(film)">The Doors</a> and <a href="https://en.wikipedia.org/wiki/The_Saint_(1997_film)">The Saint</a> with Val Kilmer. Also started watching <a href="https://en.wikipedia.org/wiki/Castlevania_(TV_series)">Castlevania</a>.</li>
+          <li><strong>Working</strong>: Started working as a Senior Software Engineer at Sii Polska, working on my <a href="https://github.com/jcubic">Open Source projects</a>, mentoring people, volunteering for Polish Wikipedia (where I'm a trainer and a mentor for newcomers), and moderating Twitter communites</li>
+          <li><strong>Writing</strong>: The last two articles I've written were <a href="https://jakub.jankiewicz.org/blog/zig-book-pdf/">How to build zig book as PDF on Fedora?</a> and <a href="https://jakub.jankiewicz.org/blog/programming-advice/">My Advice to New Developers</a>.</li>
+          <li><strong>Reading</strong>: Started reading a book about <a href="https://en.wikipedia.org/wiki/Test-driven_development">TDD</a> by <a href="https://en.wikipedia.org/wiki/Kent_Beck">Kent Beck</a>.</li>
+          <li><strong>Listening</strong>: Recenlty enoying some <a href="https://en.wikipedia.org/wiki/Melodic_death_metal">Melodic Death Metal</a>.</li>
+          <li><strong>Watching</strong>: Recently watched <a href="https://en.wikipedia.org/wiki/There_Will_Be_Blood">There Will Be Blood</a> and <a href="https://en.wikipedia.org/wiki/F1_(film)">F1</a>.</li>
         </ul>
         <p>This is a <a href="https://nownownow.com/about">now page</a> inspired by <a href="https://sive.rs/">Derek Sivers</a></p>
     </article>
