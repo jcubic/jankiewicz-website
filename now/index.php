@@ -15,7 +15,7 @@
 <body id="tutorials">
     <?php include('../header.php'); ?>
     <article>
-        <h2>What I'm doing now</h2>
+        <h2>What I'm doing now (October 2025)</h2>
         <ul>
           <li><strong>Working</strong>: Started working as a Senior Software Engineer at Sii Polska, working on my <a href="https://github.com/jcubic">Open Source projects</a>, mentoring people, volunteering for Polish Wikipedia (where I'm a trainer and a mentor for newcomers), and moderating Twitter communites</li>
           <li><strong>Writing</strong>: The last two articles I've written were <a href="https://jakub.jankiewicz.org/blog/zig-book-pdf/">How to build zig book as PDF on Fedora?</a> and <a href="https://jakub.jankiewicz.org/blog/programming-advice/">My Advice to New Developers</a>.</li>
