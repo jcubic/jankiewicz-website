@@ -13,6 +13,12 @@
         <h2>Open Source Projects</h2>
         <ul class="projects">
           <li>
+            <a href="https://github.com/jcubic/chat-gpt" title="ChatGPT conversation saving bookmark">
+              <img src="/images/projects/chatgpt.png" alt="Simplified icon that look like a classic bookmark with letter C inside" />
+            </a>
+            <p><strong>ChatGPT conversation saving bookmark</strong> is <a href="https://en.wikipedia.org/wiki/Bookmarklet">bookmarklet</a>, that allow you to download ChatGPT conversation as HTML file.</p>
+          </li>
+          <li>
             <a href="https://first-commit.koduj.org/" title="GitHub First Commit">
               <img src="/images/projects/github-first-commit.png" alt="GitHub Octocat logo with text: GitHub First Commit on yellow background"/>
             </a>
