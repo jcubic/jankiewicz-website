@@ -13,16 +13,16 @@
         <h2>Open Source Projects</h2>
         <ul class="projects">
           <li>
+            <a href="https://snapp.md/" title="Simple Markdown Notes for Power Users">
+              <img src="/images/projects/snapp.png" alt="a snapping fingers hand with text SNApp"/>
+            </a>
+            <p><strong>SNApp</strong> is a Markdown Notes App written in Next.js and TypeScript. It uses: MySQL, Prisma, Better Auth, and ChakraUI.</p>
+          </li>
+          <li>
             <a href="https://github.com/jcubic/chat-gpt" title="ChatGPT conversation saving bookmark">
               <img src="/images/projects/chatgpt.png" alt="Simplified icon that look like a classic bookmark with letter C inside" />
             </a>
             <p><strong>ChatGPT conversation saving bookmark</strong> is <a href="https://en.wikipedia.org/wiki/Bookmarklet">bookmarklet</a>, that allow you to download ChatGPT conversation as HTML file.</p>
-          </li>
-          <li>
-            <a href="https://first-commit.koduj.org/" title="GitHub First Commit">
-              <img src="/images/projects/github-first-commit.png" alt="GitHub Octocat logo with text: GitHub First Commit on yellow background"/>
-            </a>
-            <p><strong>GitHub First Commit</strong> is small Next.js application written in TypeScript that retrieve information about the first git commit of the username on GitHub. The app use <a href="https://mantine.dev/">Mantine</a> component library.</p>
           </li>
           <li>
             <a href="https://terminal.jcubic.pl/" title="jQuery Terminal: for Web based Terminal websites">
