@@ -13,6 +13,21 @@ require('./utils.php');
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for Jakub T. Jankiewicz Blog"
           href="https://jakub.jankiewicz.org/blog/rss.xml" />
     <meta name="ocs-site-verification" content="97605728a5a89b24fb4d4b1bdd47e4ee" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Jakub T. Jankiewicz Homepage" />
+    <meta property="og:description" content="This is my personal homepage and porfolio." />
+    <meta property="og:url" content="https://jakub.jankiewicz.org" />
+    <meta property="og:site_name" content="Jakub T. Jankiewicz Homepage" />
+    <meta property="og:image" content="https://jakub.jankiewicz.org/images/main-card.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:site" content="@jcubic" />
+    <meta name="twitter:creator" content="@jcubic" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Jakub T. Jankiewicz Personal Homepage" />
+    <meta name="twitter:description" content="This is Jakub T, Jankiewicz personal homepage" />
+    <meta name="twitter:image" content="https://jakub.jankiewicz.org/images/main-card.png" />
     <script type="application/ld+json">
      {
          "@context": "http://www.schema.org",
@@ -60,6 +75,8 @@ require('./utils.php');
              "https://bulldogjob.pl/readme/authors/jakub-t-jankiewicz",
              "https://dev.to/jcubic",
              "https://hackernoon.com/u/jcubic",
+             "https://pl.wikipedia.org/wiki/Wikipedysta:Jcubic",
+             "https://commons.wikimedia.org/wiki/User:Jcubic",
              "https://www.wikidata.org/wiki/Q113688230",
              "https://www.youtube.com/@jcubic"
          ],
