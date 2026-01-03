@@ -26,17 +26,17 @@
         <ul>
           <li>Nikon d780</li>
           <li>Nikon F100</li>
-          <li>Fuji X20</li>
+          <li>Fuji X-Pro 3</li>
           <li>Lenses:
             <ul>
-              <li>Nikkor 24-120 f/4</li>
+              <li>Fuji 8mm f/3.5</li>
+              <li>Fuji 23mm f/1.4 WR</li>
+              <li>Fuji 35mm f/1.4</li>
+              <li>Sigma 56mm f/1.4</li>
+              <li>Fuji 80mm f/2.8 Macro</li>
+              <li>Fuji 70-300 f/4-5.6</li>
               <li>Nikkor 85mm f/1.4G</li>
-              <li>Tamron 15-30mm SP f/2.8</li>
               <li>Sigma Art 35mm f/1.4</li>
-              <li>Irix 11m f/4</li>
-              <li>TTArtisan 11mm f/2.8 Fisheye</li>
-              <li>Tamron 100-400 f/4.5-6.3</li>
-              <li>Tamron 90mm SP f/2.8 Macro</li>
               <li>Lensbaby Composer (first generation) with bunch of glasses</li>
             </ul>
           </li>
