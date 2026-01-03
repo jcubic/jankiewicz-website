@@ -75,7 +75,6 @@
           <li><a href="https://app.pressnt.net/post/44/">Single Post</a></li>
           <li><a href="https://limey.io/jcubic">limey.io</a></li>
           <li><a href="https://jcubic.mmm.page/">mmm.page</a></li>
-          <li><a href="https://bento.me/jcubic">Bento</a></li>
           <li><a href="https://www.cofolios.com/jcubic">Cofolios</a></li>
           <li><a href="https://heylink.me/jcubic">heylink</a></li>
           <li><a href="https://leetcode.com/u/jcubic777/">leetcode</a></li>
