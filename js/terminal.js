@@ -286,7 +286,7 @@ const commands = {
         }
     },
     cd(dir = null) {
-        if (dir === null || (dir === '..' && cwd !== root)) {
+        if (dir === null || (dir === '..' && cwd !== root) || dir.match(/~\/?/)) {
             cwd = root;
         } else {
             let name;
