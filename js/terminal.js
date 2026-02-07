@@ -308,6 +308,8 @@ const commands = {
             }
             if (dirs.includes(name)) {
                 cwd = root + '/' + name;
+            } else if (public_commands.find(cmd => cmd === name)) {
+                this.error(`Invalid directory. '${dir}' is a command, you need to type its name to run.`);
             } else if (projects.find(([project]) => project === name)) {
                 this.error(`Invalid directory. '${dir}' is a project, you need click on the link.`);
             } else if (files.find(cmd => cmd.name === name)) {
@@ -396,6 +398,7 @@ const commands = {
             }
         }
     },
+    mkdir: fake,
     npm: fake,
     pip: fake,
     rm() {
