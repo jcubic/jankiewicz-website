@@ -12,6 +12,21 @@ var database = firebase.database();
 
 const lf = new Intl.ListFormat('en');
 
+const projects = [
+    ['jQuery Terminal', 'https://terminal.jcubic.pl', 'library that adds terminal interface to websites'],
+    ['LIPS Scheme','https://lips.js.org', 'Scheme implementation in JavaScript'],
+    ['Sysend.js','https://jcu.bi/sysend', 'Communication between open tabs'],
+    ['Wayne','https://jcu.bi/wayne', 'Pure in browser HTTP requests'],
+    ['Koduj','https://koduj.org/', 'Teaching project'],
+    ['Gaiman','https://jcu.bi/gaiman', 'Programming language'],
+    ['jQuery Splitter','https://jcu.bi/splitter', 'UI Component'],
+    ['Tagger','https://jcu.bi/tagger', 'Tag Editor'],
+    ['GIT Terminal', 'https://jcu.bi/git', 'Web-based Terminal with git commands'],
+    ['ChatGPT bookmark','https://jcu.bi/chat-gpt', 'Bookmark to save chatGPT conversations'],
+    ['Leash','https://leash.jcubic.pl/', 'Web Shell']
+];
+
+
 const directories = {
     education: [
         '\n[[i;white;]education]',
@@ -23,22 +38,7 @@ const directories = {
     ],
     projects: [
         '\n[[i;white;]Open Source projects]',
-        [
-            ['jQuery Terminal',
-             'https://terminal.jcubic.pl',
-             'library that adds terminal interface to websites'
-            ],
-            ['LIPS Scheme','https://lips.js.org', 'Scheme implementation in JavaScript'],
-            ['Sysend.js','https://jcu.bi/sysend', 'Communication between open tabs'],
-            ['Wayne','https://jcu.bi/wayne', 'Pure in browser HTTP requests'],
-            ['Koduj','https://koduj.org/', 'Teaching project'],
-            ['Gaiman','https://jcu.bi/gaiman', 'Programming language'],
-            ['jQuery Splitter','https://jcu.bi/splitter', 'UI Component'],
-            ['Tagger','https://jcu.bi/tagger', 'Tag Editor'],
-            ['GIT Terminal', 'https://jcu.bi/git', 'Web-based Terminal with git commands'],
-            ['ChatGPT bookmark','https://jcu.bi/chat-gpt', 'Bookmark to save chatGPT conversations'],
-            ['Leash','https://leash.jcubic.pl/', 'Web Shell']
-        ].map(([name, url, description = '']) => {
+        projects.map(([name, url, description = '']) => {
             return `* <a href="${url}">${name}</a> &mdash; <white>${description}</white>`;
         }),
         ''
@@ -286,7 +286,7 @@ const commands = {
         }
     },
     cd(dir = null) {
-        if (dir === null || (dir === '..' && cwd !== root) || dir.match(/~\/?/)) {
+        if (dir === null || (dir === '..' && cwd !== root) || dir.match(/^~\/?$/)) {
             cwd = root;
         } else {
             let name;
@@ -299,8 +299,13 @@ const commands = {
             } else {
                 name = dir;
             }
+            if (name.endsWith('/')) {
+                name = name.replace(/\/+$/, '');
+            }
             if (dirs.includes(name)) {
                 cwd = root + '/' + name;
+            } else if (projects.find(([project]) => project === name)) {
+                this.error(`Invalid directory. '${dir}' is a project, you need click on the link.`);
             } else if (files.find(cmd => cmd.name === name)) {
                 this.error(`Invalid directory. '${dir}' is a file.`);
             } else {
