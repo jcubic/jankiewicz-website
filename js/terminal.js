@@ -95,6 +95,8 @@ const directories = {
 };
 
 const root = '~';
+const home_dir = '/home/kuba';
+const home_re = new RegExp(home_dir.replace(/\//g, '\\/') + '\\/?');
 let cwd = root;
 
 // different colors
@@ -256,8 +258,11 @@ const commands = {
             this.echo(l ? home_detail(h, a) : home(a));
         };
         if (dir) {
-            if (dir.match(/^~\/?$/)) {
+            const name = resolve_top_level(dir);
+            if (name === '') {
                 print_home();
+            } else if (directories[name]) {
+                this.echo(directories[name].join('\n'));
             } else if (dir.startsWith('~/')) {
                 const path = dir.substring(2);
                 const dirs = path.split('/');
@@ -293,19 +298,7 @@ const commands = {
         if (dir === null || (dir === '..' && cwd !== root) || dir.match(/^~\/?$/)) {
             cwd = root;
         } else {
-            let name;
-            if (dir.startsWith('~/')) {
-                name = dir.substring(2);
-            } else if (dir.startsWith('./') && cwd === root) {
-                name = dir.substring(2);
-            } else if (dir.startsWith('../') && cwd !== root) {
-                name = dir.substring(3);
-            } else {
-                name = dir;
-            }
-            if (name.endsWith('/')) {
-                name = name.replace(/\/+$/, '');
-            }
+            const name = resolve_top_level(dir);
             if (dirs.includes(name)) {
                 cwd = root + '/' + name;
             } else if (public_commands.find(cmd => cmd === name)) {
@@ -397,6 +390,9 @@ const commands = {
                 this.echo(`Browser jcubic jQuery Terminal ${$.terminal.version}; ${date}`);
             }
         }
+    },
+    pwd() {
+        this.echo(cwd.replace(/~/, home_dir));
     },
     mkdir: fake,
     npm: fake,
@@ -544,6 +540,23 @@ function is_relative(name) {
     return (cwd === root && name.startsWith('./')) || (cwd !== root && name.startsWith('../'))
 }
 
+function resolve_top_level(name) {
+    if (name.startsWith(home_dir)) {
+        name = name.replace(home_re, '');
+    } else if (name.startsWith('~/')) {
+        name = name.substring(2);
+    } else if (name.startsWith('./') && cwd === root) {
+        name = name.substring(2);
+    } else if (name.startsWith('../') && cwd !== root) {
+        name = name.substring(3);
+    }
+    if (name.endsWith('/')) {
+        name = name.replace(/\/+$/, '');
+    }
+    return name;
+}
+
+
 $(function() {
     window.term = $('#term > div').terminal([commands, function(command) {
         const { name, args } = $.terminal.split_command(command);
@@ -551,11 +564,9 @@ $(function() {
             this.echo(`<yellow>${name} is a directory. Try <white class="command">` +
                       `cd ${name}</white> command!</yellow>`);
         } else {
-            if (is_relative(name)) {
-                const cmd = name.replace(/^.{1,2}\//, '');
-                if (commands[cmd]) {
-                    return commands[cmd].apply(this, args);
-                }
+            const cmd = resolve_top_level(name);
+            if (commands[cmd]) {
+                return commands[cmd].apply(this, args);
             }
             this.echo(`<red>Command '${name}' Not Found! Try <white class="command">help</white>.</red>`);
         }
