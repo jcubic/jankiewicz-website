@@ -401,6 +401,7 @@ const commands = {
     mkdir: fake,
     npm: fake,
     pip: fake,
+    python: fake,
     rm() {
         this.echo('Nice try :)');
     },
