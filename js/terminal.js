@@ -285,6 +285,10 @@ const commands = {
             this.echo(directories[dir].join('\n'));
         }
     },
+    source() {
+        const url = 'https://github.com/jcubic/jankiewicz-website'
+        this.echo(`You can find source code of this website on <a href="${url}" target="_blank">GitHub</a>.`);
+    },
     cd(dir = null) {
         if (dir === null || (dir === '..' && cwd !== root) || dir.match(/^~\/?$/)) {
             cwd = root;
