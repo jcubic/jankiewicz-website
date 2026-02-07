@@ -245,7 +245,7 @@ const commands = {
         });
     },
     dir() {
-        this.error('This is based on Linux not Windows. Try <white>help</white>.');
+        this.echo('<red>This is based on Linux not Windows. Try <white class="command">help</white></red>.');
     },
     ls(...args) {
         const { _: [dir], l, h, a } = $.terminal.parse_options(args, {
@@ -514,7 +514,7 @@ function hello() {
 }
 
 function fake() {
-    this.echo('This is not a real terminal. Try using <white class="command>help</white>.');
+    this.echo('This is not a real terminal. Try using <white class="command">help</white>.');
 }
 
 function decode_html(str) {
