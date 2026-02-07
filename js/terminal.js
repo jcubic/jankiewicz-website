@@ -39,23 +39,23 @@ const directories = {
     projects: [
         '\n[[i;white;]Open Source projects]',
         projects.map(([name, url, description = '']) => {
-            return `* <a href="${url}">${name}</a> &mdash; <white>${description}</white>`;
+            return `* <a href="${url}" target="_blank">${name}</a> &mdash; <white>${description}</white>`;
         }),
         ''
     ].flat(),
     hacks: [
          '\n[[i;white;]hacks]',
-        `* <a href="https://jcu.bi/react-in-terminal">React Application inside jQuery Terminal</a>`,
-        `* <a href="https://jcu.bi/browser-server">How to create Web Server in Browser</a>`,
-        `* <a href="https://jcu.bi/css-image">How I've created Photo in single div CSS</a>`,
-        `* <a href="https://jcu.bi/react-sw">React Application inside Service Worker</a>`,
-        `* <a href="https://jcu.bi/terminal-camera">Display Camera stream, using characters on screen</a>`,
-        `* <a href="https://jcu.bi/ascii-tetris">ASCII Tetris</a>`,
-        `* <a href="https://jcu.bi/ascii-snake">ASCII Snake</a>`,
-        `* <a href="https://jcu.bi/sixel">Render Sixel images on jQuery Terminal</a>`,
-        `* <a href="https://jcu.bi/json-css">Controlling Paint Worklet with JSON in CSS</a>`,
-        `* <a href="https://jcu.bi/syntax">Source code Syntax Highlighting using Wayne</a>`,
-        `* <a href="https://jcu.bi/serverless-chat">Chat without the server</a>`,
+        `* <a href="https://jcu.bi/react-in-terminal" target="_blank">React Application inside jQuery Terminal</a>`,
+        `* <a href="https://jcu.bi/browser-server" target="_blank">How to create Web Server in Browser</a>`,
+        `* <a href="https://jcu.bi/css-image" target="_blank">How I've created Photo in single div CSS</a>`,
+        `* <a href="https://jcu.bi/react-sw" target="_blank">React Application inside Service Worker</a>`,
+        `* <a href="https://jcu.bi/terminal-camera" target="_blank">Display Camera stream, using characters on screen</a>`,
+        `* <a href="https://jcu.bi/ascii-tetris" target="_blank">ASCII Tetris</a>`,
+        `* <a href="https://jcu.bi/ascii-snake" target="_blank">ASCII Snake</a>`,
+        `* <a href="https://jcu.bi/sixel" target="_blank">Render Sixel images on jQuery Terminal</a>`,
+        `* <a href="https://jcu.bi/json-css" target="_blank">Controlling Paint Worklet with JSON in CSS</a>`,
+        `* <a href="https://jcu.bi/syntax" target="_blank">Source code Syntax Highlighting using Wayne</a>`,
+        `* <a href="https://jcu.bi/serverless-chat" target="_blank">Chat without the server</a>`,
         ''
     ],
     skills: [
