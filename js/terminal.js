@@ -299,7 +299,10 @@ const commands = {
             cwd = root;
         } else {
             const name = resolve_top_level(dir);
-            if (dirs.includes(name)) {
+            console.log({name});
+            if (name === '') {
+                cwd = root;
+            } else if (dirs.includes(name)) {
                 cwd = root + '/' + name;
             } else if (public_commands.find(cmd => cmd === name)) {
                 this.error(`Invalid directory. '${dir}' is a command, you need to type its name to run.`);
