@@ -217,8 +217,9 @@ header {
                   jcubic [dot] pl</a>, możesz także pobrać moje CV
                   <a href="https://jcu.bi/cv-en">Angielskie</a> /
                   <a href="https://jcu.bi/cv-pl">Polskie</a>. Jestem do dyspozycji jeśli
-                  potrzebujesz <a href="https://support.jcubic.pl/">wsparcia z
-                  którymkolwiek z moich projektów Open Source</a>, możesz też
+                  potrzebujesz wsparcia z którymkolwiek z moich
+                  <a href="https://support.jcubic.pl/">projektów Open Source</a> lub
+                  <a href="https://jcubic.pl/wikipedia/">edycji Wikipedii</a>, możesz też
                   <a href="https://github.com/sponsors/jcubic">wesprzeć moje wysiłki w pracy
                   nad OSS</a>.
                 </p>
