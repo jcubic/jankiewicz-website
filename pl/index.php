@@ -213,7 +213,7 @@ header {
                   <a href="https://jcu.bi/cv-pl">Polskie</a>. Jestem do dyspozycji jeśli
                   potrzebujesz wsparcia z którymkolwiek z moich
                   <a href="https://support.jcubic.pl/">projektów Open Source</a> lub
-                  <a href="https://jcubic.pl/wikipedia/">edycji Wikipedii</a>, możesz też
+                  <a href="https://jcubic.pl/wikizeit/szkolenia/">edycji Wikipedii</a>, możesz też
                   <a href="https://github.com/sponsors/jcubic">wesprzeć moje wysiłki w pracy
                   nad OSS</a>.
                 </p>

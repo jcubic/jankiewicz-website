@@ -229,7 +229,7 @@ header {
                 </p>
                 <p> You can also see <a href="/now/">what I'm doing now</a>, hire me if you
                   need <a href="https://support.jcubic.pl/">support for any of my Open
-                  Source projects</a>, or just
+                  Source projects</a>, <a href="https://jcubic.pl/wikizeit/szkolenia/">help with Wikipedia</a>, or just
                   <a href="https://github.com/sponsors/jcubic">sponsor my OSS work</a>.
                 </p>
                 <div class="profiles">
