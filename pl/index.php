@@ -58,7 +58,8 @@ require('../utils.php');
                  "@id": "https://jakub.jankiewicz.org/pl/blog/",
                  "url": "https://jakub.jankiewicz.org/pl/blog/",
                  "name": "Blog Jakub T. Jankiewicza",
-                 "author": { "@id": "https://jakub.jankiewicz.org" }
+                 "author": { "@id": "https://jakub.jankiewicz.org" },
+                 "isPartOf": { "@id": "https://jakub.jankiewicz.org#website" }
              },
              {
                  "@type": "BreadcrumbList",

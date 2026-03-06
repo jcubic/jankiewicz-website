@@ -191,7 +191,8 @@ require('./utils.php');
                  "@id": "https://jakub.jankiewicz.org/blog/",
                  "url": "https://jakub.jankiewicz.org/blog/",
                  "name": "Jakub T. Jankiewicz Blog",
-                 "author": { "@id": "https://jakub.jankiewicz.org" }
+                 "author": { "@id": "https://jakub.jankiewicz.org" },
+                 "isPartOf": { "@id": "https://jakub.jankiewicz.org#website" }
              },
              {
                  "@type": "Blog",
@@ -217,7 +218,7 @@ require('./utils.php');
                          "@type": "ListItem",
                          "position": 1,
                          "item": {
-                             "@id": "https://jakub.jankiewicz.org",
+                             "@id": "https://jakub.jankiewicz.org#webpage",
                              "name": "Home Page"
                          }
                      }
