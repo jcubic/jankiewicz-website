@@ -25,7 +25,15 @@ require('../utils.php');
                  "inLanguage": "pl-PL",
                  "breadcrumb": { "@id": "https://jakub.jankiewicz.org/pl/#breadcrumbs" },
                  "about": { "@id": "https://jakub.jankiewicz.org" },
-                 "mainEntity": { "@id": "https://jakub.jankiewicz.org" }
+                 "mainEntity": { "@id": "https://jakub.jankiewicz.org/pl/" },
+                 "isPartOf": { "@id": "https://jakub.jankiewicz.org#website" }
+             },
+             {
+                 "@type": "WebSite",
+                 "@id": "https://jakub.jankiewicz.org#website",
+                 "url": "https://jakub.jankiewicz.org",
+                 "name": "jakub.jankiewicz.org",
+                 "publisher": { "@id": "https://jakub.jankiewicz.org" }
              },
              {
                  "@type": "Person",

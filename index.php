@@ -34,14 +34,22 @@ require('./utils.php');
          "@graph": [
              {
                  "@type": "WebPage",
-                 "@id": "https://jakub.jankiewicz.org",
+                 "@id": "https://jakub.jankiewicz.org#webpage",
                  "url": "https://jakub.jankiewicz.org",
                  "name": "Jakub T. Jankiewicz - Offical Website",
                  "description": "Offical website of Jakub T. Jankiewicz: Open Source developer, Wikipedia editor and author of WikiZEIT project.",
                  "inLanguage": "en-US",
                  "breadcrumb": { "@id": "https://jakub.jankiewicz.org#breadcrumbs" },
                  "about": { "@id": "https://jakub.jankiewicz.org" },
-                 "mainEntity": { "@id": "https://jakub.jankiewicz.org" }
+                 "mainEntity": { "@id": "https://jakub.jankiewicz.org" },
+                 "isPartOf": { "@id": "https://jakub.jankiewicz.org#website" }
+             },
+             {
+                 "@type": "WebSite",
+                 "@id": "https://jakub.jankiewicz.org#website",
+                 "url": "https://jakub.jankiewicz.org",
+                 "name": "jakub.jankiewicz.org",
+                 "publisher": { "@id": "https://jakub.jankiewicz.org" }
              },
              {
                  "@type": "Person",
@@ -58,7 +66,6 @@ require('./utils.php');
                      "url": "https://live.staticflickr.com/65535/50132910231_73d867794f_k_d.jpg",
                      "caption": "Jakub T. Jankiewicz"
                  },
-                 "mainEntityOfPage": { "@id": "https://jakub.jankiewicz.org" },
                  "nationality": "Polish",
                  "birthPlace" : {
                      "@type": "Place",
@@ -188,7 +195,7 @@ require('./utils.php');
              },
              {
                  "@type": "Blog",
-                 "@id": "https://jcubic.pl",
+                 "@id": "https://jcubic.pl#blog",
                  "url": "https://jcubic.pl",
                  "name": "Głównie JavaScript",
                  "author": { "@id": "https://jakub.jankiewicz.org" },
