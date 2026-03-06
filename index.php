@@ -181,6 +181,13 @@ require('./utils.php');
              },
              {
                  "@type": "Blog",
+                 "@id": "https://jakub.jankiewicz.org/blog/",
+                 "url": "https://jakub.jankiewicz.org/blog/",
+                 "name": "Jakub T. Jankiewicz Blog",
+                 "author": { "@id": "https://jakub.jankiewicz.org" }
+             },
+             {
+                 "@type": "Blog",
                  "@id": "https://jcubic.pl",
                  "url": "https://jcubic.pl",
                  "name": "Głównie JavaScript",

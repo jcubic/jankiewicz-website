@@ -46,6 +46,13 @@ require('../utils.php');
                  ]
              },
              {
+                 "@type": "Blog",
+                 "@id": "https://jakub.jankiewicz.org/pl/blog/",
+                 "url": "https://jakub.jankiewicz.org/pl/blog/",
+                 "name": "Blog Jakub T. Jankiewicza",
+                 "author": { "@id": "https://jakub.jankiewicz.org" }
+             },
+             {
                  "@type": "BreadcrumbList",
                  "@id": "https://jakub.jankiewicz.org/pl/#breadcrumbs",
                  "itemListElement": [
