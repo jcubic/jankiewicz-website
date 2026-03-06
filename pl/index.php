@@ -106,13 +106,7 @@ require('../utils.php');
              "en-US",
              "en-GB",
              "pl-PL"
-         ],
-         "worksFor": {
-             "@type": "Organization",
-             "legalName": "Britenet sp. z o.o.",
-             "slogan": "Nam możesz powierzyć rozwój oprogramowania oraz outsourcing IT",
-             "url": "https://britenet.eu/"
-         }
+         ]
      }
     </script>
     <style>
