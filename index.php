@@ -30,100 +30,185 @@ require('./utils.php');
     <meta name="twitter:image" content="https://jakub.jankiewicz.org/images/main-card.png" />
     <script type="application/ld+json">
      {
-         "@context": "http://www.schema.org",
-         "@type": "Person",
-         "@id": "https://jakub.jankiewicz.org",
-         "name": "Jakub Jankiewicz",
-         "alternateName": "Jakub T. Jankiewicz",
-         "nationality": "Polish",
-         "birthPlace" : {
-             "@type": "Place",
-             "address": {
-                 "@type": "PostalAddress",
-                 "addressLocality": "Skarżysko Kamienna",
-                 "addressRegion": "Świętorzyskie",
-                 "addressCountry": "Poland"
-             }
-         },
-         "alumniOf": [
+         "@context": "https://schema.org",
+         "@graph": [
              {
-                 "@type": "CollegeOrUniversity",
-                 "name": "Kielce University of Technology",
-                 "sameAs": "https://en.wikipedia.org/wiki/Kielce_University_of_Technology"
+                 "@type": "WebPage",
+                 "@id": "https://jakub.jankiewicz.org",
+                 "url": "https://jakub.jankiewicz.org",
+                 "name": "Jakub T. Jankiewicz - Offical Website",
+                 "description": "Offical website of Jakub T. Jankiewicz: Open Source developer, Wikipedia editor and author of WikiZEIT project.",
+                 "inLanguage": "en-US",
+                 "breadcrumb": { "@id": "https://jakub.jankiewicz.org#breadcrumbs" },
+                 "about": { "@id": "https://jakub.jankiewicz.org" },
+                 "mainEntity": { "@id": "https://jakub.jankiewicz.org" }
+             },
+             {
+                 "@type": "Person",
+                 "@id": "https://jakub.jankiewicz.org",
+                 "name": "Jakub T. Jankiewicz",
+                 "givenName": "Jakub",
+                 "familyName": "Jankiewicz",
+                 "additionalName": "T.",
+                 "alternateName": "jcubic",
+                 "description": "Open Source Developer with 15-years of exprerience, author of LIPS Scheme, jQuery Terminal and educational project WikiZEIT.",
+                 "image": {
+                     "@type": "ImageObject",
+                     "@id": "https://jakub.jankiewicz.org#image",
+                     "url": "https://live.staticflickr.com/65535/50132910231_73d867794f_k_d.jpg",
+                     "caption": "Jakub T. Jankiewicz"
+                 },
+                 "mainEntityOfPage": { "@id": "https://jakub.jankiewicz.org" },
+                 "nationality": "Polish",
+                 "birthPlace" : {
+                     "@type": "Place",
+                     "address": {
+                         "@type": "PostalAddress",
+                         "addressLocality": "Skarżysko Kamienna",
+                         "addressRegion": "Świętorzyskie",
+                         "addressCountry": "Poland"
+                     }
+                 },
+                 "alumniOf": [
+                     {
+                         "@type": "CollegeOrUniversity",
+                         "name": "Kielce University of Technology",
+                         "sameAs": "https://en.wikipedia.org/wiki/Kielce_University_of_Technology"
+                     }
+                 ],
+                 "gender": "Male",
+                 "Description": "Technologist",
+                 "disambiguatingDescription": "Web Developer",
+                 "jobTitle": "Senior Front-End Developer",
+                 "sameAs": [
+                     "https://twitter.com/jcubic",
+                     "https://pinterest.com/jcubic/",
+                     "https://www.instagram.com/jcubic/",
+                     "https://www.facebook.com/jcubic/",
+                     "https://www.linkedin.com/in/jakubjankiewicz/",
+                     "https://github.com/jcubic",
+                     "https://profiles.wordpress.org/jcubic/",
+                     "https://codepen.io/jcubic/",
+                     "https://stackoverflow.com/users/387194/jcubic",
+                     "https://www.deviantart.com/jcubic/",
+                     "https://www.behance.net/jcubic",
+                     "https://www.flickr.com/photos/jcubic",
+                     "https://www.reddit.com/user/jcubic",
+                     "https://dribbble.com/jcubic",
+                     "https://www.freecodecamp.org/news/author/jcubic/",
+                     "https://bulldogjob.pl/readme/authors/jakub-t-jankiewicz",
+                     "https://dev.to/jcubic",
+                     "https://hackernoon.com/u/jcubic",
+                     "https://pl.wikipedia.org/wiki/Wikipedysta:Jcubic",
+                     "https://commons.wikimedia.org/wiki/User:Jcubic",
+                     "https://www.wikidata.org/wiki/Q113688230",
+                     "https://www.youtube.com/@jcubic"
+                 ],
+                 "knowsAbout": [
+                     "Front-End",
+                     "JavaScript",
+                     "NodeJS",
+                     "Python",
+                     "R",
+                     "PHP",
+                     "TypeScript",
+                     "React",
+                     "ReactNative",
+                     "Redux",
+                     "Prisma",
+                     "Eleventy",
+                     "Bash",
+                     "SVG",
+                     "HTML",
+                     "HTML5",
+                     "CSS",
+                     "CSS3",
+                     "Shiny",
+                     "Jekyll",
+                     "GIT",
+                     "GNU Emacs",
+                     "GNU/Linux",
+                     "Inkscape",
+                     "SQL",
+                     "MySQL",
+                     "SQLite",
+                     "Prisma",
+                     "GraphQL",
+                     "SEO",
+                     "Graphic Design",
+                     "Security",
+                     "lisp",
+                     "scheme",
+                     "programming",
+                     "software development",
+                     "Web Development",
+                     "Photography",
+                     "Wikipedia SEO",
+                     "Wikidata",
+                     "Search Engine Optimization",
+                     "AIO",
+                     "GEO",
+                     "Entity SEO",
+                     "Google Knowledge Graph",
+                     "Open Source Development"
+                 ],
+                 "knowsLanguage": [
+                     "en-US",
+                     "en-GB",
+                     "pl-PL"
+                 ]
+             },
+             {
+                 "@type": "SoftwareSourceCode",
+                 "@id": "https://lips.js.org",
+                 "name": "LIPS Scheme",
+                 "author": { "@id": "https://jakub.jankiewicz.org" },
+                 "sameAs": [
+                     "https://www.wikidata.org/wiki/Q124321922",
+                     "https://github.com/jcubic/lips"
+                 ]
+             },
+             {
+                 "@type": "SoftwareSourceCode",
+                 "@id": "https://terminal.jcubic.pl",
+                 "url": "https://terminal.jcubic.pl",
+                 "name": "jQuery Terminal",
+                 "author": { "@id": "https://jakub.jankiewicz.org" },
+                 "sameAs": [
+                     "https://www.wikidata.org/wiki/Q108196498",
+                     "https://github.com/jcubic/jquery.terminal"
+                 ]
+             },
+             {
+                 "@type": "Blog",
+                 "@id": "https://jcubic.pl",
+                 "url": "https://jcubic.pl",
+                 "name": "Głównie JavaScript",
+                 "author": { "@id": "https://jakub.jankiewicz.org" },
+                 "sameAS": [
+                     "https://www.wikidata.org/wiki/Q137396574"
+                 ]
+             },
+             {
+                 "@type": "EducationalOrganization",
+                 "@id": "https://jcubic.pl/wikizeit/",
+                 "name": "WikiZEIT",
+                 "founder": { "@id": "https://jakub.jankiewicz.org" }
+             },
+             {
+                 "@type": "BreadcrumbList",
+                 "@id": "https://jakub.jankiewicz.org#breadcrumbs",
+                 "itemListElement": [
+                     {
+                         "@type": "ListItem",
+                         "position": 1,
+                         "item": {
+                             "@id": "https://jakub.jankiewicz.org",
+                             "name": "Home Page"
+                         }
+                     }
+                 ]
              }
-         ],
-         "gender": "Male",
-         "Description": "Technologist",
-         "disambiguatingDescription": "Web Developer",
-         "jobTitle": "Senior Web Developer",
-         "sameAs": [
-             "https://twitter.com/jcubic",
-             "https://pinterest.com/jcubic/",
-             "https://www.instagram.com/jcubic/",
-             "https://www.facebook.com/jcubic/",
-             "https://www.linkedin.com/in/jakubjankiewicz/",
-             "https://github.com/jcubic",
-             "https://profiles.wordpress.org/jcubic/",
-             "https://codepen.io/jcubic/",
-             "https://stackoverflow.com/users/387194/jcubic",
-             "https://www.deviantart.com/jcubic/",
-             "https://www.behance.net/jcubic",
-             "https://www.flickr.com/photos/jcubic",
-             "https://www.reddit.com/user/jcubic",
-             "https://dribbble.com/jcubic",
-             "https://www.freecodecamp.org/news/author/jcubic/",
-             "https://bulldogjob.pl/readme/authors/jakub-t-jankiewicz",
-             "https://dev.to/jcubic",
-             "https://hackernoon.com/u/jcubic",
-             "https://pl.wikipedia.org/wiki/Wikipedysta:Jcubic",
-             "https://commons.wikimedia.org/wiki/User:Jcubic",
-             "https://www.wikidata.org/wiki/Q113688230",
-             "https://www.youtube.com/@jcubic"
-         ],
-         "knowsAbout": [
-             "Front-End",
-             "JavaScript",
-             "NodeJS",
-             "Python",
-             "R",
-             "PHP",
-             "TypeScript",
-             "React",
-             "ReactNative",
-             "Redux",
-             "Prisma",
-             "Eleventy",
-             "Bash",
-             "SVG",
-             "HTML",
-             "HTML5",
-             "CSS",
-             "CSS3",
-             "Shiny",
-             "Jekyll",
-             "GIT",
-             "GNU Emacs",
-             "GNU/Linux",
-             "Inkscape",
-             "SQL",
-             "MySQL",
-             "SQLite",
-             "Prisma",
-             "GraphQL",
-             "SEO",
-             "Graphic Design",
-             "Security",
-             "lisp",
-             "scheme",
-             "programming",
-             "software development",
-             "Web Development",
-             "Photography"
-         ],
-         "knowsLanguage": [
-             "en-US",
-             "en-GB",
-             "pl-PL"
          ]
      }
     </script>

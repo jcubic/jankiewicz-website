@@ -14,98 +14,51 @@ require('../utils.php');
           href="https://jakub.jankiewicz.org/pl/blog/rss.xml" />
     <script type="application/ld+json">
      {
-         "@context": "http://www.schema.org",
-         "@type": "Person",
-         "@id": "https://jakub.jankiewicz.org",
-         "name": "Jakub Jankiewicz",
-         "alternateName": "Jakub T. Jankiewicz",
-         "nationality": "Polish",
-         "birthPlace" : {
-             "@type": "Place",
-             "address": {
-                 "@type": "PostalAddress",
-                 "addressLocality": "Skarżysko Kamienna",
-                 "addressRegion": "Świętorzyskie",
-                 "addressCountry": "Poland"
-             }
-         },
-         "alumniOf": [
+         "@context": "https://schema.org",
+         "@graph": [
              {
-                 "@type": "CollegeOrUniversity",
-                 "name": "Kielce University of Technology",
-                 "sameAs": "https://en.wikipedia.org/wiki/Kielce_University_of_Technology"
+                 "@type": "WebPage",
+                 "@id": "https://jakub.jankiewicz.org/pl/",
+                 "url": "https://jakub.jankiewicz.org/pl/",
+                 "name": "Jakub T. Jankiewicz - Strona Oficjalna",
+                 "description": "Oficjalna strona Jakuba T. Jankiewicza: programisty Open Source, eksperta Wikipedii i autora projektu WikiZEIT.",
+                 "inLanguage": "pl-PL",
+                 "breadcrumb": { "@id": "https://jakub.jankiewicz.org/pl/#breadcrumbs" },
+                 "about": { "@id": "https://jakub.jankiewicz.org" },
+                 "mainEntity": { "@id": "https://jakub.jankiewicz.org" }
+             },
+             {
+                 "@type": "Person",
+                 "@id": "https://jakub.jankiewicz.org",
+                 "name": "Jakub T. Jankiewicz",
+                 "alternateName": "jcubic",
+                 "url": "https://jakub.jankiewicz.org/pl/",
+                 "image": {
+                     "@type": "ImageObject",
+                     "@id": "https://jakub.jankiewicz.org#image",
+                     "url": "https://live.staticflickr.com/65535/50132910231_73d867794f_k_d.jpg",
+                     "caption": "Jakub T. Jankiewicz"
+                 },
+                 "jobTitle": "Senior Front-End Developer",
+                 "description": "Programista Open Source z 15-letnim stażem, twórca interpretera LIPS Scheme oraz projektu edukacyjnego WikiZEIT.",
+                 "sameAs": [
+                     "https://www.wikidata.org/wiki/Q113688230"
+                 ]
+             },
+             {
+                 "@type": "BreadcrumbList",
+                 "@id": "https://jakub.jankiewicz.org/pl/#breadcrumbs",
+                 "itemListElement": [
+                     {
+                         "@type": "ListItem",
+                         "position": 1,
+                         "item": {
+                             "@id": "https://jakub.jankiewicz.org/pl/",
+                             "name": "Strona Główna"
+                         }
+                     }
+                 ]
              }
-         ],
-         "gender": "Male",
-         "Description": "Technologist",
-         "disambiguatingDescription": "Web Developer",
-         "jobTitle": "Senior Web Developer",
-         "sameAs": [
-             "https://twitter.com/jcubic",
-             "https://pinterest.com/jcubic/",
-             "https://www.instagram.com/jcubic/",
-             "https://www.facebook.com/jcubic/",
-             "https://www.linkedin.com/in/jakubjankiewicz/",
-             "https://github.com/jcubic",
-             "https://profiles.wordpress.org/jcubic/",
-             "https://codepen.io/jcubic/",
-             "https://stackoverflow.com/users/387194/jcubic",
-             "https://www.deviantart.com/jcubic/",
-             "https://www.behance.net/jcubic",
-             "https://www.flickr.com/photos/jcubic",
-             "https://www.reddit.com/user/jcubic",
-             "https://dribbble.com/jcubic",
-             "https://www.freecodecamp.org/news/author/jcubic/",
-             "https://bulldogjob.pl/readme/authors/jakub-t-jankiewicz",
-             "https://dev.to/jcubic",
-             "https://www.wikidata.org/wiki/Q113688230",
-             "https://hackernoon.com/u/jcubic",
-             "https://www.youtube.com/@jcubic"
-         ],
-         "knowsAbout": [
-             "Front-End",
-             "JavaScript",
-             "NodeJS",
-             "Python",
-             "R",
-             "PHP",
-             "TypeScript",
-             "React",
-             "ReactNative",
-             "Redux",
-             "Prisma",
-             "Eleventy",
-             "Bash",
-             "SVG",
-             "HTML",
-             "HTML5",
-             "CSS",
-             "CSS3",
-             "Shiny",
-             "Jekyll",
-             "GIT",
-             "GNU Emacs",
-             "GNU/Linux",
-             "Inkscape",
-             "SQL",
-             "MySQL",
-             "SQLite",
-             "Prisma",
-             "GraphQL",
-             "SEO",
-             "Graphic Design",
-             "Security",
-             "lisp",
-             "scheme",
-             "programming",
-             "software development",
-             "Web Development",
-             "Photography"
-         ],
-         "knowsLanguage": [
-             "en-US",
-             "en-GB",
-             "pl-PL"
          ]
      }
     </script>
