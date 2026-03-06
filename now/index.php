@@ -15,13 +15,13 @@
 <body id="tutorials">
     <?php include('../header.php'); ?>
     <article>
-        <h2>What I'm doing now (December 2025)</h2>
+        <h2>What I'm doing now (February 2026)</h2>
         <ul>
-          <li><strong>Working</strong>: as a Senior Software Engineer at Sii Polska, working on my <a href="https://github.com/jcubic">Open Source projects</a>, mentoring people, volunteering for Polish Wikipedia (where I'm a trainer and a mentor for newcomers), and moderating Twitter communites. I've also started <a href="https://support.jcubic.pl/wikipedia/">paid support for Wikipedia</a> and put a 2 day traning on WOŚP Charity about <a href="https://allegro.pl/oferta/2-dniowe-szkolenie-wikipedia-seo-i-nie-tylko-18136151156">Wikipedia + SEO</a> (Polish only)</li>
-          <li><strong>Writing</strong>: The last two articles I've written were <a href="https://jakub.jankiewicz.org/blog/zig-book-pdf/">How to build zig book as PDF on Fedora?</a> and <a href="https://jakub.jankiewicz.org/blog/programming-advice/">My Advice to New Developers</a>.</li>
+          <li><strong>Working</strong>: I'm looking for a job as a Senior Software Engineer (Front-End focused), working on my <a href="https://github.com/jcubic">Open Source projects</a>, mentoring people, volunteering for Polish Wikipedia (where I'm a trainer and a mentor for newcomers), and moderating Twitter communites. I've also started <a href="https://jcubic.pl/wikipedia/">paid support for Wikipedia</a> and prering for the first traning that I've put on WOŚP Charity about "Wikipedia + SEO" (Polish only)</li>
+          <li><strong>Writing</strong>: The last article I've written was <a href="https://jakub.jankiewicz.org/blog/programming-advice/">My Advice to New Developers</a> that I share when someone ask on Twitter.</li>
           <li><strong>Reading</strong>: Started reading a book "Essential Math for Data Science:" by Thomas Nield, "Quo vAIdis" by Andrzej Dragan, and "100 Ways to Improve your Writing" by Gary Provost.</li>
-          <li><strong>Listening</strong>: Recenlty enoying some <a href="https://en.wikipedia.org/wiki/Melodic_death_metal">Melodic Death Metal</a>. The last concert I've attended was <a href="https://en.wikipedia.org/wiki/Wardruna">Wardruna</a> (Ambient Pagan Folk from Norway).</li>
-          <li><strong>Watching</strong>: Recently re-watched <a href="https://en.wikipedia.org/wiki/Dopamine_(2003_film)">Dopamine</a>, watched <a href="https://en.wikipedia.org/wiki/No_Country_for_Old_Men">No Country for Old Men</a>, <a href="https://en.wikipedia.org/wiki/Avatar:_Fire_and_Ash">Avatar: Fire and Ash</a>, and Polish <a href="https://pl.wikipedia.org/wiki/Volta_(film_2017)">Volta</a>.</li>
+          <li><strong>Listening</strong>: Recenlty listing playlist recommendation from YouTube. Also was able to download my favorite music from Spotify playlist using <a href="https://github.com/spotDL/spotify-downloader/">spotDL</a>.</li>
+          <li><strong>Watching</strong>: started watching <a href="https://lotr.fandom.com/wiki/The_Lord_of_the_Rings_Extended_Edition">Lord of The Rings (Special Extended Edition)</a> with all bonus materials.</li>
         </ul>
         <p>This is a <a href="https://nownownow.com/about">now page</a> inspired by <a href="https://sive.rs/">Derek Sivers</a></p>
     </article>
