@@ -217,10 +217,8 @@ require('./utils.php');
                      {
                          "@type": "ListItem",
                          "position": 1,
-                         "item": {
-                             "@id": "https://jakub.jankiewicz.org#webpage",
-                             "name": "Home Page"
-                         }
+                         "item": "https://jakub.jankiewicz.org#webpage",
+                         "name": "Home Page"
                      }
                  ]
              }

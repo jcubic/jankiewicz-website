@@ -68,10 +68,8 @@ require('../utils.php');
                      {
                          "@type": "ListItem",
                          "position": 1,
-                         "item": {
-                             "@id": "https://jakub.jankiewicz.org/pl/",
-                             "name": "Strona Główna"
-                         }
+                         "item": "https://jakub.jankiewicz.org/pl/",
+                         "name": "Strona Główna"
                      }
                  ]
              }
