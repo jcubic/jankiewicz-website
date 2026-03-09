@@ -36,6 +36,15 @@ require('../utils.php');
                  "publisher": { "@id": "https://jakub.jankiewicz.org" }
              },
              {
+                 "@type": "EducationalOrganization",
+                 "@id": "https://jcubic.pl/wikizeit/",
+                 "name": "WikiZEIT",
+                 "founder": { "@id": "https://jakub.jankiewicz.org" },
+                 "sameAs": [
+                     "https://www.wikidata.org/wiki/Q138621958"
+                 ]
+             },
+             {
                  "@type": "Person",
                  "@id": "https://jakub.jankiewicz.org",
                  "name": "Jakub T. Jankiewicz",

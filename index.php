@@ -208,7 +208,10 @@ require('./utils.php');
                  "@type": "EducationalOrganization",
                  "@id": "https://jcubic.pl/wikizeit/",
                  "name": "WikiZEIT",
-                 "founder": { "@id": "https://jakub.jankiewicz.org" }
+                 "founder": { "@id": "https://jakub.jankiewicz.org" },
+                 "sameAs": [
+                     "https://www.wikidata.org/wiki/Q138621958"
+                 ]
              },
              {
                  "@type": "BreadcrumbList",
