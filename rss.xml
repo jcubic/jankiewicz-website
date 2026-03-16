@@ -9,8 +9,14 @@
             <link>https://jakub.jankiewicz.org/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 26 Sep 2025 21:23:36 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 16 Mar 2026 12:41:07 GMT</lastBuildDate>
         <atom:link href="https://jakub.jankiewicz.org/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[How to Create a Table of Contents for Your Article]]></title>
+            <description><![CDATA[How to Create a Table of Contents for Your Article]]></description>
+            <link>https://www.freecodecamp.org/news/how-to-create-a-table-of-contents-for-your-article/</link>
+            <guid isPermaLink="true">https://www.freecodecamp.org/news/how-to-create-a-table-of-contents-for-your-article/</guid>
+        </item>
         <item>
             <title><![CDATA[Interview with me on Requestly Blog]]></title>
             <description><![CDATA[Interview with me on Requestly Blog]]></description>
