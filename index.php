@@ -109,7 +109,8 @@ require('./utils.php');
                      "https://pl.wikipedia.org/wiki/Wikipedysta:Jcubic",
                      "https://commons.wikimedia.org/wiki/User:Jcubic",
                      "https://www.wikidata.org/wiki/Q113688230",
-                     "https://www.youtube.com/@jcubic"
+                     "https://www.youtube.com/@jcubic",
+                     "https://buzzsumo.com/journalist/jakub-t--jankiewicz-3975897/"
                  ],
                  "knowsAbout": [
                      "Front-End",

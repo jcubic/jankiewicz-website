@@ -59,7 +59,29 @@ require('../utils.php');
                  "jobTitle": "Senior Front-End Developer",
                  "description": "Programista Open Source z 15-letnim stażem, twórca interpretera LIPS Scheme oraz projektu edukacyjnego WikiZEIT.",
                  "sameAs": [
-                     "https://www.wikidata.org/wiki/Q113688230"
+                     "https://twitter.com/jcubic",
+                     "https://pinterest.com/jcubic/",
+                     "https://www.instagram.com/jcubic/",
+                     "https://www.facebook.com/jcubic/",
+                     "https://www.linkedin.com/in/jakubjankiewicz/",
+                     "https://github.com/jcubic",
+                     "https://profiles.wordpress.org/jcubic/",
+                     "https://codepen.io/jcubic/",
+                     "https://stackoverflow.com/users/387194/jcubic",
+                     "https://www.deviantart.com/jcubic/",
+                     "https://www.behance.net/jcubic",
+                     "https://www.flickr.com/photos/jcubic",
+                     "https://www.reddit.com/user/jcubic",
+                     "https://dribbble.com/jcubic",
+                     "https://www.freecodecamp.org/news/author/jcubic/",
+                     "https://bulldogjob.pl/readme/authors/jakub-t-jankiewicz",
+                     "https://dev.to/jcubic",
+                     "https://hackernoon.com/u/jcubic",
+                     "https://pl.wikipedia.org/wiki/Wikipedysta:Jcubic",
+                     "https://commons.wikimedia.org/wiki/User:Jcubic",
+                     "https://www.wikidata.org/wiki/Q113688230",
+                     "https://www.youtube.com/@jcubic",
+                     "https://buzzsumo.com/journalist/jakub-t--jankiewicz-3975897/"
                  ]
              },
              {
