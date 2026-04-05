@@ -68,6 +68,7 @@
           <li><a href="https://heylink.me/jcubic">heylink</a></li>
           <li><a href="https://leetcode.com/u/jcubic777/">leetcode</a></li>
           <li><a href="https://devfolio.co/@jcubic">devfolio</a></li>
+          <li><a href="https://buzzsumo.com/journalist/jakub-t--jankiewicz-3975897/">BuzzSumo</a></li>
         </ul>
     </article>
     <?php include('footer.php'); ?>
