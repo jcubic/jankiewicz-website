@@ -57,7 +57,7 @@ require('../utils.php');
                      "caption": "Jakub T. Jankiewicz"
                  },
                  "jobTitle": "Senior Front-End Developer",
-                 "description": "Programista Open Source z 15-letnim stażem, twórca interpretera LIPS Scheme oraz projektu edukacyjnego WikiZEIT.",
+                 "description": "Programista Open Source z 15-letnim stażem, twórca jQuery Terminal, interpretera LIPS Scheme oraz projektu edukacyjnego WikiZEIT. Doświadczony Wikipedysta, trener oraz mentor.",
                  "sameAs": [
                      "https://twitter.com/jcubic",
                      "https://pinterest.com/jcubic/",
