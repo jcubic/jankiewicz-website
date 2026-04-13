@@ -8,6 +8,8 @@ RewriteRule ^(.*)$ https://jakub.jankiewicz.org%{REQUEST_URI} [R=301,L]
 
 RewriteRule ^/?(poezja.php|tutorials.php)$ /pl/$1 [R=301,L]
 
+RewriteRule ^/?,$ / [R=301,L]
+
 ErrorDocument 404 /404.html
 
 <Files "*.js">
