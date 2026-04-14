@@ -19,6 +19,12 @@
             <p><strong>SNApp</strong> to Aplikacja do tworzenia i zarządzania notatkami napisana w Next.js oraz TypeScript. Używa: MySQL, Prisma, Better Auth oraz ChakraUI.</p>
           </li>
           <li>
+            <a href="https://github.com/jcubic/horavox" title="A speaking clock in Python with local AI models">
+              <img src="/images/projects/horavox.png" alt="HoraVox logotype: a simplistic analog clock and text HORAVOX" />
+            </a>
+            <p><strong>Horavox</strong> to aplikacja wiersza poleceń w Pythonie, która mówi która godzina. Używa lokalnych modeli AI z HuggingFace, więc nie wymaga kluczy API</p>
+          </li>
+          <li>
             <a href="https://github.com/jcubic/chat-gpt" title="ChatGPT conversation saving bookmark">
               <img src="/images/projects/chatgpt.png" alt="Simplified icon that look like a classic bookmark with letter C inside" />
             </a>

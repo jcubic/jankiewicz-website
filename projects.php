@@ -19,6 +19,12 @@
             <p><strong>SNApp</strong> is a Markdown Notes App written in Next.js and TypeScript. It uses: MySQL, Prisma, Better Auth, and ChakraUI.</p>
           </li>
           <li>
+            <a href="https://github.com/jcubic/horavox" title="A speaking clock in Python with local AI models">
+              <img src="/images/projects/horavox.png" alt="HoraVox logotype: a simplistic analog clock and text HORAVOX" />
+            </a>
+            <p><strong>Horavox</strong> is a python command line tool that speak the current time. It uses local AI models from HuggingFace, so no API key is needed.</p>
+          </li>
+          <li>
             <a href="https://github.com/jcubic/chat-gpt" title="ChatGPT conversation saving bookmark">
               <img src="/images/projects/chatgpt.png" alt="Simplified icon that look like a classic bookmark with letter C inside" />
             </a>
