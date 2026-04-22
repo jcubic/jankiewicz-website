@@ -25,6 +25,12 @@
             <p><strong>Horavox</strong> to aplikacja wiersza poleceń w Pythonie, która mówi która godzina. Używa lokalnych modeli AI z HuggingFace, więc nie wymaga kluczy API</p>
           </li>
           <li>
+            <a href="https://wikizeit.jcubic.pl/" title="WikiZEIT: Wikipedia i Etyczne SEO">
+              <img src="/images/projects/wikizeit.png" alt="Logo WikiZEIT: oraz tekst Wikipedia & Etyczne SEO" />
+            </a>
+            <p><strong>WikiZEIT</strong> to project edykacyjny o Wikipedii i etycznym SEO. Strona projektu została stworzona przy użyciu Elventy.</p>
+          </li>
+          <li>
             <a href="https://github.com/jcubic/chat-gpt" title="ChatGPT conversation saving bookmark">
               <img src="/images/projects/chatgpt.png" alt="Simplified icon that look like a classic bookmark with letter C inside" />
             </a>
