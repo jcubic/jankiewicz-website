@@ -59,7 +59,7 @@ require('./utils.php');
                  "familyName": "Jankiewicz",
                  "additionalName": "T.",
                  "alternateName": "jcubic",
-                 "description": "Open Source Developer with 15-years of exprerience, author of LIPS Scheme, jQuery Terminal and educational project WikiZEIT. Experienced Wikipedia editor, trainer, and mentor.",
+                 "description": "Open Source Developer with 15-years of experience, author of LIPS Scheme, jQuery Terminal and educational project WikiZEIT. Experienced Wikipedia editor, trainer, and mentor.",
                  "image": {
                      "@type": "ImageObject",
                      "@id": "https://jakub.jankiewicz.org#image",
@@ -105,14 +105,17 @@ require('./utils.php');
                      "https://www.freecodecamp.org/news/author/jcubic/",
                      "https://bulldogjob.pl/readme/authors/jakub-t-jankiewicz",
                      "https://dev.to/jcubic",
+                     "https://wikizeit.jcubic.pl/autor/jcubic/",
                      "https://hackernoon.com/u/jcubic",
                      "https://pl.wikipedia.org/wiki/Wikipedysta:Jcubic",
+                     "https://en.wikipedia.org/wiki/User:Jcubic",
                      "https://commons.wikimedia.org/wiki/User:Jcubic",
                      "https://commons.wikimedia.org/wiki/Category:Jakub_T._Jankiewicz",
                      "https://www.wikidata.org/wiki/Q113688230",
                      "https://www.youtube.com/@jcubic",
                      "https://www.npmjs.com/~jcubic",
                      "https://pypi.org/user/jcubic/",
+                     "https://launchpad.net/~jcubic",
                      "https://buzzsumo.com/journalist/jakub-t--jankiewicz-3975897/"
                  ],
                  "knowsAbout": [
