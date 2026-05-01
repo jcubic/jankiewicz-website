@@ -91,7 +91,8 @@ require('../utils.php');
                      "https://www.npmjs.com/~jcubic",
                      "https://pypi.org/user/jcubic/",
                      "https://launchpad.net/~jcubic",
-                     "https://buzzsumo.com/journalist/jakub-t--jankiewicz-3975897/"
+                     "https://buzzsumo.com/journalist/jakub-t--jankiewicz-3975897/",
+                     "https://algora.io/jcubic/profile"
                  ]
              },
              {
