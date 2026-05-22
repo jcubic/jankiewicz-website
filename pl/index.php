@@ -37,7 +37,7 @@ require('../utils.php');
              },
              {
                  "@type": "EducationalOrganization",
-                 "@id": "https://wikizeit.jcubic.pl/",
+                 "@id": "https://wikizeit.edu.pl/",
                  "name": "WikiZEIT",
                  "founder": { "@id": "https://jakub.jankiewicz.org" },
                  "sameAs": [
@@ -80,7 +80,7 @@ require('../utils.php');
                      "https://www.freecodecamp.org/news/author/jcubic/",
                      "https://bulldogjob.pl/readme/authors/jakub-t-jankiewicz",
                      "https://dev.to/jcubic",
-                     "https://wikizeit.jcubic.pl/autor/jcubic/",
+                     "https://wikizeit.edu.pl/autor/jcubic/",
                      "https://hackernoon.com/u/jcubic",
                      "https://pl.wikipedia.org/wiki/Wikipedysta:Jcubic",
                      "https://en.wikipedia.org/wiki/User:Jcubic",
@@ -93,7 +93,10 @@ require('../utils.php');
                      "https://launchpad.net/~jcubic",
                      "https://packagist.org/users/jcubic/",
                      "https://buzzsumo.com/journalist/jakub-t--jankiewicz-3975897/",
-                     "https://algora.io/jcubic/profile"
+                     "https://algora.io/jcubic/profile",
+                     "https://www.devtree.site/jcubic",
+                     "https://archive.fosdem.org/2023/schedule/speaker/jakub_t_jankiewicz/",
+                     "https://hashnode.com/@jcubic"
                  ]
              },
              {
@@ -223,7 +226,7 @@ header {
                   <a href="https://jcu.bi/cv-pl">Polskie</a>. Jestem do dyspozycji jeśli
                   potrzebujesz wsparcia z którymkolwiek z moich
                   <a href="https://support.jcubic.pl/">projektów Open Source</a> lub
-                  <a href="https://wikizeit.jcubic.pl/oferta/">edycji Wikipedii</a>, możesz też
+                  <a href="https://wikizeit.edu.pl/oferta/">edycji Wikipedii</a>, możesz też
                   <a href="https://github.com/sponsors/jcubic">wesprzeć moje wysiłki w pracy
                   nad OSS</a>.
                 </p>

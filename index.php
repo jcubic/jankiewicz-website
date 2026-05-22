@@ -105,7 +105,7 @@ require('./utils.php');
                      "https://www.freecodecamp.org/news/author/jcubic/",
                      "https://bulldogjob.pl/readme/authors/jakub-t-jankiewicz",
                      "https://dev.to/jcubic",
-                     "https://wikizeit.jcubic.pl/autor/jcubic/",
+                     "https://wikizeit.edu.pl/autor/jcubic/",
                      "https://hackernoon.com/u/jcubic",
                      "https://pl.wikipedia.org/wiki/Wikipedysta:Jcubic",
                      "https://en.wikipedia.org/wiki/User:Jcubic",
@@ -118,7 +118,10 @@ require('./utils.php');
                      "https://launchpad.net/~jcubic",
                      "https://packagist.org/users/jcubic/",
                      "https://buzzsumo.com/journalist/jakub-t--jankiewicz-3975897/",
-                     "https://algora.io/jcubic/profile"
+                     "https://algora.io/jcubic/profile",
+                     "https://www.devtree.site/jcubic",
+                     "https://archive.fosdem.org/2023/schedule/speaker/jakub_t_jankiewicz/",
+                     "https://hashnode.com/@jcubic"
                  ],
                  "knowsAbout": [
                      "Front-End",
@@ -215,7 +218,7 @@ require('./utils.php');
              },
              {
                  "@type": "EducationalOrganization",
-                 "@id": "https://wikizeit.jcubic.pl/",
+                 "@id": "https://wikizeit.edu.pl/",
                  "name": "WikiZEIT",
                  "founder": { "@id": "https://jakub.jankiewicz.org" },
                  "sameAs": [
@@ -343,7 +346,7 @@ header {
                 </p>
                 <p> You can also see <a href="/now/">what I'm doing now</a>, hire me if you
                   need <a href="https://support.jcubic.pl/">support for any of my Open
-                  Source projects</a>, <a href="https://wikizeit.jcubic.pl/oferta/">help with Wikipedia</a>, or just
+                  Source projects</a>, <a href="https://wikizeit.edu.pl/oferta/">help with Wikipedia</a>, or just
                   <a href="https://github.com/sponsors/jcubic">sponsor my OSS work</a>.
                 </p>
                 <div class="profiles">
