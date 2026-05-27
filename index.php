@@ -60,12 +60,7 @@ require('./utils.php');
                  "additionalName": "T.",
                  "alternateName": "jcubic",
                  "description": "Open Source Developer with 15-years of experience, author of LIPS Scheme, jQuery Terminal and educational project WikiZEIT. Experienced Wikipedia editor, trainer, and mentor.",
-                 "image": {
-                     "@type": "ImageObject",
-                     "@id": "https://jakub.jankiewicz.org#image",
-                     "url": "https://live.staticflickr.com/65535/50132910231_73d867794f_k_d.jpg",
-                     "caption": "Jakub T. Jankiewicz"
-                 },
+                 "image": "https://live.staticflickr.com/65535/50132910231_73d867794f_k_d.jpg",
                  "nationality": "Polish",
                  "birthPlace" : {
                      "@type": "Place",

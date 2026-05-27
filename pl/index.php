@@ -54,12 +54,7 @@ require('../utils.php');
                  "name": "Jakub T. Jankiewicz",
                  "alternateName": "jcubic",
                  "url": "https://jakub.jankiewicz.org/pl/",
-                 "image": {
-                     "@type": "ImageObject",
-                     "@id": "https://jakub.jankiewicz.org#image",
-                     "url": "https://live.staticflickr.com/65535/50132910231_73d867794f_k_d.jpg",
-                     "caption": "Jakub T. Jankiewicz"
-                 },
+                 "image": "https://live.staticflickr.com/65535/50132910231_73d867794f_k_d.jpg",
                  "jobTitle": "Senior Front-End Developer",
                  "description": "Programista Open Source z 15-letnim stażem, twórca jQuery Terminal, interpretera LIPS Scheme oraz projektu edukacyjnego WikiZEIT. Doświadczony Wikipedysta, trener oraz mentor.",
                  "sameAs": [
