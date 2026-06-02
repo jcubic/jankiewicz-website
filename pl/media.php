@@ -16,25 +16,25 @@
         <a itemprop="url" href="https://fosdem.org/2023/schedule/event/lipsscheme/">
           <img itemprop="thumbnailUrl" src="/images/jakub-jankiwicz-prezentacja-lips-scheme-fossdem.webp" alt="Prezentacja 'LIPS Scheme: Potężna introspekcja i rozszerzalność' (FOSDEM '23) - Jakub Jankiewicz" />
         </a>
-        <meta itemprop="name" content="LIPS Scheme: Potężna introspekcja i rozszerzalność">
-        <meta itemprop="description" content="Prezentacja Jakuba Jankiewicza na konferencji FOSDEM 2023.">
-        <meta itemprop="uploadDate" content="2023-02-05">
+        <meta itemprop="name" content="LIPS Scheme: Potężna introspekcja i rozszerzalność" />
+        <meta itemprop="description" content="Prezentacja Jakuba Jankiewicza na konferencji FOSDEM 2023." />
+        <meta itemprop="uploadDate" content="2023-02-05" />
       </li>
       <li itemscope itemtype="https://schema.org/VideoObject">
         <a itemprop="url" href="https://youtu.be/3bdQZ67mpn8">
           <img itemprop="thumbnailUrl" src="/images/jakub-jankiwicz-prezentacja-chatgpt-wikidane.webp" alt="Prezentacja: 'ChatGPT w pomocy przy tworzeniu zapytań do Wikidata' Jakub Jankiewicz" />
         </a>
-        <meta itemprop="name" content="ChatGPT w pomocy przy tworzeniu zapytań do Wikidata">
-        <meta itemprop="description" content="Prezentacja Jakuba Jankiewicza na konferencji WZLOT 2024.">
-        <meta itemprop="uploadDate" content="2024-06-08">
+        <meta itemprop="name" content="ChatGPT w pomocy przy tworzeniu zapytań do Wikidata" />
+        <meta itemprop="description" content="Prezentacja Jakuba Jankiewicza na konferencji WZLOT 2024." />
+        <meta itemprop="uploadDate" content="2024-06-08" />
       </li>
     </ul>
 
     <h2>Moje wystąpienia na konferencji WZLOT</h2>
     <ul class="projects media">
       <li itemscope itemtype="https://schema.org/ImageObject">
-        <img itemprop="contentUrl" src="/images/jakub-jankiewicz-wzlot-2023.webp" alt="Jakub T. Jankiewicz podczas prezentacji, siedzący za laptopem w koszulce WikiTrenera z widocznym tatuażem na ramieniu"/>
-        <meta itemprop="caption" content="Jakub T. Jankiewicz - WZLOT 2023">
+        <img itemprop="contentUrl" src="/images/jakub-jankiewicz-wzlot-2023.webp" alt="Jakub T. Jankiewicz podczas prezentacji, siedzący za laptopem w koszulce WikiTrenera z widocznym tatuażem na ramieniu" />
+        <meta itemprop="caption" content="Jakub T. Jankiewicz - WZLOT 2023" />
         <p>
           <span itemprop="about" itemscope itemtype="https://schema.org/Person">
             <span itemprop="name">Jakub T. Jankiewicz</span>
@@ -44,7 +44,7 @@
       </li>
       <li itemscope itemtype="https://schema.org/ImageObject">
         <img itemprop="contentUrl" src="/images/jakub-jankiewicz-wzlot-2024.webp" alt="Jakub T. Jankiewicz podczas prezentacji, siedzący za laptopem pełnym naklejek, trzymający mikrofon" />
-        <meta itemprop="caption" content="Jakub T. Jankiewicz - WZLOT 2024">
+        <meta itemprop="caption" content="Jakub T. Jankiewicz - WZLOT 2024" />
         <p>
           <span itemprop="about" itemscope itemtype="https://schema.org/Person">
             <span itemprop="name">Jakub T. Jankiewicz</span>
@@ -53,8 +53,8 @@
         </p>
       </li>
       <li itemscope itemtype="https://schema.org/ImageObject">
-        <img itemprop="contentUrl" src="/images/jakub-jankiewicz-wzlot-2025.webp" alt="Jakub T. Jankiewicz podczas prezentacji, stojący i wskazujący klikerem trzymanym w dłoni"/>
-        <meta itemprop="caption" content="Jakub T. Jankiewicz - WZLOT 2025">
+        <img itemprop="contentUrl" src="/images/jakub-jankiewicz-wzlot-2025.webp" alt="Jakub T. Jankiewicz podczas prezentacji, stojący i wskazujący klikerem trzymanym w dłoni" />
+        <meta itemprop="caption" content="Jakub T. Jankiewicz - WZLOT 2025" />
         <p>
           <span itemprop="about" itemscope itemtype="https://schema.org/Person">
             <span itemprop="name">Jakub T. Jankiewicz</span>
@@ -63,8 +63,8 @@
         </p>
       </li>
       <li itemscope itemtype="https://schema.org/ImageObject">
-        <img itemprop="contentUrl" src="/images/jakub-jankiewicz-wzlot-2026.webp" alt="Jakub T. Jankiewicz z mikrofonem"/>
-        <meta itemprop="caption" content="Jakub T. Jankiewicz - WZLOT 2026">
+        <img itemprop="contentUrl" src="/images/jakub-jankiewicz-wzlot-2026.webp" alt="Jakub T. Jankiewicz z mikrofonem" />
+        <meta itemprop="caption" content="Jakub T. Jankiewicz - WZLOT 2026" />
         <p>
           <span itemprop="about" itemscope itemtype="https://schema.org/Person">
             <span itemprop="name">Jakub T. Jankiewicz</span>

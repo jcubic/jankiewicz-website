@@ -16,17 +16,17 @@
         <a itemprop="url" href="https://fosdem.org/2023/schedule/event/lipsscheme/">
           <img itemprop="thumbnailUrl" src="/images/jakub-jankiwicz-prezentacja-lips-scheme-fossdem.webp" alt="Presentation 'LIPS Scheme: Powerful introspection and extensibility' (FOSDEM '23) - Jakub Jankiewicz" />
         </a>
-        <meta itemprop="name" content="LIPS Scheme: Powerful introspection and extensibility">
-        <meta itemprop="description" content="Presentation by Jakub Jankiewicz at FOSDEM 2023.">
-        <meta itemprop="uploadDate" content="2023-02-05">
+        <meta itemprop="name" content="LIPS Scheme: Powerful introspection and extensibility" />
+        <meta itemprop="description" content="Presentation by Jakub Jankiewicz at FOSDEM 2023." />
+        <meta itemprop="uploadDate" content="2023-02-05" />
       </li>
       <li itemscope itemtype="https://schema.org/VideoObject">
-        <a itemprop="url" href="https://youtu.be/3bdQZ67mpn8">
+        <a itemprop="url" href="https://youtu.be/3bdQZ67mpn8" />
           <img itemprop="thumbnailUrl" src="/images/jakub-jankiwicz-prezentacja-chatgpt-wikidane.webp" alt="Presentation: 'ChatGPT w pomocy przy tworzeniu zapytań do Wikidata' (ChatGPT in helping to create Wikidata queries) - Jakub Jankiewicz" />
         </a>
-        <meta itemprop="name" content="ChatGPT w pomocy przy tworzeniu zapytań do Wikidata">
-        <meta itemprop="description" content="Presentation by Jakub Jankiewicz at the WZLOT 2024 conference.">
-        <meta itemprop="uploadDate" content="2024-06-08">
+        <meta itemprop="name" content="ChatGPT w pomocy przy tworzeniu zapytań do Wikidata" />
+        <meta itemprop="description" content="Presentation by Jakub Jankiewicz at the WZLOT 2024 conference." />
+        <meta itemprop="uploadDate" content="2024-06-08" />
       </li>
     </ul>
 
@@ -34,7 +34,7 @@
     <ul class="projects media">
       <li itemscope itemtype="https://schema.org/ImageObject">
         <img itemprop="contentUrl" src="/images/jakub-jankiewicz-wzlot-2023.webp" alt="Jakub T. Jankiewicz during presentation, sitting behind the laptop in WikiTrainer T-Shirt and visible arm tattoo"/>
-        <meta itemprop="caption" content="Jakub T. Jankiewicz - WZLOT 2023">
+        <meta itemprop="caption" content="Jakub T. Jankiewicz - WZLOT 2023" />
         <p>
           <span itemprop="about" itemscope itemtype="https://schema.org/Person">
             <span itemprop="name">Jakub T. Jankiewicz</span>
@@ -44,7 +44,7 @@
       </li>
       <li itemscope itemtype="https://schema.org/ImageObject">
         <img itemprop="contentUrl" src="/images/jakub-jankiewicz-wzlot-2024.webp" alt="Jakub T. Jankiewicz during presentation, sitting behind the laptop full of stickers, holding a microphone" />
-        <meta itemprop="caption" content="Jakub T. Jankiewicz - WZLOT 2024">
+        <meta itemprop="caption" content="Jakub T. Jankiewicz - WZLOT 2024" />
         <p>
           <span itemprop="about" itemscope itemtype="https://schema.org/Person">
             <span itemprop="name">Jakub T. Jankiewicz</span>
@@ -54,7 +54,7 @@
       </li>
       <li itemscope itemtype="https://schema.org/ImageObject">
         <img itemprop="contentUrl" src="/images/jakub-jankiewicz-wzlot-2025.webp" alt="Jakub T. Jankiewicz during presentation, standing and pointing with a clicker in his hand"/>
-        <meta itemprop="caption" content="Jakub T. Jankiewicz - WZLOT 2025">
+        <meta itemprop="caption" content="Jakub T. Jankiewicz - WZLOT 2025" />
         <p>
           <span itemprop="about" itemscope itemtype="https://schema.org/Person">
             <span itemprop="name">Jakub T. Jankiewicz</span>
@@ -64,7 +64,7 @@
       </li>
       <li itemscope itemtype="https://schema.org/ImageObject">
         <img itemprop="contentUrl" src="/images/jakub-jankiewicz-wzlot-2026.webp" alt="Jakub T. Jankiewicz with a microphone"/>
-        <meta itemprop="caption" content="Jakub T. Jankiewicz - WZLOT 2026">
+        <meta itemprop="caption" content="Jakub T. Jankiewicz - WZLOT 2026" />
         <p>
           <span itemprop="about" itemscope itemtype="https://schema.org/Person">
             <span itemprop="name">Jakub T. Jankiewicz</span>
