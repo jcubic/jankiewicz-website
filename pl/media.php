@@ -19,6 +19,12 @@
         <meta itemprop="name" content="LIPS Scheme: Potężna introspekcja i rozszerzalność" />
         <meta itemprop="description" content="Prezentacja Jakuba Jankiewicza na konferencji FOSDEM 2023." />
         <meta itemprop="uploadDate" content="2023-02-05" />
+        <p>
+          <span itemprop="about" itemscope itemtype="https://schema.org">
+            <span itemprop="name">Jakub T. Jankiewicz</span>
+          </span>
+          podczas międzynarodowej konferencji FOSDEM 2023 w Brukseli z prezentacją techniczną dotyczącą potężnej introspekcji i rozszerzalności w języku <a href="https://lips.js.org">LIPS Scheme</a>.
+        </p>
       </li>
       <li itemscope itemtype="https://schema.org/VideoObject">
         <a itemprop="url" href="https://youtu.be/3bdQZ67mpn8">
@@ -27,6 +33,12 @@
         <meta itemprop="name" content="ChatGPT w pomocy przy tworzeniu zapytań do Wikidata" />
         <meta itemprop="description" content="Prezentacja Jakuba Jankiewicza na konferencji WZLOT 2024." />
         <meta itemprop="uploadDate" content="2024-06-08" />
+        <p>
+          <span itemprop="about" itemscope itemtype="https://schema.org">
+            <span itemprop="name">Jakub T. Jankiewicz</span>
+          </span>
+          podczas wystąpienia na ogólnopolskiej konferencji WZLOT 2024 w Opolu. Prelekcja prezentuje praktyczne wykorzystanie ChatGPT do automatyzacji i pomocy przy budowaniu skomplikowanych zapytań <a href="https://pl.wikipedia.org/wiki/SPARQL">SPARQL</a> dla <a href="https://pl.wikipedia.org/wiki/Wikidane">Wikidanych</a>.
+        </p>
       </li>
     </ul>
 
