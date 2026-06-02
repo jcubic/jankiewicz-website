@@ -20,7 +20,7 @@
         <meta itemprop="description" content="Prezentacja Jakuba Jankiewicza na konferencji FOSDEM 2023." />
         <meta itemprop="uploadDate" content="2023-02-05" />
         <p>
-          <span itemprop="about" itemscope itemtype="https://schema.org">
+          <span itemprop="about" itemscope itemtype="https://schema.org/Person">
             <span itemprop="name">Jakub T. Jankiewicz</span>
           </span>
           podczas międzynarodowej konferencji <a href="https://archive.fosdem.org/2023/">FOSDEM 2023</a> w Brukseli z prezentacją techniczną dotyczącą potężnej introspekcji i rozszerzalności w języku <a href="https://lips.js.org">LIPS Scheme</a>.
@@ -34,7 +34,7 @@
         <meta itemprop="description" content="Prezentacja Jakuba Jankiewicza na konferencji WZLOT 2024." />
         <meta itemprop="uploadDate" content="2024-06-08" />
         <p>
-          <span itemprop="about" itemscope itemtype="https://schema.org">
+          <span itemprop="about" itemscope itemtype="https://schema.org/Person">
             <span itemprop="name">Jakub T. Jankiewicz</span>
           </span>
           podczas wystąpienia na ogólnopolskiej konferencji WZLOT 2024 w Opolu. Prelekcja prezentuje praktyczne wykorzystanie ChatGPT do automatyzacji i pomocy przy budowaniu skomplikowanych zapytań <a href="https://pl.wikipedia.org/wiki/SPARQL">SPARQL</a> dla <a href="https://pl.wikipedia.org/wiki/Wikidane">Wikidanych</a>.
@@ -47,41 +47,65 @@
       <li itemscope itemtype="https://schema.org/ImageObject">
         <img itemprop="contentUrl" src="/images/jakub-jankiewicz-wzlot-2023.webp" alt="Jakub T. Jankiewicz podczas prezentacji, siedzący za laptopem w koszulce WikiTrenera z widocznym tatuażem na ramieniu" />
         <meta itemprop="caption" content="Jakub T. Jankiewicz - WZLOT 2023" />
+        <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
+          <meta itemprop="name" content="Robert Drózd" />
+        </span>
         <p>
           <span itemprop="about" itemscope itemtype="https://schema.org/Person">
             <span itemprop="name">Jakub T. Jankiewicz</span>
           </span>
           podczas pierwszego wystąpienia na konferencji WZLOT 2023 w Krakowie pt. <a href="https://pl.wikimedia.org/wiki/Wzlot_2023/Program">„Wikikod nie jest straszny”</a>.
         </p>
+        <p class="photo-credit">
+          Fot. <a href="https://commons.wikimedia.org/wiki/File:Wzlot_2023_RD_81.jpg" target="_blank" rel="noopener">Robert Drózd</a>, licencja: <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>, via Wikimedia Commons.
+        </p>
       </li>
       <li itemscope itemtype="https://schema.org/ImageObject">
         <img itemprop="contentUrl" src="/images/jakub-jankiewicz-wzlot-2024.webp" alt="Jakub T. Jankiewicz podczas prezentacji, siedzący za laptopem pełnym naklejek, trzymający mikrofon" />
         <meta itemprop="caption" content="Jakub T. Jankiewicz - WZLOT 2024" />
+        <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
+          <meta itemprop="name" content="Robert Drózd" />
+        </span>
         <p>
           <span itemprop="about" itemscope itemtype="https://schema.org/Person">
             <span itemprop="name">Jakub T. Jankiewicz</span>
           </span>
           podczas prezentacji <a href="https://commons.wikimedia.org/wiki/File:Prezentacja_ChatGPT_i_Wikidane.pdf">„ChatGPT w pomocy przy tworzeniu zapytań do Wikidata”</a> na konferencji WZLOT 2024 w Opolu (nagranie wideo dostępne powyżej).
         </p>
+        <p class="photo-credit">
+          Fot. <a href="https://commons.wikimedia.org/wiki/File:Wzlot_2024_RD_107.jpg" target="_blank" rel="noopener">Robert Drózd</a>, licencja: <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>, via Wikimedia Commons.
+        </p>
       </li>
       <li itemscope itemtype="https://schema.org/ImageObject">
         <img itemprop="contentUrl" src="/images/jakub-jankiewicz-wzlot-2025.webp" alt="Jakub T. Jankiewicz podczas prezentacji, stojący i wskazujący klikerem trzymanym w dłoni" />
         <meta itemprop="caption" content="Jakub T. Jankiewicz - WZLOT 2025" />
+        <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
+          <meta itemprop="name" content="Robert Drózd" />
+        </span>
         <p>
           <span itemprop="about" itemscope itemtype="https://schema.org/Person">
             <span itemprop="name">Jakub T. Jankiewicz</span>
           </span>
           podczas prezentacji „Jak działają szablony?” na ogólnopolskiej konferencji WZLOT w 2025 roku w Lublinie. Prezentacja jest dostępna na platformie <a href="https://commons.wikimedia.org/wiki/File:Prezentacja_szablony.pdf">Wikimedia Commons</a>. Na podstawie tego wystąpienia powstała oficjalna strona pomocy <a href="https://pl.wikipedia.org/wiki/Pomoc:Szablony">Pomoc:Szablony</a> w Polskiej Wikipedii.
         </p>
+        <p class="photo-credit">
+          Fot. <a href="https://commons.wikimedia.org/wiki/File:Wzlot_2025_RD_080.jpg" target="_blank" rel="noopener">Robert Drózd</a>, licencja: <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>, via Wikimedia Commons.
+        </p>
       </li>
       <li itemscope itemtype="https://schema.org/ImageObject">
         <img itemprop="contentUrl" src="/images/jakub-jankiewicz-wzlot-2026.webp" alt="Jakub T. Jankiewicz z mikrofonem" />
         <meta itemprop="caption" content="Jakub T. Jankiewicz - WZLOT 2026" />
+        <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
+          <meta itemprop="name" content="Robert Drózd" />
+        </span>
         <p>
           <span itemprop="about" itemscope itemtype="https://schema.org/Person">
             <span itemprop="name">Jakub T. Jankiewicz</span>
           </span>
           podczas panelu dyskusyjnego i prelekcji w trakcie konferencji WZLOT 2026 w Łodzi.
+        </p>
+        <p class="photo-credit">
+          Fot. <a href="https://commons.wikimedia.org/wiki/File:Wzlot_2026_RD_072.jpg" target="_blank" rel="noopener">Robert Drózd</a>, licencja: <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>, via Wikimedia Commons.
         </p>
       </li>
     </ul>

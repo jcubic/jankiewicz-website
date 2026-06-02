@@ -20,7 +20,7 @@
         <meta itemprop="description" content="Presentation by Jakub Jankiewicz at FOSDEM 2023." />
         <meta itemprop="uploadDate" content="2023-02-05" />
         <p>
-          <span itemprop="about" itemscope itemtype="https://schema.org">
+          <span itemprop="about" itemscope itemtype="https://schema.org/Person">
             <span itemprop="name">Jakub T. Jankiewicz</span>
           </span>
           at the international <a href="https://archive.fosdem.org/2023/">FOSDEM 2023</a> conference in Brussels, delivering a technical talk about powerful introspection and extensibility features in <a href="https://lips.js.org">LIPS Scheme</a>.
@@ -34,11 +34,10 @@
         <meta itemprop="description" content="Presentation by Jakub Jankiewicz at the WZLOT 2024 conference." />
         <meta itemprop="uploadDate" content="2024-06-08" />
         <p>
-          <span itemprop="about" itemscope itemtype="https://schema.org">
+          <span itemprop="about" itemscope itemtype="https://schema.org/Person">
             <span itemprop="name">Jakub T. Jankiewicz</span>
           </span>
           presents at the national WZLOT 2024 conference in Opole. The session covers the practical application of ChatGPT to assist and automate the creation of complex <a href="https://pl.wikipedia.org/wiki/SPARQL">SPARQL</a> queries for <a href="https://pl.wikipedia.org/wiki/Wikidane">Wikidata</a>.
-        </p>
       </li>
     </ul>
 
@@ -47,41 +46,65 @@
       <li itemscope itemtype="https://schema.org/ImageObject">
         <img itemprop="contentUrl" src="/images/jakub-jankiewicz-wzlot-2023.webp" alt="Jakub T. Jankiewicz during presentation, sitting behind the laptop in WikiTrainer T-Shirt and visible arm tattoo"/>
         <meta itemprop="caption" content="Jakub T. Jankiewicz - WZLOT 2023" />
+        <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
+          <meta itemprop="name" content="Robert Drózd" />
+        </span>
         <p>
           <span itemprop="about" itemscope itemtype="https://schema.org/Person">
             <span itemprop="name">Jakub T. Jankiewicz</span>
           </span>
           during his first presentation at the WZLOT 2023 conference in Kraków entitled <a href="https://pl.wikimedia.org/wiki/Wzlot_2023/Program">'Wikikod nie jest straszny' (Wikicode is not scary)</a>.
         </p>
+        <p class="photo-credit">
+          Photo: <a href="https://commons.wikimedia.org/wiki/File:Wzlot_2023_RD_81.jpg" target="_blank" rel="noopener">Robert Drózd</a>, license: <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>, via Wikimedia Commons.
+        </p>
       </li>
       <li itemscope itemtype="https://schema.org/ImageObject">
         <img itemprop="contentUrl" src="/images/jakub-jankiewicz-wzlot-2024.webp" alt="Jakub T. Jankiewicz during presentation, sitting behind the laptop full of stickers, holding a microphone" />
         <meta itemprop="caption" content="Jakub T. Jankiewicz - WZLOT 2024" />
+        <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
+          <meta itemprop="name" content="Robert Drózd" />
+        </span>
         <p>
           <span itemprop="about" itemscope itemtype="https://schema.org/Person">
             <span itemprop="name">Jakub T. Jankiewicz</span>
           </span>
           during the presentation <a href="https://commons.wikimedia.org/wiki/File:Prezentacja_ChatGPT_i_Wikidane.pdf">'ChatGPT w pomocy przy tworzeniu zapytań do Wikidata'</a> at the WZLOT 2024 conference in Opole (the video recording is available above).
         </p>
+        <p class="photo-credit">
+          Photo: <a href="https://commons.wikimedia.org/wiki/File:Wzlot_2024_RD_107.jpg" target="_blank" rel="noopener">Robert Drózd</a>, license: <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>, via Wikimedia Commons.
+        </p>
       </li>
       <li itemscope itemtype="https://schema.org/ImageObject">
         <img itemprop="contentUrl" src="/images/jakub-jankiewicz-wzlot-2025.webp" alt="Jakub T. Jankiewicz during presentation, standing and pointing with a clicker in his hand"/>
         <meta itemprop="caption" content="Jakub T. Jankiewicz - WZLOT 2025" />
+        <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
+          <meta itemprop="name" content="Robert Drózd" />
+        </span>
         <p>
           <span itemprop="about" itemscope itemtype="https://schema.org/Person">
             <span itemprop="name">Jakub T. Jankiewicz</span>
           </span>
           during the presentation 'Jak działają szablony?' (How templates work?) at the national WZLOT conference in 2025 in Lublin. The presentation slides are available on <a href="https://commons.wikimedia.org/wiki/File:Prezentacja_szablony.pdf">Wikimedia Commons</a>. Based on this presentation, a new official help page was created: <a href="https://pl.wikipedia.org/wiki/Pomoc:Szablony">Pomoc:Szablony</a> on Polish Wikipedia.
         </p>
+        <p class="photo-credit">
+          Photo: <a href="https://commons.wikimedia.org/wiki/File:Wzlot_2025_RD_080.jpg" target="_blank" rel="noopener">Robert Drózd</a>, license: <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>, via Wikimedia Commons.
+        </p>
       </li>
       <li itemscope itemtype="https://schema.org/ImageObject">
         <img itemprop="contentUrl" src="/images/jakub-jankiewicz-wzlot-2026.webp" alt="Jakub T. Jankiewicz with a microphone"/>
         <meta itemprop="caption" content="Jakub T. Jankiewicz - WZLOT 2026" />
+        <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
+          <meta itemprop="name" content="Robert Drózd" />
+        </span>
         <p>
           <span itemprop="about" itemscope itemtype="https://schema.org/Person">
             <span itemprop="name">Jakub T. Jankiewicz</span>
           </span>
           during a discussion panel and presentation at the WZLOT 2026 conference in Łódź.
+        </p>
+        <p class="photo-credit">
+          Photo: <a href="https://commons.wikimedia.org/wiki/File:Wzlot_2026_RD_072.jpg" target="_blank" rel="noopener">Robert Drózd</a>, license: <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>, via Wikimedia Commons.
         </p>
       </li>
     </ul>
