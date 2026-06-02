@@ -250,25 +250,28 @@ header {
                      <img alt="Jakub Jankiewicz autoportret" src="/images/portret.jpg?v=2" style="width: 136px;"/>
                   </a>
                 </p>
-                <p itemscope itemtype="http://data-vocabulary.org/Person"> Nazywam się
-                  Jakub T. Jankiewicz. Jestem <span itemprop="title">Programistą aplikacji
-                  internetowych</span> z Polski. Kocham pracować z językimi JavaScript
-                  oraz TypeScript i CSS.  Uwielbiam pracować z ReactJS oraz React
-                  Native. Uczę się także frameworka Next.js oraz GraphQL.  Jestem także
-                  programistą Open Source, Redaktorem Polskiej Wikipedii (gdzie jestem
-                  przewodnikiem dla Nowicjuszy oraz WikiTrenerem), bloggerem oraz staram
-                  się być dobrym mentorem dla nowych programistów, ale nie w zorganizowany
-                  sposób (chciałbym to zmienić w przyszłości).
+                <p itemscope itemtype="http://data-vocabulary.org/Person">
+                  Jakub T. Jankiewicz to programista z ponad 15-letnim doświadczeniem
+                  w&nbsp;tworzeniu oprogramowania
+                  <a href="https://opensource.org/maintainers/jcubic">open source</a>, a zarazem aktywny
+                  <a href="https://pl.wikipedia.org/wiki/Wikipedysta:Jcubic">redaktor Polskiej Wikipedii</a>,
+                  przewodnik dla nowicjuszy oraz
+                  <a href="https://pl.wikipedia.org/wiki/Wikipedia:WikiTrenerzy/Uczestnicy_i_uczestniczki">oficjalny trener</a>
+                  <a href="https://wikimedia.pl/">Stowarzyszenia Wikimedia Polska</a>. Jest głównym autorem
+                  <a href="http://wikizeit.edu.pl/">projektu WikiZEIT</a>. Zajmuje się także
+                  <a href="https://www.flickr.com/people/jcubic/">fotografią</a>.
                 </p>
                 <p>
-                  Możesz do mnie napisać poprzez adress <a data-type="email">jcubic [at]
-                  jcubic [dot] pl</a>, możesz także pobrać moje CV
+                  Możesz do niego napisać poprzez adress <a data-type="email">jcubic [at]
+                  jcubic [dot] pl</a>, możesz także pobrać jego CV
                   <a href="https://jcu.bi/cv-en">Angielskie</a> /
-                  <a href="https://jcu.bi/cv-pl">Polskie</a>. Jestem do dyspozycji jeśli
-                  potrzebujesz wsparcia z którymkolwiek z moich
+                  <a href="https://jcu.bi/cv-pl">Polskie</a>.
+                </p>
+                <p>Jest do dyspozycji jeśli
+                  potrzebujesz wsparcia z którymkolwiek jego
                   <a href="https://support.jcubic.pl/">projektów Open Source</a> lub
                   <a href="https://wikizeit.edu.pl/oferta/">edycji Wikipedii</a>, możesz też
-                  <a href="https://github.com/sponsors/jcubic">wesprzeć moje wysiłki w pracy
+                  <a href="https://github.com/sponsors/jcubic">wesprzeć jego wysiłki w pracy
                   nad OSS</a>.
                 </p>
                 <div class="profiles">
