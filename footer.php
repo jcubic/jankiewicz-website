@@ -5,7 +5,7 @@
                 <li><a href="/projects.php">projects</a></li>
                 <li><a href="/logo.php">logo</a></li>
                 <li><a href="/writing.php">writing</a></li>
-                <li><a href="/video.php">video</a></li>
+                <li><a href="/media.php">media</a></li>
                 <li><a href="/hacks.php">hacks</a></li>
                 <li><a href="/uses/">uses</a></li>
             </ul>
