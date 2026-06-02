@@ -23,7 +23,7 @@
           <span itemprop="about" itemscope itemtype="https://schema.org">
             <span itemprop="name">Jakub T. Jankiewicz</span>
           </span>
-          at the international FOSDEM 2023 conference in Brussels, delivering a technical talk about powerful introspection and extensibility features in <a href="https://lips.js.org"LIPS Scheme</a>.
+          at the international <a href="https://archive.fosdem.org/2023/">FOSDEM 2023</a> conference in Brussels, delivering a technical talk about powerful introspection and extensibility features in <a href="https://lips.js.org">LIPS Scheme</a>.
         </p>
       </li>
       <li itemscope itemtype="https://schema.org/VideoObject">

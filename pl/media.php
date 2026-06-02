@@ -23,7 +23,7 @@
           <span itemprop="about" itemscope itemtype="https://schema.org">
             <span itemprop="name">Jakub T. Jankiewicz</span>
           </span>
-          podczas międzynarodowej konferencji FOSDEM 2023 w Brukseli z prezentacją techniczną dotyczącą potężnej introspekcji i rozszerzalności w języku <a href="https://lips.js.org">LIPS Scheme</a>.
+          podczas międzynarodowej konferencji <a href="https://archive.fosdem.org/2023/">FOSDEM 2023</a> w Brukseli z prezentacją techniczną dotyczącą potężnej introspekcji i rozszerzalności w języku <a href="https://lips.js.org">LIPS Scheme</a>.
         </p>
       </li>
       <li itemscope itemtype="https://schema.org/VideoObject">
