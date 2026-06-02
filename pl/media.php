@@ -7,7 +7,7 @@
     <?php include('../head.php'); ?>
     <link rel="canonical" href="https://jakub.jankiewicz.org/pl/video.php" />
 </head>
-<body id="tutorials">
+<body id="projects">
   <?php include('header.php'); ?>
   <article>
     <h2>Nagrania wideo</h2>
