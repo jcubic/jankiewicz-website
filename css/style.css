@@ -333,6 +333,9 @@ ul.projects img {
 ul.projects ul ul li + li {
     margin-top: 10px;
 }
+ul.projects.media img {
+    width: 600px;
+}
 @media screen and (min-width: 801px) {
     footer #copy {
         margin-right: 40px;
