@@ -41,7 +41,7 @@
       </li>
     </ul>
 
-    <h2>My presentations at the WZLOT conference</h2>
+    <h2>Presentations at the WZLOT conference</h2>
     <ul class="projects media">
       <li itemscope itemtype="https://schema.org/ImageObject">
         <img itemprop="contentUrl" src="/images/jakub-jankiewicz-wzlot-2023.webp" alt="Jakub T. Jankiewicz during presentation, sitting behind the laptop in WikiTrainer T-Shirt and visible arm tattoo"/>
@@ -105,6 +105,106 @@
         </p>
         <p class="photo-credit">
           Photo: <a href="https://commons.wikimedia.org/wiki/File:Wzlot_2026_RD_072.jpg" target="_blank" rel="noopener">Robert Drózd</a>, license: <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>, via Wikimedia Commons.
+        </p>
+      </li>
+    </ul>
+
+    <h2>Other photographs of Jakub T. Jankiewicz</h2>
+    <ul class="projects media">
+      <li itemscope itemtype="https://schema.org/ImageObject">
+        <img itemprop="contentUrl" src="/images/jakub-jankiewicz-wikitrener.webp" alt="Jakub T. Jankiewicz in Wikitrainer T-Shirt" />
+        <meta itemprop="caption" content="Jakub T. Jankiewicz - trainer workshop in Central Library of the Masovian Voivodeship 2022" />
+        <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
+          <meta itemprop="name" content="Paulina Studniczka" />
+        </span>
+        <p>
+          Portrait of
+          <span itemprop="about" itemscope itemtype="https://schema.org/Person">
+            <span itemprop="name">Jakub T. Jankiewicz</span>
+          </span>
+          during a trainer workshop in Central Library of the Masovian Voivodeship in 2022.
+        </p>
+        <p class="photo-credit">
+           Photo: <a href="https://commons.wikimedia.org/wiki/File:Szkolenie_Wikitrener%C3%B3w_2022_portrety_%E2%80%93_Jakub_Jankiewicz_(Jcubic)_03.jpg"
+target="_blank" rel="noopener">Paulina Studniczka (WMPL)</a>, license: <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>, via Wikimedia Commons.
+        </p>
+      </li>
+      <li itemscope itemtype="https://schema.org/ImageObject">
+        <img itemprop="contentUrl" src="/images/jakub-jankiewicz-taking-pictures-2022.webp" alt="Jakub T. Jankiewicz taking pictures with DSLR" />
+        <meta itemprop="caption" content="Jakub T. Jankiewicz - taking pictures during Wzlot 2024" />
+        <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
+          <meta itemprop="name" content="Robert Drózd" />
+        </span>
+        <p>
+          Portrait of
+          <span itemprop="about" itemscope itemtype="https://schema.org/Person">
+            <span itemprop="name">Jakub T. Jankiewicz</span>
+          </span>
+          taking pictures using DSLR during Wzlot 2024
+        </p>
+        <p class="photo-credit">
+           Photo: <a href="https://commons.wikimedia.org/wiki/File:Wzlot_2024_RD_030.jpg" target="_blank" target="_blank" rel="noopener">Robert Drózd</a>, license: <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>, via Wikimedia Commons.
+        </p>
+      </li>
+      <li itemscope itemtype="https://schema.org/ImageObject">
+        <img itemprop="contentUrl" src="/images/jakub-jankiewicz-taking-pictures-2026.webp" alt="Jakub T. Jankiewicz taking pictures with mirroless Fuji X-Pro 3" />
+        <meta itemprop="caption" content="Jakub T. Jankiewicz - taking pictures with during Wzlot 2026" />
+        <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
+          <meta itemprop="name" content="Robert Drózd" />
+        </span>
+        <p>
+          Portrait of
+          <span itemprop="about" itemscope itemtype="https://schema.org/Person">
+            <span itemprop="name">Jakub T. Jankiewicz</span>
+          </span>
+          taking pictures using mirrorless camera Fuji X-Pro 3 during Wzlot 2026
+        </p>
+        <p class="photo-credit">
+           Photo: <a href="https://commons.wikimedia.org/wiki/File:Wzlot_2026_RD_046.jpg" target="_blank" target="_blank" rel="noopener">Robert Drózd</a>, license: <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>, via Wikimedia Commons.
+        </p>
+      </li>
+      <li itemscope itemtype="https://schema.org/ImageObject">
+        <img itemprop="contentUrl" src="/images/jakub-jankiewicz-cafe-laptop.webp" alt="Jakuba T. Jankiewicza behind the laptop during photshot in Kielce 2014"/>
+        <meta itemprop="caption" content="Jakub T. Jankiewicz - Offical portrait">
+
+        <meta itemprop="license" content="https://jakub.jankiewicz.org">
+        <meta itemprop="acquireLicensePage" content="https://jakub.jankiewicz.org">
+
+        <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
+          <meta itemprop="name" content="Marcin Krogulec">
+        </span>
+
+        <p>
+          Portrait of
+          <span itemprop="about" itemscope itemtype="https://schema.org/Person">
+            <span itemprop="name">Jakub T. Jankiewicz</span>
+          </span>
+          behind the laptop full of stickers during photoshot for WOŚP in 2014.
+        </p>
+        <p class="photo-credit">
+          Photo: Marcin Krogulec (WOŚP photoshot), All rights reserved.
+        </p>
+      </li>
+      <li itemscope itemtype="https://schema.org/ImageObject">
+        <img itemprop="contentUrl" src="/images/jakub-jankiewicz-cafe-2014.webp" alt="Official portait of Jakuba T. Jankiewicza during photshot in Kielce 2014"/>
+        <meta itemprop="caption" content="Jakub T. Jankiewicz - Offical portrait">
+
+        <meta itemprop="license" content="https://jakub.jankiewicz.org">
+        <meta itemprop="acquireLicensePage" content="https://jakub.jankiewicz.org">
+
+        <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
+          <meta itemprop="name" content="Marcin Krogulec">
+        </span>
+
+        <p>
+          An official portrait of
+          <span itemprop="about" itemscope itemtype="https://schema.org/Person">
+            <span itemprop="name">Jakub T. Jankiewicz</span>
+          </span>
+          during photoshot for WOŚP in 2014.
+        </p>
+        <p class="photo-credit">
+          Photo: Marcin Krogulec (WOŚP photoshot), All rights reserved.
         </p>
       </li>
     </ul>

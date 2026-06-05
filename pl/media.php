@@ -109,6 +109,130 @@
         </p>
       </li>
     </ul>
+    
+        <h2>Inne fotografie Jakuba T. Jankiewicza</h2>
+    <ul class="projects media">
+      
+      <!-- Zdjęcie 1: Warsztaty WikiTrenerów -->
+      <li itemscope itemtype="https://schema.org/ImageObject">
+        <img itemprop="contentUrl" src="/images/jakub-jankiewicz-wikitrener.webp" alt="Jakub T. Jankiewicz w koszulce WikiTrenera" />
+        <meta itemprop="caption" content="Jakub T. Jankiewicz - warsztaty trenerskie w Bibliotece Głównej Województwa Mazowieckiego 2022" />
+        
+        <!-- Licencja i autor -->
+        <meta itemprop="license" content="https://creativecommons.org">
+        <meta itemprop="acquireLicensePage" content="https://jankiewicz.org">
+        <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
+          <meta itemprop="name" content="Paulina Studniczka" />
+        </span>
+        
+        <p>
+          Portret 
+          <span itemprop="about" itemscope itemtype="https://schema.org/Person">
+            <span itemprop="name">Jakuba T. Jankiewicza</span>
+          </span>
+          podczas warsztatów trenerskich w Bibliotece Głównej Województwa Mazowieckiego w 2022 roku.
+        </p>
+        <p class="photo-credit">
+           Fot. <a href="https://commons.wikimedia.org/wiki/File:Szkolenie_Wikitrener%C3%B3w_2022_portrety_%E2%80%93_Jakub_Jankiewicz_(Jcubic)_03.jpg" target="_blank" rel="noopener">Paulina Studniczka (WMPL)</a>, licencja: <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>, via Wikimedia Commons.
+        </p>
+      </li>
+      
+      <!-- Zdjęcie 2: Fotografowanie WZLOT 2024 -->
+      <li itemscope itemtype="https://schema.org/ImageObject">
+        <img itemprop="contentUrl" src="/images/jakub-jankiewicz-taking-pictures-2022.webp" alt="Jakub T. Jankiewicz robiący zdjęcia lustrzanką cyfrową" />
+        <meta itemprop="caption" content="Jakub T. Jankiewicz - fotografowanie podczas konferencji WZLOT 2024" />
+        
+        <!-- Licencja i autor -->
+        <meta itemprop="license" content="https://creativecommons.org">
+        <meta itemprop="acquireLicensePage" content="https://jankiewicz.org">
+        <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
+          <meta itemprop="name" content="Robert Drózd" />
+        </span>
+        
+        <p>
+          Portret 
+          <span itemprop="about" itemscope itemtype="https://schema.org/Person">
+            <span itemprop="name">Jakuba T. Jankiewicza</span>
+          </span>
+          robiącego zdjęcia lustrzanką cyfrową podczas konferencji WZLOT 2024.
+        </p>
+        <p class="photo-credit">
+           Fot. <a href="https://commons.wikimedia.org/wiki/File:Wzlot_2024_RD_030.jpg" target="_blank" rel="noopener">Robert Drózd</a>, licencja: <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>, via Wikimedia Commons.
+        </p>
+      </li>
+      
+      <!-- Zdjęcie 3: Fotografowanie WZLOT 2026 -->
+      <li itemscope itemtype="https://schema.org/ImageObject">
+        <img itemprop="contentUrl" src="/images/jakub-jankiewicz-taking-pictures-2026.webp" alt="Jakub T. Jankiewicz robiący zdjęcia bezlusterkowcem Fuji X-Pro 3" />
+        <meta itemprop="caption" content="Jakub T. Jankiewicz - fotografowanie podczas konferencji WZLOT 2026" />
+        
+        <!-- Licencja i autor -->
+        <meta itemprop="license" content="https://creativecommons.org">
+        <meta itemprop="acquireLicensePage" content="https://jankiewicz.org">
+        <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
+          <meta itemprop="name" content="Robert Drózd" />
+        </span>
+        
+        <p>
+          Portret 
+          <span itemprop="about" itemscope itemtype="https://schema.org/Person">
+            <span itemprop="name">Jakuba T. Jankiewicza</span>
+          </span>
+          robiącego zdjęcia aparatem bezlusterkowym Fuji X-Pro 3 podczas konferencji WZLOT 2026.
+        </p>
+        <p class="photo-credit">
+           Fot. <a href="https://commons.wikimedia.org/wiki/File:Wzlot_2026_RD_046.jpg" target="_blank" rel="noopener">Robert Drózd</a>, licencja: <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>, via Wikimedia Commons.
+        </p>
+      </li>
+      
+      <!-- Zdjęcie 4: Kawiarnia za laptopem (WOŚP) -->
+      <li itemscope itemtype="https://schema.org/ImageObject">
+        <img itemprop="contentUrl" src="/images/jakub-jankiewicz-cafe-laptop.webp" alt="Jakub T. Jankiewicz za laptopem podczas sesji fotograficznej w Kielcach w 2014 roku"/>
+        <meta itemprop="caption" content="Jakub T. Jankiewicz - Portret oficjalny">
+
+        <meta itemprop="license" content="https://jankiewicz.org">
+        <meta itemprop="acquireLicensePage" content="https://jankiewicz.org">
+
+        <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
+          <meta itemprop="name" content="Marcin Krogulec">
+        </span>
+
+        <p>
+          Portret 
+          <span itemprop="about" itemscope itemtype="https://schema.org/Person">
+            <span itemprop="name">Jakuba T. Jankiewicza</span>
+          </span>
+          za laptopem pełnym naklejek podczas sesji fotograficznej dla WOŚP w 2014 roku.
+        </p>
+        <p class="photo-credit">
+          Fot. Marcin Krogulec (Sesja WOŚP), Wszelkie prawa zastrzeżone.
+        </p>
+      </li>
+      
+      <!-- Zdjęcie 5: Kawiarnia oficjalny portret (WOŚP) -->
+      <li itemscope itemtype="https://schema.org/ImageObject">
+        <img itemprop="contentUrl" src="/images/jakub-jankiewicz-cafe-2014.webp" alt="Oficjalny portret Jakuba T. Jankiewicza podczas sesji fotograficznej w Kielcach w 2014 roku"/>
+        <meta itemprop="caption" content="Jakub T. Jankiewicz - Portret oficjalny">
+
+        <meta itemprop="license" content="https://jankiewicz.org">
+        <meta itemprop="acquireLicensePage" content="https://jankiewicz.org">
+
+        <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
+          <meta itemprop="name" content="Marcin Krogulec">
+        </span>
+
+        <p>
+          Oficjalny portret 
+          <span itemprop="about" itemscope itemtype="https://schema.org/Person">
+            <span itemprop="name">Jakuba T. Jankiewicza</span>
+          </span>
+          wykonany podczas sesji fotograficznej dla WOŚP w 2014 roku.
+        </p>
+        <p class="photo-credit">
+          Fot. Marcin Krogulec (Sesja WOŚP), Wszelkie prawa zastrzeżone.
+        </p>
+      </li>
+    </ul>
   </article>
 
   <?php include('footer.php'); ?>
