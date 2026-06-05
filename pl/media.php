@@ -13,7 +13,7 @@
     <h2>Nagrania wideo</h2>
     <ul class="projects media">
       <li itemscope itemtype="https://schema.org/VideoObject">
-        <a itemprop="url" href="https://fosdem.org/2023/schedule/event/lipsscheme/">
+        <a itemprop="contentUrl" href="https://fosdem.org/2023/schedule/event/lipsscheme/">
           <img itemprop="thumbnailUrl" src="/images/jakub-jankiwicz-prezentacja-lips-scheme-fossdem.webp" alt="Prezentacja 'LIPS Scheme: Potężna introspekcja i rozszerzalność' (FOSDEM '23) - Jakub Jankiewicz" />
         </a>
         <meta itemprop="name" content="LIPS Scheme: Potężna introspekcja i rozszerzalność" />
@@ -27,7 +27,7 @@
         </p>
       </li>
       <li itemscope itemtype="https://schema.org/VideoObject">
-        <a itemprop="url" href="https://youtu.be/3bdQZ67mpn8">
+        <a itemprop="contentUrl" href="https://youtu.be/3bdQZ67mpn8">
           <img itemprop="thumbnailUrl" src="/images/jakub-jankiwicz-prezentacja-chatgpt-wikidane.webp" alt="Prezentacja: 'ChatGPT w pomocy przy tworzeniu zapytań do Wikidata' Jakub Jankiewicz" />
         </a>
         <meta itemprop="name" content="ChatGPT w pomocy przy tworzeniu zapytań do Wikidata" />
