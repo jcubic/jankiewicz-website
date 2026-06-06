@@ -109,6 +109,64 @@
       </li>
     </ul>
 
+    <h2>Self Portraits</h2>
+    <ul class="projects media">
+      <li itemscope itemtype="https://schema.org/ImageObject">
+        <img itemprop="contentUrl" src="/images/jakub-jankiewicz-self-portrait-2013.webp" alt="Jakuba T. Jankiewicza self-portrait from 2013" />
+        <meta itemprop="caption" content="Jakub T. Jankiewicz - Self-portrait">
+        <meta itemprop="license" content="https://creativecommons.org/licenses/by-sa/4.0/">
+        <meta itemprop="acquireLicensePage" content="https://jakub.jankiewicz.org">
+        <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
+          <meta itemprop="name" content="Jakub T. Jankiewicz">
+        </span>
+        <p>
+          <span itemprop="about" itemscope itemtype="https://schema.org/Person">
+            <span itemprop="name">Jakub T. Jankiewicz</span>
+          </span>
+          self-portrait in the mirror taken in 2013, originally published on Flickr on Open license.
+        </p>
+        <p class="photo-credit">
+          Photo: <a href="https://www.flickr.com/photos/jcubic/11550305223/" target="_blank" rel="noopener">Jakub T. Jankiewicz</a>, license: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>, via Flickr.
+        </p>
+      </li>
+      <li itemscope itemtype="https://schema.org/ImageObject">
+        <img itemprop="contentUrl" src="/images/jakub-jankiewicz-self-portrait-2012.webp" alt="Jakuba T. Jankiewicza self-portrait from 2012" />
+        <meta itemprop="caption" content="Jakub T. Jankiewicz - Self-portrait">
+        <meta itemprop="license" content="https://creativecommons.org/licenses/by-sa/4.0/">
+        <meta itemprop="acquireLicensePage" content="https://jakub.jankiewicz.org">
+        <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
+          <meta itemprop="name" content="Jakub T. Jankiewicz">
+        </span>
+        <p>
+          <span itemprop="about" itemscope itemtype="https://schema.org/Person">
+            <span itemprop="name">Jakub T. Jankiewicz</span>
+          </span>
+          self-portrait in the mirror taken in 2012, originally published on Flickr on Open license.
+        </p>
+        <p class="photo-credit">
+          Photo: <a href="https://www.flickr.com/photos/jcubic/7017988339" target="_blank" rel="noopener">Jakub T. Jankiewicz</a>, license: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>, via Flickr.
+        </p>
+      </li>
+      <li itemscope itemtype="https://schema.org/ImageObject">
+        <img itemprop="contentUrl" src="/images/jakub-jankiewicz-self-portrait-2025.webp" alt="Jakuba T. Jankiewicza self-portrait from 2025" />
+        <meta itemprop="caption" content="Jakub T. Jankiewicz - Self-portrait">
+        <meta itemprop="license" content="https://creativecommons.org/licenses/by-sa/4.0/">
+        <meta itemprop="acquireLicensePage" content="https://jakub.jankiewicz.org">
+        <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
+          <meta itemprop="name" content="Jakub T. Jankiewicz">
+        </span>
+        <p>
+          <span itemprop="about" itemscope itemtype="https://schema.org/Person">
+            <span itemprop="name">Jakub T. Jankiewicz</span>
+          </span>
+          self-portrait in the mirror taken in 2025, originally published on Flickr on Open license.
+        </p>
+        <p class="photo-credit">
+          Photo: <a href="https://www.flickr.com/photos/jcubic/54719591027" target="_blank" rel="noopener">Jakub T. Jankiewicz</a>, license: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>, via Flickr.
+        </p>
+      </li>
+    </ul>
+
     <h2>Other photographs of Jakub T. Jankiewicz</h2>
     <ul class="projects media">
       <li itemscope itemtype="https://schema.org/ImageObject">
