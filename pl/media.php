@@ -253,7 +253,7 @@
         <p>
           Portret
           <span itemprop="about" itemscope itemtype="https://schema.org/Person">
-            <span itemprop="name">Jakub T. Jankiewicz</span>
+            <span itemprop="name">Jakuba T. Jankiewicza</span>
           </span>
           zza laptopa w kawiarni podczas sesji zdjęciowej dla WOŚP w 2014 roku.
         </p>
