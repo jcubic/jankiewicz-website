@@ -5,7 +5,7 @@
     <title>Jakub T. Jankiewicz - Media</title>
     <meta name="Description" content="Jakub Jankiewicz - Filmy i Zdjęcia"/>
     <?php include('../head.php'); ?>
-    <link rel="canonical" href="https://jakub.jankiewicz.org/pl/video.php" />
+    <link rel="canonical" href="https://jakub.jankiewicz.org/pl/media.php" />
 </head>
 <body id="projects">
   <?php include('header.php'); ?>
