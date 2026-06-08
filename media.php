@@ -222,6 +222,28 @@ target="_blank" rel="noopener">Paulina Studniczka (WMPL)</a>, license: <a href="
         </p>
       </li>
       <li itemscope itemtype="https://schema.org/ImageObject">
+        <img itemprop="contentUrl" src="/images/jakub-jankiewicz-laptop.webp" alt="Jakub T. Jankiewicz behind the laptop in cafe during photshot in Kielce 2014"/>
+        <meta itemprop="caption" content="Jakub T. Jankiewicz - in Cafe working on a laptop">
+
+        <meta itemprop="license" content="https://jakub.jankiewicz.org">
+        <meta itemprop="acquireLicensePage" content="https://jakub.jankiewicz.org">
+
+        <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
+          <meta itemprop="name" content="Marcin Krogulec">
+        </span>
+
+        <p>
+          Portrait of
+          <span itemprop="about" itemscope itemtype="https://schema.org/Person">
+            <span itemprop="name">Jakub T. Jankiewicz</span>
+          </span>
+          behind the laptop in cafe during photoshot for WOŚP in 2014.
+        </p>
+        <p class="photo-credit">
+          Photo: Marcin Krogulec (WOŚP photoshot), All rights reserved.
+        </p>
+      </li>
+      <li itemscope itemtype="https://schema.org/ImageObject">
         <img itemprop="contentUrl" src="/images/jakub-jankiewicz-cafe-laptop.webp" alt="Jakuba T. Jankiewicza behind the laptop during photshot in Kielce 2014"/>
         <meta itemprop="caption" content="Jakub T. Jankiewicz - Offical portrait">
 
@@ -244,7 +266,7 @@ target="_blank" rel="noopener">Paulina Studniczka (WMPL)</a>, license: <a href="
         </p>
       </li>
       <li itemscope itemtype="https://schema.org/ImageObject">
-        <img itemprop="contentUrl" src="/images/jakub-jankiewicz-cafe-2014.webp" alt="Official portait of Jakuba T. Jankiewicza during photshot in Kielce 2014"/>
+        <img itemprop="contentUrl" src="/images/jakub-jankiewicz-cafe-2014.webp" alt="Official portait of Jakub T. Jankiewicz during photshot in Kielce 2014"/>
         <meta itemprop="caption" content="Jakub T. Jankiewicz - Offical portrait">
 
         <meta itemprop="license" content="https://jakub.jankiewicz.org">
@@ -263,6 +285,50 @@ target="_blank" rel="noopener">Paulina Studniczka (WMPL)</a>, license: <a href="
         </p>
         <p class="photo-credit">
           Photo: Marcin Krogulec (WOŚP photoshot), All rights reserved.
+        </p>
+      </li>
+      <li itemscope itemtype="https://schema.org/ImageObject">
+        <img itemprop="contentUrl" src="/images/jakub-jankiewicz-koleje-mazowieckie.webp" alt="Jakub T. Jankiewicz during koleje Mazowieckie photshot in Warsaw in 2022"/>
+        <meta itemprop="caption" content="Jakub T. Jankiewicz - Offical portrait">
+
+        <meta itemprop="license" content="https://jakub.jankiewicz.org">
+        <meta itemprop="acquireLicensePage" content="https://jakub.jankiewicz.org">
+
+        <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
+          <meta itemprop="name" content="Daria Uchman">
+        </span>
+
+        <p>
+          Photo of
+          <span itemprop="about" itemscope itemtype="https://schema.org/Person">
+            <span itemprop="name">Jakub T. Jankiewicz</span>
+          </span>
+          taking pictures during WOŚP photo session in Koleje Mazowieckie in 2020.
+        </p>
+        <p class="photo-credit">
+          Photo: Daria Uchman (WOŚP photoshot), All rights reserved.
+        </p>
+      </li>
+      <li itemscope itemtype="https://schema.org/ImageObject">
+        <img itemprop="contentUrl" src="/images/jakub-jankiewicz-with-camera.webp" alt="Jakub T. Jankiewicz during koleje Mazowieckie photshot in Warsaw in 2022"/>
+        <meta itemprop="caption" content="Jakub T. Jankiewicz - Offical portrait">
+
+        <meta itemprop="license" content="https://jakub.jankiewicz.org">
+        <meta itemprop="acquireLicensePage" content="https://jakub.jankiewicz.org">
+
+        <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
+          <meta itemprop="name" content="Sławomir Adamczak">
+        </span>
+
+        <p>
+          Photo of
+          <span itemprop="about" itemscope itemtype="https://schema.org/Person">
+            <span itemprop="name">Jakub T. Jankiewicz</span>
+          </span>
+          walking with a DLSR camera in Muskau Park in 2023.
+        </p>
+        <p class="photo-credit">
+          Photo: Sławomir Adamczak (Horyzonty phototrip), All rights reserved.
         </p>
       </li>
     </ul>

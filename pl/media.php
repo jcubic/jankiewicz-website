@@ -239,7 +239,28 @@
            Fot. <a href="https://commons.wikimedia.org/wiki/File:Wzlot_2026_RD_046.jpg" target="_blank" rel="noopener">Robert Drózd</a>, licencja: <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">CC BY-SA 4.0</a>, via Wikimedia Commons.
         </p>
       </li>
+      <li itemscope itemtype="https://schema.org/ImageObject">
+        <img itemprop="contentUrl" src="/images/jakub-jankiewicz-laptop.webp" alt="Jakub T. Jankiewicz przy laptopie w kawiarni podczas sesji zdjęciowej w Kielcach w 2014 roku."/>
+        <meta itemprop="caption" content="Jakub T. Jankiewicz - w kawiarni pracujący przy laptopie">
 
+        <meta itemprop="license" content="https://jakub.jankiewicz.org">
+        <meta itemprop="acquireLicensePage" content="https://jakub.jankiewicz.org">
+
+        <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
+          <meta itemprop="name" content="Marcin Krogulec">
+        </span>
+
+        <p>
+          Portret
+          <span itemprop="about" itemscope itemtype="https://schema.org/Person">
+            <span itemprop="name">Jakub T. Jankiewicz</span>
+          </span>
+          zza laptopa w kawiarni podczas sesji zdjęciowej dla WOŚP w 2014 roku.
+        </p>
+        <p class="photo-credit">
+          Fot. Marcin Krogulec (WOŚP photoshot), All rights reserved.
+        </p>
+      </li>
       <li itemscope itemtype="https://schema.org/ImageObject">
         <img itemprop="contentUrl" src="/images/jakub-jankiewicz-cafe-laptop.webp" alt="Jakub T. Jankiewicz za laptopem podczas sesji fotograficznej w Kielcach w 2014 roku"/>
         <meta itemprop="caption" content="Jakub T. Jankiewicz - Portret oficjalny">
@@ -283,6 +304,48 @@
         </p>
         <p class="photo-credit">
           Fot. Marcin Krogulec (Sesja WOŚP), Wszelkie prawa zastrzeżone.
+        </p>
+      </li>
+      <li itemscope itemtype="https://schema.org/ImageObject">
+        <img itemprop="contentUrl" src="/images/jakub-jankiewicz-koleje-mazowieckie.webp" alt="Jakub T. Jankiewicz podczas sesji fotograficznej w kolejach Mazowieckich w Warszawie w 2022 roku"/>
+        <meta itemprop="caption" content="Jakub T. Jankiewicz - Offical portrait">
+
+        <meta itemprop="license" content="https://jakub.jankiewicz.org">
+        <meta itemprop="acquireLicensePage" content="https://jakub.jankiewicz.org">
+
+        <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
+          <meta itemprop="name" content="Daria Uchman">
+        </span>
+
+        <p>
+          <span itemprop="about" itemscope itemtype="https://schema.org/Person">
+            <span itemprop="name">Jakub T. Jankiewicz</span>
+          </span>
+          wykonujący zdjęcia podczas sesji w Kolejach Mazowieckich dla WOŚP w 2022 roku.
+        </p>
+        <p class="photo-credit">
+          Fot. Daria Uchman (WOŚP photoshot), Wszystkie prawa zastrzeżone.
+        </p>
+      </li>
+      <li itemscope itemtype="https://schema.org/ImageObject">
+        <img itemprop="contentUrl" src="/images/jakub-jankiewicz-with-camera.webp" alt="Jakub T. Jankiewicz during koleje Mazowieckie photshot in Warsaw in 2022"/>
+        <meta itemprop="caption" content="Jakub T. Jankiewicz - Offical portrait">
+
+        <meta itemprop="license" content="https://jakub.jankiewicz.org">
+        <meta itemprop="acquireLicensePage" content="https://jakub.jankiewicz.org">
+
+        <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
+          <meta itemprop="name" content="Sławomir Adamczak">
+        </span>
+
+        <p>
+          <span itemprop="about" itemscope itemtype="https://schema.org/Person">
+            <span itemprop="name">Jakub T. Jankiewicz</span>
+          </span>
+          idący z lustrzanką cyfrową w Parku Mużakowskim w 2023 roku.
+        </p>
+        <p class="photo-credit">
+          Fot. Sławomir Adamczak (fotowyprawa Horyzontów), Wszystkie prawa zastrzeżone.
         </p>
       </li>
     </ul>
