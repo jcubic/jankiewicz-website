@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
   <loc>https://jakub.jankiewicz.org/</loc>
-  <lastmod>2026-04-14</lastmod>
+  <lastmod>2026-06-08</lastmod>
   <priority>1.0</priority>
 </url>
 <url>
@@ -11,7 +11,7 @@
 </url>
 <url>
   <loc>https://jakub.jankiewicz.org/now/</loc>
-  <lastmod>2026-04-14</lastmod>
+  <lastmod>2026-06-08</lastmod>
 </url>
 <url>
   <loc>https://jakub.jankiewicz.org/writing.php</loc>
@@ -19,7 +19,8 @@
 </url>
 <url>
   <loc>https://jakub.jankiewicz.org/media.php</loc>
-  <lastmod>2026-06-02</lastmod>
+  <lastmod>2026-06-08</lastmod>
+  <priority>0.7</priority>
 </url>
 <url>
   <loc>https://jakub.jankiewicz.org/projects.php</loc>
@@ -45,7 +46,7 @@
 </url>
 <url>
   <loc>https://jakub.jankiewicz.org/pl/</loc>
-  <lastmod>2026-04-14</lastmod>
+  <lastmod>2026-06-08</lastmod>
   <priority>1.0</priority>
 </url>
 <url>
@@ -58,7 +59,8 @@
 </url>
 <url>
   <loc>https://jakub.jankiewicz.org/pl/media.php</loc>
-  <lastmod>2026-06-02</lastmod>
+  <lastmod>2026-06-08</lastmod>
+  <priority>0.7</priority>
 </url>
 <url>
   <loc>https://jakub.jankiewicz.org/pl/projects.php</loc>
