@@ -91,7 +91,8 @@ require('../utils.php');
                      "https://algora.io/jcubic/profile",
                      "https://www.devtree.site/jcubic",
                      "https://archive.fosdem.org/2023/schedule/speaker/jakub_t_jankiewicz/",
-                     "https://hashnode.com/@jcubic"
+                     "https://hashnode.com/@jcubic",
+                     "https://coderlegion.com/user/jcubic"
                  ],
                  "knowsAbout": [
                      {"@type": "DefinedTerm", "name": "Front-End Development", "@id": "https://www.wikidata.org/wiki/Q4130556"},
