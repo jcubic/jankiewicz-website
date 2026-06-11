@@ -57,6 +57,10 @@ require('../utils.php');
                  "image": "https://live.staticflickr.com/65535/50132910231_73d867794f_k_d.jpg",
                  "jobTitle": "Senior Front-End Developer",
                  "description": "Programista Open Source z 15-letnim stażem, twórca jQuery Terminal, interpretera LIPS Scheme oraz projektu edukacyjnego WikiZEIT. Doświadczony Wikipedysta, trener oraz mentor.",
+                 "award": [
+                     "4. miejsce w polskiej edycji konkursu Wiki Lubi Zabytki 2022 oraz 3 miejsce w edycji międzynarodowej Wiki Love Monuments.",
+                     "4. miejsce w konkursie Upamiętnienie organizowane przez Wikimedia Polska."
+                 ],
                  "sameAs": [
                      "https://twitter.com/jcubic",
                      "https://pinterest.com/jcubic/",

@@ -82,6 +82,10 @@ require('./utils.php');
                  "Description": "Technologist",
                  "disambiguatingDescription": "Web Developer",
                  "jobTitle": "Senior Front-End Developer",
+                 "award": [
+                     "4th place in Polish edition of Wiki Love Momuments 2022 and 3rd place in international edition.",
+                     "4th place in Polish Commemoration photo contest organized by Wikimedia Polska"
+                 ],
                  "sameAs": [
                      "https://twitter.com/jcubic",
                      "https://pinterest.com/jcubic/",
