@@ -263,8 +263,12 @@ header {
                   przewodnik dla nowicjuszy oraz
                   <a href="https://pl.wikipedia.org/wiki/Wikipedia:WikiTrenerzy/Uczestnicy_i_uczestniczki">oficjalny trener</a>
                   <a href="https://wikimedia.pl/">Stowarzyszenia Wikimedia Polska</a>. Jest głównym autorem
-                  <a href="http://wikizeit.edu.pl/">projektu WikiZEIT</a>. Zajmuje się także
-                  <a href="https://www.flickr.com/people/jcubic/">fotografią</a>.
+                  <a href="http://wikizeit.edu.pl/">projektu WikiZEIT</a>.
+                  <a href="https://www.flickr.com/people/jcubic/">Fotograf</a>, laureat konkursu fotograficznego
+                  <a href="https://commons.wikimedia.org/wiki/Wiki_Loves_Monuments_2022_winners">Wiki Lubi Zabytki</a>
+                  oraz uczestnik i wyróżniony twórca w projekcie
+                  <a href="https://pl.wikimedia.org/wiki/Projekt_Upamiętnienie">'Upamiętnienie'</a>
+                  Stowarzyszenia Wikimedia Polska.
                 </p>
                 <p>
                   Możesz do niego napisać poprzez adress <a data-type="email">jcubic [at]

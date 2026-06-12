@@ -337,7 +337,12 @@ header {
                   <a href="https://pl.wikipedia.org/wiki/Wikipedia:WikiTrenerzy/Uczestnicy_i_uczestniczki">official trainer</a> for
                   the <a href="https://wikimedia.pl/">Wikimedia Polska Association</a>.
                   He is the main author of the <a href="http://wikizeit.edu.pl/">WikiZEIT project</a>.
-                  He is also involved in <a href="https://www.flickr.com/people/jcubic/">photography</a>.
+                  He is also a <a href="https://www.flickr.com/people/jcubic/">photographer</a>,
+                  award-winner in the
+                  <a href="https://commons.wikimedia.org/wiki/Wiki_Loves_Monuments_2022_winners">Wiki
+                  Loves Monuments competition</a> and a the Wikimedia Polska <a
+                  href="https://pl.wikimedia.org/wiki/Projekt_Upamiętnienie">'Upamiętnienie'
+                  (Commemoration) project</a>.
                 </p>
                 <p>You can email him at <a data-type="email">jcubic [at] jcubic [dot]
                   pl</a>, and download his Resume
