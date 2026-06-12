@@ -217,6 +217,8 @@ a, a:visited {
     color: white;
     padding: 6px;
     margin: -6px;
+    text-decoration-thickness: from-font;
+    text-underline-offset: 3px;
 }
 a:hover {
     color: #b72100;
