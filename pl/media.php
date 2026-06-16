@@ -47,6 +47,10 @@
       <li itemscope itemtype="https://schema.org/ImageObject">
         <img itemprop="contentUrl" src="/images/jakub-jankiewicz-wzlot-2023.webp" alt="Jakub T. Jankiewicz podczas prezentacji, siedzący za laptopem w koszulce WikiTrenera z widocznym tatuażem na ramieniu" />
         <meta itemprop="caption" content="Jakub T. Jankiewicz - WZLOT 2023" />
+        <meta itemprop="license" content="https://creativecommons.org/licenses/by-sa/4.0/" />
+        <meta itemprop="acquireLicensePage" content="https://commons.wikimedia.org/wiki/File:Wzlot_2023_RD_81.jpg" />
+        <meta itemprop="creditText" content="Robert Drózd" />
+        <meta itemprop="copyrightNotice" content="© Robert Drózd, CC BY-SA 4.0" />
         <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
           <meta itemprop="name" content="Robert Drózd" />
         </span>
@@ -63,6 +67,10 @@
       <li itemscope itemtype="https://schema.org/ImageObject">
         <img itemprop="contentUrl" src="/images/jakub-jankiewicz-wzlot-2024.webp" alt="Jakub T. Jankiewicz podczas prezentacji, siedzący za laptopem pełnym naklejek, trzymający mikrofon" />
         <meta itemprop="caption" content="Jakub T. Jankiewicz - WZLOT 2024" />
+        <meta itemprop="license" content="https://creativecommons.org/licenses/by-sa/4.0/" />
+        <meta itemprop="acquireLicensePage" content="https://commons.wikimedia.org/wiki/File:Wzlot_2024_RD_107.jpg" />
+        <meta itemprop="creditText" content="Robert Drózd" />
+        <meta itemprop="copyrightNotice" content="© Robert Drózd, CC BY-SA 4.0" />
         <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
           <meta itemprop="name" content="Robert Drózd" />
         </span>
@@ -79,6 +87,10 @@
       <li itemscope itemtype="https://schema.org/ImageObject">
         <img itemprop="contentUrl" src="/images/jakub-jankiewicz-wzlot-2025.webp" alt="Jakub T. Jankiewicz podczas prezentacji, stojący i wskazujący klikerem trzymanym w dłoni" />
         <meta itemprop="caption" content="Jakub T. Jankiewicz - WZLOT 2025" />
+        <meta itemprop="license" content="https://creativecommons.org/licenses/by-sa/4.0/" />
+        <meta itemprop="acquireLicensePage" content="https://commons.wikimedia.org/wiki/File:Wzlot_2025_RD_080.jpg" />
+        <meta itemprop="creditText" content="Robert Drózd" />
+        <meta itemprop="copyrightNotice" content="© Robert Drózd, CC BY-SA 4.0" />
         <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
           <meta itemprop="name" content="Robert Drózd" />
         </span>
@@ -95,6 +107,10 @@
       <li itemscope itemtype="https://schema.org/ImageObject">
         <img itemprop="contentUrl" src="/images/jakub-jankiewicz-wzlot-2026.webp" alt="Jakub T. Jankiewicz z mikrofonem" />
         <meta itemprop="caption" content="Jakub T. Jankiewicz - WZLOT 2026" />
+        <meta itemprop="license" content="https://creativecommons.org/licenses/by-sa/4.0/" />
+        <meta itemprop="acquireLicensePage" content="https://commons.wikimedia.org/wiki/File:Wzlot_2026_RD_072.jpg" />
+        <meta itemprop="creditText" content="Robert Drózd" />
+        <meta itemprop="copyrightNotice" content="© Robert Drózd, CC BY-SA 4.0" />
         <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
           <meta itemprop="name" content="Robert Drózd" />
         </span>
@@ -118,6 +134,8 @@
         <meta itemprop="caption" content="Jakub T. Jankiewicz - Autoportret">
         <meta itemprop="license" content="https://creativecommons.org/licenses/by-sa/4.0/">
         <meta itemprop="acquireLicensePage" content="https://jankiewicz.org">
+        <meta itemprop="creditText" content="Jakub T. Jankiewicz">
+        <meta itemprop="copyrightNotice" content="© Jakub T. Jankiewicz, CC BY-SA 4.0">
         <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
           <meta itemprop="name" content="Jakub T. Jankiewicz">
         </span>
@@ -137,6 +155,8 @@
         <meta itemprop="caption" content="Jakub T. Jankiewicz - Autoportret">
         <meta itemprop="license" content="https://creativecommons.org/licenses/by-sa/4.0/">
         <meta itemprop="acquireLicensePage" content="https://jankiewicz.org">
+        <meta itemprop="creditText" content="Jakub T. Jankiewicz">
+        <meta itemprop="copyrightNotice" content="© Jakub T. Jankiewicz, CC BY-SA 4.0">
         <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
           <meta itemprop="name" content="Jakub T. Jankiewicz">
         </span>
@@ -156,6 +176,8 @@
         <meta itemprop="caption" content="Jakub T. Jankiewicz - Autoportret">
         <meta itemprop="license" content="https://creativecommons.org/licenses/by-sa/4.0/">
         <meta itemprop="acquireLicensePage" content="https://jankiewicz.org">
+        <meta itemprop="creditText" content="Jakub T. Jankiewicz">
+        <meta itemprop="copyrightNotice" content="© Jakub T. Jankiewicz, CC BY-SA 4.0">
         <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
           <meta itemprop="name" content="Jakub T. Jankiewicz">
         </span>
@@ -178,8 +200,10 @@
         <img itemprop="contentUrl" src="/images/jakub-jankiewicz-wikitrener.webp" alt="Jakub T. Jankiewicz w koszulce WikiTrenera" />
         <meta itemprop="caption" content="Jakub T. Jankiewicz - warsztaty trenerskie w Bibliotece Głównej Województwa Mazowieckiego 2022" />
 
-        <meta itemprop="license" content="https://creativecommons.org">
-        <meta itemprop="acquireLicensePage" content="https://jankiewicz.org">
+        <meta itemprop="license" content="https://creativecommons.org/licenses/by-sa/4.0/">
+        <meta itemprop="acquireLicensePage" content="https://commons.wikimedia.org/wiki/File:Szkolenie_Wikitrener%C3%B3w_2022_portrety_%E2%80%93_Jakub_Jankiewicz_(Jcubic)_03.jpg">
+        <meta itemprop="creditText" content="Paulina Studniczka (WMPL)">
+        <meta itemprop="copyrightNotice" content="© Paulina Studniczka, CC BY-SA 4.0">
         <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
           <meta itemprop="name" content="Paulina Studniczka" />
         </span>
@@ -200,8 +224,10 @@
         <img itemprop="contentUrl" src="/images/jakub-jankiewicz-taking-pictures-2022.webp" alt="Jakub T. Jankiewicz robiący zdjęcia lustrzanką cyfrową" />
         <meta itemprop="caption" content="Jakub T. Jankiewicz - fotografowanie podczas konferencji WZLOT 2024" />
 
-        <meta itemprop="license" content="https://creativecommons.org">
-        <meta itemprop="acquireLicensePage" content="https://jankiewicz.org">
+        <meta itemprop="license" content="https://creativecommons.org/licenses/by-sa/4.0/">
+        <meta itemprop="acquireLicensePage" content="https://commons.wikimedia.org/wiki/File:Wzlot_2024_RD_030.jpg">
+        <meta itemprop="creditText" content="Robert Drózd">
+        <meta itemprop="copyrightNotice" content="© Robert Drózd, CC BY-SA 4.0">
         <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
           <meta itemprop="name" content="Robert Drózd" />
         </span>
@@ -222,8 +248,10 @@
         <img itemprop="contentUrl" src="/images/jakub-jankiewicz-taking-pictures-2026.webp" alt="Jakub T. Jankiewicz robiący zdjęcia bezlusterkowcem Fuji X-Pro 3" />
         <meta itemprop="caption" content="Jakub T. Jankiewicz - fotografowanie podczas konferencji WZLOT 2026" />
 
-        <meta itemprop="license" content="https://creativecommons.org">
-        <meta itemprop="acquireLicensePage" content="https://jankiewicz.org">
+        <meta itemprop="license" content="https://creativecommons.org/licenses/by-sa/4.0/">
+        <meta itemprop="acquireLicensePage" content="https://commons.wikimedia.org/wiki/File:Wzlot_2026_RD_046.jpg">
+        <meta itemprop="creditText" content="Robert Drózd">
+        <meta itemprop="copyrightNotice" content="© Robert Drózd, CC BY-SA 4.0">
         <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
           <meta itemprop="name" content="Robert Drózd" />
         </span>
@@ -245,6 +273,8 @@
 
         <meta itemprop="license" content="https://jakub.jankiewicz.org">
         <meta itemprop="acquireLicensePage" content="https://jakub.jankiewicz.org">
+        <meta itemprop="creditText" content="Marcin Krogulec">
+        <meta itemprop="copyrightNotice" content="© Marcin Krogulec, Wszelkie prawa zastrzeżone">
 
         <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
           <meta itemprop="name" content="Marcin Krogulec">
@@ -267,6 +297,8 @@
 
         <meta itemprop="license" content="https://jankiewicz.org">
         <meta itemprop="acquireLicensePage" content="https://jankiewicz.org">
+        <meta itemprop="creditText" content="Marcin Krogulec">
+        <meta itemprop="copyrightNotice" content="© Marcin Krogulec, Wszelkie prawa zastrzeżone">
 
         <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
           <meta itemprop="name" content="Marcin Krogulec">
@@ -290,6 +322,8 @@
 
         <meta itemprop="license" content="https://jankiewicz.org">
         <meta itemprop="acquireLicensePage" content="https://jankiewicz.org">
+        <meta itemprop="creditText" content="Marcin Krogulec">
+        <meta itemprop="copyrightNotice" content="© Marcin Krogulec, Wszelkie prawa zastrzeżone">
 
         <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
           <meta itemprop="name" content="Marcin Krogulec">
@@ -312,6 +346,8 @@
 
         <meta itemprop="license" content="https://jakub.jankiewicz.org">
         <meta itemprop="acquireLicensePage" content="https://jakub.jankiewicz.org">
+        <meta itemprop="creditText" content="Daria Uchman">
+        <meta itemprop="copyrightNotice" content="© Daria Uchman, Wszelkie prawa zastrzeżone">
 
         <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
           <meta itemprop="name" content="Daria Uchman">
@@ -333,6 +369,8 @@
 
         <meta itemprop="license" content="https://jakub.jankiewicz.org">
         <meta itemprop="acquireLicensePage" content="https://jakub.jankiewicz.org">
+        <meta itemprop="creditText" content="Sławomir Adamczak">
+        <meta itemprop="copyrightNotice" content="© Sławomir Adamczak, Wszelkie prawa zastrzeżone">
 
         <span itemprop="creator" itemscope itemtype="https://schema.org/Person">
           <meta itemprop="name" content="Sławomir Adamczak">
