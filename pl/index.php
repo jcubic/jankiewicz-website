@@ -63,6 +63,8 @@ require('../utils.php');
                  ],
                  "sameAs": [
                      "https://twitter.com/jcubic",
+                     "https://x.com/jcubic",
+                     "https://fosstodon.org/@jcubic",
                      "https://pinterest.com/jcubic/",
                      "https://www.instagram.com/jcubic/",
                      "https://www.facebook.com/jcubic/",
