@@ -65,6 +65,7 @@ require('../utils.php');
                      "https://twitter.com/jcubic",
                      "https://x.com/jcubic",
                      "https://fosstodon.org/@jcubic",
+                     "https://news.ycombinator.com/user?id=jcubic",
                      "https://pinterest.com/jcubic/",
                      "https://www.instagram.com/jcubic/",
                      "https://www.facebook.com/jcubic/",
@@ -98,7 +99,8 @@ require('../utils.php');
                      "https://www.devtree.site/jcubic",
                      "https://archive.fosdem.org/2023/schedule/speaker/jakub_t_jankiewicz/",
                      "https://hashnode.com/@jcubic",
-                     "https://coderlegion.com/user/jcubic"
+                     "https://coderlegion.com/user/jcubic",
+                     "https://www.gofundme.com/u/jcubic"
                  ],
                  "knowsAbout": [
                      {"@type": "DefinedTerm", "name": "Front-End Development", "@id": "https://www.wikidata.org/wiki/Q4130556"},
