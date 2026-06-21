@@ -260,18 +260,29 @@ header {
                      <img alt="Jakub Jankiewicz autoportret" src="/images/portret.jpg?v=2" style="width: 136px;"/>
                   </a>
                 </p>
-                <p itemscope itemtype="http://data-vocabulary.org/Person">
+                <p>
                   Jakub T. Jankiewicz to programista z ponad 15-letnim doświadczeniem
                   w&nbsp;tworzeniu oprogramowania
-                  <a href="https://opensource.org/maintainers/jcubic">open source</a>, a zarazem aktywny
-                  <a href="https://pl.wikipedia.org/wiki/Wikipedysta:Jcubic">redaktor Polskiej Wikipedii</a>,
-                  przewodnik dla nowicjuszy oraz
-                  <a href="https://pl.wikipedia.org/wiki/Wikipedia:WikiTrenerzy/Uczestnicy_i_uczestniczki">oficjalny trener</a>
+                  <a href="https://opensource.org/maintainers/jcubic">open source</a>
+                  Specjalizujący się głównie w językach JavaScript oraz TypeScript.
+                  Jest maintainerem <a href="https://isomorphic-git.org/">biblioteki Isomorphic-gi</a> oraz
+                  authorem takich projektów jak <a href="https://lips.js.org/">LIPS Scheme</a>,
+                  <a href="https://terminal.jcubic.pl/">jQuery Terminal</a>,
+                  <a href="https://github.com/jcubic/sysend">Sysend</a>, or
+                  <a href="https://github.com/jcubic/wayne">Wayne</a>. Jest także autorem kilku projektów
+                  w <a href="https://pypi.org/user/jcubic/">Pythonie</a> oraz
+                  <a href="https://packagist.org/packages/jcubic/">PHP</a>.
+                  Jest aktywnym <a href="https://pl.wikipedia.org/wiki/Wikipedysta:Jcubic">redaktorem Polskiej Wikipedii</a>,
+                  przewodnikiem dla nowicjuszy oraz
+                  <a href="https://pl.wikipedia.org/wiki/Wikipedia:WikiTrenerzy/Uczestnicy_i_uczestniczki">oficjalnym trener</a>
                   <a href="https://wikimedia.pl/">Stowarzyszenia Wikimedia Polska</a>. Jest głównym autorem
-                  <a href="http://wikizeit.edu.pl/">projektu WikiZEIT</a>.
-                  <a href="https://www.flickr.com/people/jcubic/">Fotograf</a>, laureat konkursu fotograficznego
+                  <a href="http://wikizeit.edu.pl/">projektu WikiZEIT</a> educacyjnym projekcie o Wikipedii i etycznych SEO.
+                  Jest także blogerem, jest autorem bloga
+                  <a href="https://jcubic.pl">Głównie JavaScript</a>, publikuje także artykuły na
+                  <a href="https://www.freecodecamp.org/news/author/jcubic/">FreeCodeCamp</a>.
+                  Jest także <a href="https://www.flickr.com/people/jcubic/">fotografem</a>, laureatem konkursu fotograficznego
                   <a href="https://commons.wikimedia.org/wiki/Wiki_Loves_Monuments_2022_winners">Wiki Lubi Zabytki</a>
-                  oraz uczestnik i wyróżniony twórca w projekcie
+                  oraz uczestnikiem i wyróżnionym twórca w projekcie
                   <a href="https://pl.wikimedia.org/wiki/Projekt_Upamiętnienie">'Upamiętnienie'</a>
                   Stowarzyszenia Wikimedia Polska.
                 </p>

@@ -334,19 +334,30 @@ header {
                      <img alt="Jakub Jankiewicz autoportret" src="/images/portret.jpg?v=2" style="width: 136px;"/>
                   </a>
                 </p>
-                <p lang="en" itemscope itemtype="http://data-vocabulary.org/Person">
-                  Jakub T. Jankiewicz is a software engineer with over 15 years of experience
-                  in <a href="https://opensource.org/maintainers/jcubic">open-source development</a>,
-                  as well as an active editor of <a href="https://pl.wikipedia.org/wiki/Wikipedysta:Jcubic">Polish Wikipedia</a>,
-                  a guide for newcomers, and an
-                  <a href="https://pl.wikipedia.org/wiki/Wikipedia:WikiTrenerzy/Uczestnicy_i_uczestniczki">official trainer</a> for
-                  the <a href="https://wikimedia.pl/">Wikimedia Polska Association</a>.
-                  He is the main author of the <a href="http://wikizeit.edu.pl/">WikiZEIT project</a>.
-                  He is also a <a href="https://www.flickr.com/people/jcubic/">photographer</a>,
-                  award-winner in the
+                <p>
+                  Jakub T. Jankiewicz is an software engineer with over 15 years of experience in
+                  <a href="https://opensource.org/maintainers/jcubic">open-source development</a>.
+                  Specialising mostly in JavaScript and TypeScript.  He is maintainer of
+                  <a href="https://isomorphic-git.org/">Isomorphic-git library</a>
+                  and author of other JavaScript Open Source projects like
+                  <a href="https://lips.js.org/">LIPS Scheme</a>,
+                  <a href="https://terminal.jcubic.pl/">jQuery Terminal</a>,
+                  <a href="https://github.com/jcubic/sysend">Sysend</a>, or
+                  <a href="https://github.com/jcubic/wayne">Wayne</a>.  He's also an author of
+                  <a href="https://pypi.org/user/jcubic/">Python</a> and
+                  <a href="https://packagist.org/packages/jcubic/">PHP</a> packages.  He's an active
+                  editor of <a href="https://pl.wikipedia.org/wiki/Wikipedysta:Jcubic">Polish
+                  Wikipedia</a>, a guide for newcomers, and an
+                  <a href="https://pl.wikipedia.org/wiki/Wikipedia:WikiTrenerzy/Uczestnicy_i_uczestniczki">official
+                  trainer</a> for the <a href="https://wikimedia.pl/">Wikimedia Polska
+                  Association</a>. He is the main author of the <a href="http://wikizeit.edu.pl/">WikiZEIT project</a>
+                  education project about Wikipedia and ethical SEO. He is also a blogger, he's an author of blog
+                  <a href="https://jcubic.pl">Głównie JavaScript</a>, he also publish articles on
+                  <a href="https://www.freecodecamp.org/news/author/jcubic/">FreeCodeCamp</a>.    He is also a
+                  <a href="https://www.flickr.com/people/jcubic/">photographer</a>, award-winner in the
                   <a href="https://commons.wikimedia.org/wiki/Wiki_Loves_Monuments_2022_winners">Wiki
-                  Loves Monuments competition</a> and a the Wikimedia Polska <a
-                  href="https://pl.wikimedia.org/wiki/Projekt_Upamiętnienie">'Upamiętnienie'
+                  Loves Monuments competition</a> and a the Wikimedia Polska
+                  <a href="https://pl.wikimedia.org/wiki/Projekt_Upamiętnienie">'Upamiętnienie'
                   (Commemoration) project</a>.
                 </p>
                 <p>You can email him at <a data-type="email">jcubic [at] jcubic [dot]
