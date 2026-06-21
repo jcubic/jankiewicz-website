@@ -100,7 +100,8 @@ require('../utils.php');
                      "https://archive.fosdem.org/2023/schedule/speaker/jakub_t_jankiewicz/",
                      "https://hashnode.com/@jcubic",
                      "https://coderlegion.com/user/jcubic",
-                     "https://www.gofundme.com/u/jcubic"
+                     "https://www.gofundme.com/u/jcubic",
+                     "https://polish-open-source.pl/users/github/jcubic/jakub-t-jankiewicz"
                  ],
                  "knowsAbout": [
                      {"@type": "DefinedTerm", "name": "Front-End Development", "@id": "https://www.wikidata.org/wiki/Q4130556"},
