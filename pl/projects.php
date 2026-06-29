@@ -58,7 +58,7 @@
             </div>
           </li>
           <li>
-            <a href="https://www.gnome-look.org/p/1012535" title="Clarity: GTK+ Monoshape SVG Icon Theme">
+            <a href="https://clarity.pl.eu.org/" title="Clarity: GTK+ Monoshape SVG Icon Theme">
               <img src="/images/projects/clarity.png" alt="Clarity Icons GTK+ logo"/>
             </a>
             <p><strong>Clarity</strong> jest motyw ikon SVG typu mono shape dla systemu GNU Linux. Został stworzony jako motyw dla GTK+. Motyw posiada skrypty Basha, które umożliwiają zmiane kolorów, istnieje także możliwość tworzenia własncych szablonów SVG.</p>

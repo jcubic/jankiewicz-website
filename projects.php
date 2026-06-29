@@ -58,7 +58,7 @@
             </div>
           </li>
           <li>
-            <a href="https://www.gnome-look.org/p/1012535" title="Clarity: GTK+ Monoshape SVG Icon Theme">
+            <a href="https://clarity.pl.eu.org/" title="Clarity: GTK+ Monoshape SVG Icon Theme">
               <img src="/images/projects/clarity.png" alt="Clarity Icons GTK+ logo"/>
             </a>
             <p><strong>Clarity</strong> is SVG based, almost completely monoshape icon theme for GNU Linux system. It was created as GTK+ Theme. The library also have bash scripts created by hand that allow to change colors and even create your own colors by creating SVG template.</p>
