@@ -51,6 +51,7 @@
           <li><a href="https://requestly.com/blog/endpoint-ft-jakub-t-jankiewicz-a-pragmatic-guide-to-open-source-ai-and-the-sdlc/">Interview with me on Requestly Blog</a></li>
           <li><a href="https://www.freecodecamp.org/news/how-to-create-a-table-of-contents-for-your-article/">How to Create a Table of Contents for Your Article</a></li>
           <li><a href="https://www.freecodecamp.org/news/how-to-build-a-zero-cost-personal-project-with-php-wasmer-and-cloudflare/">How to Build a Zero-Cost Personal Project with PHP, Wasmer, and Cloudflare</a></li>
+          <li><a href="https://www.freecodecamp.org/news/how-to-build-a-dark-mode-toggle-without-javascript/">How to Build a Dark Mode Toggle Without JavaScript</a></li>
         </ul>
         <p><a href="https://jcubic.wordpress.com/">My Old Blog</a></p>
         <h2>Articles in Polish</h2>
