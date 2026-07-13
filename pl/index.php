@@ -72,6 +72,7 @@ require('../utils.php');
                      "https://www.linkedin.com/in/jakubjankiewicz/",
                      "https://github.com/jcubic",
                      "https://profiles.wordpress.org/jcubic/",
+                     "https://tastedive.com/jcubic",
                      "https://codepen.io/jcubic/",
                      "https://stackoverflow.com/users/387194/jcubic",
                      "https://www.deviantart.com/jcubic/",
