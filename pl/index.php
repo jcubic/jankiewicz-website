@@ -268,7 +268,7 @@ header {
                   w&nbsp;tworzeniu oprogramowania
                   <a href="https://opensource.org/maintainers/jcubic">open source</a>
                   Specjalizujący się głównie w językach JavaScript oraz TypeScript.
-                  Jest maintainerem <a href="https://isomorphic-git.org/">biblioteki Isomorphic-gi</a> oraz
+                  Jest maintainerem <a href="https://isomorphic-git.org/">biblioteki Isomorphic-git</a> oraz
                   authorem takich projektów jak <a href="https://lips.js.org/">LIPS Scheme</a>,
                   <a href="https://terminal.jcubic.pl/">jQuery Terminal</a>,
                   <a href="https://github.com/jcubic/sysend">Sysend</a>, or
