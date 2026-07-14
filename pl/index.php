@@ -266,20 +266,20 @@ header {
                 <p>
                   Jakub T. Jankiewicz to programista z ponad 15-letnim doświadczeniem
                   w&nbsp;tworzeniu oprogramowania
-                  <a href="https://opensource.org/maintainers/jcubic">open source</a>
+                  <a href="https://opensource.org/maintainers/jcubic">open source</a>.
                   Specjalizujący się głównie w językach JavaScript oraz TypeScript.
+                  Jest aktywnym <a href="https://pl.wikipedia.org/wiki/Wikipedysta:Jcubic">redaktorem Polskiej Wikipedii</a>,
+                  przewodnikiem dla nowicjuszy oraz
+                  <a href="https://pl.wikipedia.org/wiki/Wikipedia:WikiTrenerzy/Uczestnicy_i_uczestniczki">oficjalnym trenerem</a>
+                  <a href="https://wikimedia.pl/">Stowarzyszenia Wikimedia Polska</a>. Jest głównym autorem
+                  <a href="http://wikizeit.edu.pl/">WikiZEIT</a>, projektu o Wikipedii i etycznym SEO.
                   Jest maintainerem <a href="https://isomorphic-git.org/">biblioteki Isomorphic-git</a> oraz
                   authorem takich projektów jak <a href="https://lips.js.org/">LIPS Scheme</a>,
                   <a href="https://terminal.jcubic.pl/">jQuery Terminal</a>,
-                  <a href="https://github.com/jcubic/sysend">Sysend</a>, or
+                  <a href="https://github.com/jcubic/sysend">Sysend</a> oraz
                   <a href="https://github.com/jcubic/wayne">Wayne</a>. Jest także autorem kilku projektów
                   w <a href="https://pypi.org/user/jcubic/">Pythonie</a> oraz
                   <a href="https://packagist.org/packages/jcubic/">PHP</a>.
-                  Jest aktywnym <a href="https://pl.wikipedia.org/wiki/Wikipedysta:Jcubic">redaktorem Polskiej Wikipedii</a>,
-                  przewodnikiem dla nowicjuszy oraz
-                  <a href="https://pl.wikipedia.org/wiki/Wikipedia:WikiTrenerzy/Uczestnicy_i_uczestniczki">oficjalnym trener</a>
-                  <a href="https://wikimedia.pl/">Stowarzyszenia Wikimedia Polska</a>. Jest głównym autorem
-                  <a href="http://wikizeit.edu.pl/">projektu WikiZEIT</a> educacyjnym projekcie o Wikipedii i etycznych SEO.
                   Jest także blogerem, jest autorem bloga
                   <a href="https://jcubic.pl">Głównie JavaScript</a>, publikuje także artykuły na
                   <a href="https://www.freecodecamp.org/news/author/jcubic/">FreeCodeCamp</a>.
