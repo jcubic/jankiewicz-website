@@ -274,7 +274,7 @@ header {
                   <a href="https://wikimedia.pl/">Stowarzyszenia Wikimedia Polska</a>. Jest głównym autorem
                   <a href="http://wikizeit.edu.pl/">WikiZEIT</a>, projektu o Wikipedii i etycznym SEO.
                   Jest maintainerem <a href="https://isomorphic-git.org/">biblioteki Isomorphic-git</a> oraz
-                  authorem takich projektów jak <a href="https://lips.js.org/">LIPS Scheme</a>,
+                  autorem takich projektów jak <a href="https://lips.js.org/">LIPS Scheme</a>,
                   <a href="https://terminal.jcubic.pl/">jQuery Terminal</a>,
                   <a href="https://github.com/jcubic/sysend">Sysend</a> oraz
                   <a href="https://github.com/jcubic/wayne">Wayne</a>. Jest także autorem kilku projektów
