@@ -11,6 +11,9 @@ RewriteRule ^/?(poezja.php|tutorials.php)$ /pl/$1 [R=301,L]
 RewriteRule ^video.php /media.php [R=301,L]
 RewriteRule ^pl/video.php /pl/media.php [R=301,L]
 
+# serve PDF files through view.php so each view/download is tracked in Umami
+RewriteRule ^([^/]+\.pdf)$ view.php?file=$1 [QSA,NC,L]
+
 RewriteRule ^/?,$ / [R=301,L]
 
 ErrorDocument 404 /404.html
