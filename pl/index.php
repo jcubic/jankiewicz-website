@@ -92,6 +92,7 @@ require('../utils.php');
                      "https://www.wikidata.org/wiki/Q113688230",
                      "https://www.youtube.com/@jcubic",
                      "https://www.npmjs.com/~jcubic",
+                     "https://hub.docker.com/u/jcubic777",
                      "https://pypi.org/user/jcubic/",
                      "https://launchpad.net/~jcubic",
                      "https://packagist.org/users/jcubic/",
