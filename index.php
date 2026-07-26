@@ -8,7 +8,7 @@ require('./utils.php');
 <head>
     <meta charset="utf-8" />
     <title>Jakub T. Jankiewicz - Web Developer</title>
-    <meta name="Description" content="My name is Jakub T. Jankiewicz. I'm Web Developer from Poland. I Love to work with JavaScript, jQuery library and CSS."/>
+    <meta name="description" content="My name is Jakub T. Jankiewicz. I'm Web Developer from Poland. I Love to work with JavaScript, jQuery library and CSS."/>
     <link rel="canonical" href="https://jakub.jankiewicz.org" />
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for Jakub T. Jankiewicz Blog"
           href="https://jakub.jankiewicz.org/blog/rss.xml" />
