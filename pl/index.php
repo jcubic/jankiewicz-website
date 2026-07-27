@@ -268,7 +268,6 @@ header {
                   Jakub T. Jankiewicz to programista z ponad 15-letnim doświadczeniem
                   w&nbsp;tworzeniu oprogramowania
                   <a href="https://opensource.org/maintainers/jcubic">open source</a>.
-                  Specjalizujący się głównie w językach JavaScript oraz TypeScript.
                   Jest aktywnym <a href="https://pl.wikipedia.org/wiki/Wikipedysta:Jcubic">redaktorem Polskiej Wikipedii</a>,
                   przewodnikiem dla nowicjuszy oraz
                   <a href="https://pl.wikipedia.org/wiki/Wikipedia:WikiTrenerzy/Uczestnicy_i_uczestniczki">oficjalnym trenerem</a>
