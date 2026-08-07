@@ -39,6 +39,21 @@
           </span>
           presents at the national WZLOT 2024 conference in Opole. The session covers the practical application of ChatGPT to assist and automate the creation of complex <a href="https://pl.wikipedia.org/wiki/SPARQL">SPARQL</a> queries for <a href="https://pl.wikipedia.org/wiki/Wikidane">Wikidata</a>.
       </li>
+      <li itemscope itemtype="https://schema.org/VideoObject">
+        <a itemprop="contentUrl" href="https://www.youtube.com/watch?v=E4XGvymLUYQ" />
+          <img itemprop="thumbnailUrl" src="/images/open-source-friday.webp" alt="Open Source Friday with Jakub T. Jankiewicz (isomorphic-git)" />
+        </a>
+        <meta itemprop="name" content="Open Source Friday with Jakub T. Jankiewicz (isomorphic-git)" />
+        <meta itemprop="description" content="Live chat with Jakub T. Jankiewicz at GitHub Open Source Friday" />
+        <meta itemprop="uploadDate" content="2026-08-07" />
+        <p>
+          Chat with
+          <span itemprop="about" itemscope itemtype="https://schema.org/Person">
+            <span itemprop="name">Jakub T. Jankiewicz</span>
+          </span>
+          about <a href="https://isomorphic-git.org/">isomorphic-git</a> during <a href="https://opensourcefriday.com/">Open Source Friday</a> hosted by GitHub.
+        </p>
+      </li>
     </ul>
 
     <h2>Presentations at the WZLOT conference</h2>

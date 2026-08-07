@@ -40,6 +40,21 @@
           podczas wystąpienia na ogólnopolskiej konferencji WZLOT 2024 w Opolu. Prelekcja prezentuje praktyczne wykorzystanie ChatGPT do automatyzacji i pomocy przy budowaniu skomplikowanych zapytań <a href="https://pl.wikipedia.org/wiki/SPARQL">SPARQL</a> dla <a href="https://pl.wikipedia.org/wiki/Wikidane">Wikidanych</a>.
         </p>
       </li>
+      <li itemscope itemtype="https://schema.org/VideoObject">
+        <a itemprop="contentUrl" href="https://www.youtube.com/watch?v=E4XGvymLUYQ" />
+          <img itemprop="thumbnailUrl" src="/images/open-source-friday.webp" alt="Open Source Friday with Jakub T. Jankiewicz (isomorphic-git)" />
+        </a>
+        <meta itemprop="name" content="Open Source Friday with Jakub T. Jankiewicz (isomorphic-git)" />
+        <meta itemprop="description" content="Live chat with Jakub T. Jankiewicz at GitHub Open Source Friday" />
+        <meta itemprop="uploadDate" content="2026-08-07" />
+        <p>
+          Rozmowa z
+          <span itemprop="about" itemscope itemtype="https://schema.org/Person">
+            <span itemprop="name">Jakubem T. Jankiewiczem</span>
+          </span>
+          o biblitece <a href="https://isomorphic-git.org/">isomorphic-git</a> podczas <a href="https://opensourcefriday.com/">Open Source Friday</a> organizowanego przez GitHuba.
+        </p>
+      </li>
     </ul>
 
     <h2>Moje wystąpienia na konferencji WZLOT</h2>
