@@ -1,7 +1,11 @@
 <header>
   <h1><a href="/" title="strona domowa Jakuba Jankiewicza"><img src="/images/logo.png" alt="Jakub Jankiewicz logo"/></a></h1>
 </header>
-<?php
+<div class="top-nav">
+  <div class="coffee">
+    <a title="Support me on ko-fi.com" class="kofi-button" style="background-color:#72a4f2;" href="https://ko-fi.com/H2H3WDU2" target="_blank"><span class="kofitext"><img src="https://storage.ko-fi.com/cdn/cup-border.png" width="15" height="19" alt="Ko-fi donations" class="kofiimg">Kup mi kawę</span></a>
+  </div>
+  <?php
 $file = preg_replace("%^/pl%", "", $_SERVER['REQUEST_URI']);
 if (file_exists("../" . $file)) {
 ?><div class="lang" tabindex="0">
@@ -41,3 +45,4 @@ if (file_exists("../" . $file)) {
 <?php
 }
 ?>
+</div>

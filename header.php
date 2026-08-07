@@ -1,7 +1,11 @@
 <header>
   <h1><a href="/" title="home page of Jakub Jankiewicz"><img src="/images/logo.png" alt="Jakub Jankiewicz logo"/></a></h1>
 </header>
-<?php
+<div class="top-nav">
+  <div class="coffee">
+    <a title="Support me on ko-fi.com" class="kofi-button" style="background-color:#72a4f2;" href="https://ko-fi.com/H2H3WDU2" target="_blank"><span class="kofitext"><img src="https://storage.ko-fi.com/cdn/cup-border.png" width="15" height="19" alt="Ko-fi donations" class="kofiimg">Buy me a coffee</span></a>
+  </div>
+  <?php
 $file = '/pl' . $_SERVER['REQUEST_URI'];
 $prefix = $_SERVER['REQUEST_URI'] != "/" && str_ends_with($_SERVER['REQUEST_URI'], '/') ? '..' : '.';
 
@@ -47,3 +51,4 @@ if ($exists) {
 <?php
 }
 ?>
+</div>
