@@ -122,7 +122,7 @@
             <p><strong>GGTips</strong> is an Open Source library is written in R language. It allow to add tooltips to GGPlot in shiny applications. GGPlot is go to library for creating plots in R, and GGTips allow to use all the features of GGplot. I've created JavaScript code for the library as part of the work at Roche.</p>
           </li>
           <li>
-            <a href="https://github.com/Genentech/battery" title="Battery - R Shiny Architecture framwork">
+            <a href="https://genentech.github.io/battery/" title="Battery - R Shiny Architecture framwork">
               <img src="/images/projects/battery.png" alt="Battery Logo"/>
             </a>
             <p><strong>Battery</strong> is an Open Source library is also written in R language. It's framework for create non-trival Shiny applications. I'm main architect and autor of most of the code. The same as with GGTips, Battery was created as part of my work at Roche and Genentech.</p>

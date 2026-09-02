@@ -122,7 +122,7 @@
             <p><strong>GGTips</strong> jest to biblioteka napisana w języku R. Umożliwia dodawanie tooltipów do wykresów stworzonych przy użyciu biblioteki GGPlot w aplikacjach shiny. GGPlot jest to najczęściej wybierana biblioteka do tworzenia wykresów w języku R, a GGTips wykorzystuje wszystkie możliwości tej biblioteki. Byłem odpowiedzialny za część Front-Endową biblioteki jako część mojej pracy w firmie Roche.</p>
           </li>
           <li>
-            <a href="https://github.com/Genentech/battery" title="Battery - R Shiny Architecture framwork">
+            <a href="https://genentech.github.io/battery/" title="Battery - R Shiny Architecture framwork">
               <img src="/images/projects/battery.png" alt="Battery Logo"/>
             </a>
             <p><strong>Battery</strong> jest to framwork napisany także w jezyki R. Przy czym tym razem byłem głównym architektem i autorem większości kodu. Jest to biblioteka do tworzenia architektury aplikacji napisanych przy użyciu biblioteki Shiny. Tak samo jako GGTips projekt powstał w ramach mojej pracy dla Roche i Genentech.</p>
