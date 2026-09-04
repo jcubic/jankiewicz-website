@@ -130,7 +130,8 @@ require('./utils.php');
                      "https://coderlegion.com/user/jcubic",
                      "https://www.gofundme.com/u/jcubic",
                      "https://polish-open-source.pl/users/github/jcubic/jakub-t-jankiewicz",
-                     "https://www.siepomaga.pl/pomagacze/jcubic"
+                     "https://www.siepomaga.pl/pomagacze/jcubic",
+                     "https://own.page/jcubic"
                  ],
                  "knowsAbout": [
                      {"@type": "DefinedTerm", "name": "Front-End Development", "@id": "https://www.wikidata.org/wiki/Q4130556"},
