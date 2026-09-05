@@ -84,6 +84,7 @@
           <li><a href="https://devfolio.co/@jcubic">devfolio</a></li>
           <li><a href="https://buzzsumo.com/journalist/jakub-t--jankiewicz-3975897/">BuzzSumo</a></li>
           <li><a href="https://own.page/jcubic">own.page</a></li>
+          <li><a href="https://nownownow.com/p/6i6J">nownownow.com</a></li>
         </ul>
     </article>
     <?php include('footer.php'); ?>
