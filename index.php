@@ -373,7 +373,7 @@ header {
                   <a href="https://jcu.bi/cv-en">English</a> /
                   <a href="https://jcu.bi/cv-pl">Polish</a>.
                 </p>
-                <p>You can also see <a href="/now/">what he's doing now</a>, hire him if you
+                <p>You can also see <a href="/now/">what he's doing now</a>, <a href="/friends/">his friends</a>, and hire him if you
                   need <a href="https://support.jcubic.pl/">support for any of his Open
                   Source projects</a>, <a href="https://wikizeit.edu.pl/oferta/">help with Wikipedia</a>, or just
                   <a href="https://github.com/sponsors/jcubic">sponsor his OSS work</a>.
