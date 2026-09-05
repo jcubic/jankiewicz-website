@@ -106,7 +106,8 @@ require('../utils.php');
                      "https://www.gofundme.com/u/jcubic",
                      "https://polish-open-source.pl/users/github/jcubic/jakub-t-jankiewicz",
                      "https://www.siepomaga.pl/pomagacze/jcubic",
-                     "https://own.page/jcubic"
+                     "https://own.page/jcubic",
+                     "https://nownownow.com/p/6i6J"
                  ],
                  "knowsAbout": [
                      {"@type": "DefinedTerm", "name": "Front-End Development", "@id": "https://www.wikidata.org/wiki/Q4130556"},
