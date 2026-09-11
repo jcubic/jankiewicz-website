@@ -176,7 +176,9 @@
         <h2>Other projects</h2>
 
         <ul>
-            <li><a href="https://try.javascript.org.pl">JavaScript Online REPL with Eloquent JavaScript book,</a></li>
+            <li><a href="https://github.com/jcubic/ascii-globe">ascii-globe</a>,</li>
+            <li><a href="https://hacking.cafe/">hacking.cafe</a> (WIP),</li>
+            <li><a href="https://opensourcelodge.org/">Open Source Lodge</a> (WIP),</li>
             <li><a href="https://sql.org.pl/">SQL online REPL with online course in Polish</a>,</li>
             <li><a href="https://trypython.jcubic.pl">Brython based Python Interpreter</a>,</li>
             <li><a href="https://github.com/jcubic/route.js">Route.js</a> - Simple Vanila JavaScript router</li>

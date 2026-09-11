@@ -174,7 +174,9 @@
         <h2>Inne projekty</h2>
 
         <ul>
-            <li><a href="https://try.javascript.org.pl">Wiersz Poleceń JavaScript wraz z książką Eloquent JavaScript,</a></li>
+            <li><a href="https://github.com/jcubic/ascii-globe">ascii-globe</a>,</li>
+            <li><a href="https://hacking.cafe/">hacking.cafe</a> (WIP),</li>
+            <li><a href="https://opensourcelodge.org/">Open Source Lodge</a> (WIP),</li>
             <li><a href="https://sql.org.pl/">Wiersz Poleceń SQL wraz z kursem na temat języka zapytań SQL</a>,</li>
             <li><a href="https://trypython.jcubic.pl">Interpreter Pythona bazujący na bibliotece Brython</a>,</li>
             <li><a href="https://github.com/jcubic/route.js">Route.js</a> - prosty router w Vanila JavaScript</li>
