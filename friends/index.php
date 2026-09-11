@@ -24,7 +24,7 @@
                 <a href="https://draphy.org/">David Raphi</a> &mdash; Open Source developer.
             </li>
             <li>
-                <a href="https://github.com/billiegoose">William Hilton</a> &mdash; \Original author of <a href="https://isomorphic-git.org/">isomorphic-git</a>.
+                <a href="https://github.com/billiegoose">William Hilton</a> &mdash; Original author of <a href="https://isomorphic-git.org/">isomorphic-git</a>.
             </li>
             <li>
                 <a href="https://codebrains.pl/">Jakub Stompor</a> &mdash; Software developer. We study in college together.
