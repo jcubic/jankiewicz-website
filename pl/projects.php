@@ -174,7 +174,7 @@
         <h2>Inne projekty</h2>
 
         <ul>
-            <li><a href="https://github.com/jcubic/ascii-globe">ascii-globe</a>,</li>
+            <li><a href="https://github.com/jcubic/ascii-globe">ASCII-Globe</a> - biblioteka JavaScript do renderowania ASCII-Art ziemi (oraz innych map np. Gwiazdy Śmierci),</li>
             <li><a href="https://hacking.cafe/">hacking.cafe</a> (WIP),</li>
             <li><a href="https://opensourcelodge.org/">Open Source Lodge</a> (WIP),</li>
             <li><a href="https://sql.org.pl/">Wiersz Poleceń SQL wraz z kursem na temat języka zapytań SQL</a>,</li>

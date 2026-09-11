@@ -176,7 +176,7 @@
         <h2>Other projects</h2>
 
         <ul>
-            <li><a href="https://github.com/jcubic/ascii-globe">ascii-globe</a>,</li>
+            <li><a href="https://github.com/jcubic/ascii-globe">ASCII-Globe</a> - isomorphic JavaScript library for rendering and animating ASCII Earth (or other maps like Death Star),</li>
             <li><a href="https://hacking.cafe/">hacking.cafe</a> (WIP),</li>
             <li><a href="https://opensourcelodge.org/">Open Source Lodge</a> (WIP),</li>
             <li><a href="https://sql.org.pl/">SQL online REPL with online course in Polish</a>,</li>
