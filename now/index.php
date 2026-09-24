@@ -21,7 +21,7 @@
           <li><strong>Writing</strong>: Wrote two articles for <a href="https://wikizeit.edu.pl/blog">WikiZEIT blog</a>.</li>
           <li><strong>Reading</strong>: Started reading "A Philosophy of Software Design" by <a href="https://en.wikipedia.org/wiki/John_Ousterhout">John Ousterhout</a>.</li>
           <li><strong>Listening</strong>: varous metal adn rock bands, but I keep navigating thowards my mp3 collection from Spotify and YouTube.</li>
-          <li><strong>Watching</strong>: the last movies were <a href="https://en.wikipedia.org/wiki/Philadelphia_(film)">Philadelphia</a>, <a href="https://en.wikipedia.org/wiki/Mad_Max_(film)">Mad Max</a> (original). And finished watching 2nd season of the <a href="https://en.wikipedia.org/wiki/1670_(TV_series)">1670</a> TV series.</li>
+          <li><strong>Watching</strong>: the last movies were <a href="https://en.wikipedia.org/wiki/Rosencrantz_%26_Guildenstern_Are_Dead_(film)">Rosencrantz and Guildenstern Are Dead</a>, <a href="https://en.wikipedia.org/wiki/Philadelphia_(film)">Philadelphia</a>, <a href="https://en.wikipedia.org/wiki/Mad_Max_(film)">Mad Max</a> (original). And finished watching 2nd season of the <a href="https://en.wikipedia.org/wiki/1670_(TV_series)">1670</a> TV series.</li>
         </ul>
         <p>This is a <a href="https://nownownow.com/about">now page</a> inspired by <a href="https://sive.rs/">Derek Sivers</a></p>
     </article>
