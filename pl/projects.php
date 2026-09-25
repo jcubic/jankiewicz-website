@@ -153,6 +153,15 @@
             <p><strong>Wayne</strong> biblioteka napisana w Vanilla JavaScript, posiadająca proste API do dodawania nowych odpowiedzi HTTP. API biblioteki jest podobne do tej z biblioteki <a href="http://expressjs.com/">Express.js</a>, ale korzysta z Service Workera, który umożliwia tworzenie nowych endpoitów HTTP w przeglądarce. Zazwyczaj Service Worker jest używany do tego, aby dodać cache zapytań HTTP oraz pracę, gdy nie ma internetu (głównie dla aplikacji <abbr title="Progressive Web App">PWA</abbr>), ale można go także używać do tworzenia odpowiedzi dla zapytania, które nigdy nie opuszczają przeglądrki.</p>
           </li>
           <li>
+            <a href="https://github.com/jcubic/mitty" title="Mitty: A transport-agnostic proxy RPC for executing object chains from any isolated context (Workers, Tabs, or Servers).">
+              <img src="/images/projects/mitty.png" alt="Mitty logo" />
+            </a>
+            </a>
+            <div>
+              <p><strong>Mitty</strong> biblioteka Vanilla TypeScript, która udostepnia uniwersalny mechanizm RPC do komunikacji mędzy różnymi kontekstami. Takimi jak główny wątek przeglądarki i Web Worker (Service Worker), różne zakładki w tej samej przegladarce (cross-tab communication), przeglądarka oraz Node.js dzięki Web Socketom (lub Server-Sent Events), czy różne komputery dzięki WebRTC. Komunikacja moze działać w dwie strony.</p>
+            </div>
+          </li>
+          <li>
             <a href="https://isomorphic-git.org/" title="A pure JavaScript implementation of git for node and browsers!">
               <img src="/images/projects/isomorphic-git.png" alt="Isomorphic-Git Logo"/>
             </a>

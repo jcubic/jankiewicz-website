@@ -155,6 +155,15 @@
             </div>
           </li>
           <li>
+            <a href="https://github.com/jcubic/mitty" title="Mitty: A transport-agnostic proxy RPC for executing object chains from any isolated context (Workers, Tabs, or Servers).">
+              <img src="/images/projects/mitty.png" alt="Mitty logo" />
+            </a>
+            </a>
+            <div>
+              <p><strong>Mitty</strong> is Vanilla TypeScript library that adds universal RPC mechanism for communiation between different contexts. Like Web Worker (Service Worker) and main thread, different tabs in the browser (cross-tab communication), Browser and Node.js via Web Sockets (or Server-Sent Events), or different computers via WebRTC.</p>
+            </div>
+          </li>
+          <li>
             <a href="https://isomorphic-git.org/" title="A pure JavaScript implementation of git for node and browsers!">
               <img src="/images/projects/isomorphic-git.png" alt="Isomorphic-Git Logo"/>
             </a>
