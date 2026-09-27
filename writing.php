@@ -53,6 +53,7 @@
           <li><a href="https://www.freecodecamp.org/news/how-to-build-a-zero-cost-personal-project-with-php-wasmer-and-cloudflare/">How to Build a Zero-Cost Personal Project with PHP, Wasmer, and Cloudflare</a></li>
           <li><a href="https://www.freecodecamp.org/news/how-to-build-a-dark-mode-toggle-without-javascript/">How to Build a Dark Mode Toggle Without JavaScript</a></li>
           <li><a href="https://dev.to/jcubic/how-to-get-access-to-dom-from-service-worker-43e3">How to get access to DOM from Service Worker?</a></li>
+          <li><a href="https://dev.to/jcubic/polish-blog-about-wikipedia-49g3">Polish Blog About Wikipedia</a></li>
         </ul>
         <p><a href="https://jcubic.wordpress.com/">My Old Blog</a></p>
         <h2>Articles in Polish</h2>
