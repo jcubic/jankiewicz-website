@@ -132,7 +132,9 @@ require('./utils.php');
                      "https://polish-open-source.pl/users/github/jcubic/jakub-t-jankiewicz",
                      "https://www.siepomaga.pl/pomagacze/jcubic",
                      "https://own.page/jcubic",
-                     "https://nownownow.com/p/6i6J"
+                     "https://nownownow.com/p/6i6J",
+                     "https://techrez.io/resume/jcubic",
+                     "https://buildinpublic.com/x/jcubic"
                  ],
                  "knowsAbout": [
                      {"@type": "DefinedTerm", "name": "Front-End Development", "@id": "https://www.wikidata.org/wiki/Q4130556"},
