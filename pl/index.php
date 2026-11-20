@@ -264,8 +264,8 @@ header {
             </div>
             <div id="about">
                 <p class="portrait">
-                  <a href="/images/portret-big.jpg" title="Jakub Jankiewicz">
-                     <img alt="Jakub Jankiewicz autoportret" src="/images/portret.jpg?v=2" style="width: 136px;"/>
+                  <a href="/images/portret-big.jpg" title="Jakub T. Jankiewicz">
+                     <img alt="Jakub T. Jankiewicz autoportret" src="/images/portret.jpg?v=2" style="width: 136px;"/>
                   </a>
                 </p>
                 <p>
@@ -309,72 +309,72 @@ header {
                 <div class="profiles">
                     <ul>
                         <li>
-                            <a href="https://twitter.com/jcubic" title="Jakub Jankiewicz - Twitter profile" rel="me" data-tooltip="Twitter">
+                            <a href="https://twitter.com/jcubic" title="Jakub T. Jankiewicz - Twitter profile" rel="me" data-tooltip="Twitter">
                                 <img src="/images/profiles/twitter.png" alt="Twitter icon"/>
                             </a>
                         </li>
                         <li>
-                            <a href="https://github.com/jcubic/" title="Jakub Jankiewicz - Github profile" rel="me" data-tooltip="Github">
+                            <a href="https://github.com/jcubic/" title="Jakub T. Jankiewicz - Github profile" rel="me" data-tooltip="Github">
                                 <img src="/images/profiles/github.png" alt="Github icon"/>
                             </a>
                         </li>
                         <li>
-                            <a href="https://dribbble.com/jcubic" title="Jakub Jankiewicz - Dribbble profile" rel="me" data-tooltip="Dribbble">
+                            <a href="https://dribbble.com/jcubic" title="Jakub T. Jankiewicz - Dribbble profile" rel="me" data-tooltip="Dribbble">
                                 <img src="/images/profiles/dribbble.png" alt="Dribbble icon"/>
                             </a>
                         </li>
                         <li>
-                            <a href="https://openclipart.org/artist/kuba" title="Jakub Jankiewicz - Open Clipart profile" rel="me" data-tooltip="Open Clipart">
+                            <a href="https://openclipart.org/artist/kuba" title="Jakub T. Jankiewicz - Open Clipart profile" rel="me" data-tooltip="Open Clipart">
                                 <img src="/images/profiles/ocal.png" alt="Open Clipart icon"/>
                             </a>
                         </li>
                         <li>
-                            <a href="https://codepen.io/jcubic/" title="Jakub Jankiewicz - Codpen profile" rel="me" data-tooltip="Codpen">
+                            <a href="https://codepen.io/jcubic/" title="Jakub T. Jankiewicz - Codpen profile" rel="me" data-tooltip="Codpen">
                                 <img src="/images/profiles/codpen.png" alt="Codpen icon"/>
                             </a>
                         </li>
                         <li>
-                            <a href="https://stackoverflow.com/users/387194/jcubic?tab=profile" title="Jakub Jankiewicz - Stack Overflow profile" rel="me" data-tooltip="Stack Overflow">
+                            <a href="https://stackoverflow.com/users/387194/jcubic?tab=profile" title="Jakub T. Jankiewicz - Stack Overflow profile" rel="me" data-tooltip="Stack Overflow">
                                 <img src="/images/profiles/stackoverflow.png" alt="Stackoverflow icon"/>
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.freecodecamp.org/news/author/jcubic/" title="Jakub Jankiewicz - FreeCodeCamp profile" rel="me" data-tooltip="FreeCodeCamp">
+                            <a href="https://www.freecodecamp.org/news/author/jcubic/" title="Jakub T. Jankiewicz - FreeCodeCamp profile" rel="me" data-tooltip="FreeCodeCamp">
                                 <img src="/images/profiles/free-code-camp.png" alt="FreeCodeCamp icon" />
                             </a>
                         </li>
                         <li>
-                            <a href="http://www.flickr.com/photos/jcubic/" title="Jakub Jankiewicz - Flickr profile" rel="me" data-tooltip="Flickr">
+                            <a href="http://www.flickr.com/photos/jcubic/" title="Jakub T. Jankiewicz - Flickr profile" rel="me" data-tooltip="Flickr">
                                 <img src="/images/profiles/flickr.png" alt="Flickr icon"/>
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/jcubic/" title="Jakub Jankiewicz - Instagram profile" rel="me" data-tooltip="Instagram">
+                            <a href="https://www.instagram.com/jcubic/" title="Jakub T. Jankiewicz - Instagram profile" rel="me" data-tooltip="Instagram">
                                 <img src="/images/profiles/instagram.png" alt="Instagram icon" />
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/jcubic" title="Jakub Jankiewicz - Facebook profile" rel="me" data-tooltip="Facebook">
+                            <a href="https://www.facebook.com/jcubic" title="Jakub T. Jankiewicz - Facebook profile" rel="me" data-tooltip="Facebook">
                                 <img src="/images/profiles/facebook.png" alt="Facebok icon"/>
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.freecodecamp.org/news/author/jcubic/" title="Jakub Jankiewicz - FreeCodeCamp profile" rel="me" data-tooltip="FreeCodeCamp">
+                            <a href="https://www.freecodecamp.org/news/author/jcubic/" title="Jakub T. Jankiewicz - FreeCodeCamp profile" rel="me" data-tooltip="FreeCodeCamp">
                                 <img src="/images/profiles/free-code-camp.png" alt="FreeCodeCamp icon" />
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/jakubjankiewicz" title="Jakub Jankiewicz - Linkedin profile" rel="me" data-tooltip="Linkedin">
+                            <a href="https://www.linkedin.com/in/jakubjankiewicz" title="Jakub T. Jankiewicz - Linkedin profile" rel="me" data-tooltip="Linkedin">
                                 <img src="/images/profiles/linkedin.png" alt="Linkedin icon" />
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.wikidata.org/wiki/Q113688230" title="Jakub Jankiewicz - WikiData entry" rel="me" data-tooltip="WikiData">
+                            <a href="https://www.wikidata.org/wiki/Q113688230" title="Jakub T. Jankiewicz - WikiData entry" rel="me" data-tooltip="WikiData">
                                 <img src="/images/profiles/wikidata.png" alt="Wkkidata icon" />
                             </a>
                         </li>
                         <li>
-                            <a href="https://commons.wikimedia.org/wiki/Category:Jakub_T._Jankiewicz" title="Jakub Jankiewicz - Wikimedia Commons Category" rel="me" data-tooltip="Wikimedia Commons">
+                            <a href="https://commons.wikimedia.org/wiki/Category:Jakub_T._Jankiewicz" title="Jakub T. Jankiewicz - Wikimedia Commons Category" rel="me" data-tooltip="Wikimedia Commons">
                                 <img src="/images/profiles/commons.png" alt="Wikimedia Commons icon" />
                             </a>
                         </li>
