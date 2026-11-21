@@ -15,13 +15,13 @@
 <body id="tutorials">
     <?php include('../header.php'); ?>
     <article>
-        <h2>What I'm doing now (October 2026)</h2>
+        <h2>What I'm doing now (November 2026)</h2>
         <ul>
           <li><strong>Working</strong>: I'm still looking for a job as a Senior Software Engineer (Front-End focused, but thinking about pivoting to Full-stack with Python and AI), working on my <a href="https://github.com/jcubic">Open Source projects</a> keep working on <a href="https://hacking.cafe">hacking.cafe</a> terminal. Moderating Twitter communites working on Polish Wikipedia (and doing paid edits as part of <a href="https://wikizeit.edu.pl/">WikiZEIT</a>).</li>
-          <li><strong>Writing</strong>: nothing new this month.</li>
-          <li><strong>Reading</strong>: I've started reading <a href="https://en.wikipedia.org/wiki/Stardust_(Gaiman_novel)">Stardust</a> by Neil Gaiman (this time in English) and continue reading <a href="https://en.wikipedia.org/wiki/Artificial_Intelligence:_A_Modern_Approach">Artificial Intelligence: A Modern Approach</a> (polish translation).</li>
-          <li><strong>Listening</strong>: varous metal and rock bands, but I keep navigating thowards my mp3 collection from Spotify and YouTube. Also listeing to YouTube generated playlists.</li>
-          <li><strong>Watching</strong>: the last movies were <a href="https://en.wikipedia.org/wiki/Dirty_Dancing">Dirty Dancing</a>, <a href="https://en.wikipedia.org/wiki/Mad_Max_2">Mad Max 2</a>, <a href="https://en.wikipedia.org/wiki/Street_Fighter_(1994_film)">Street Fighter</a>, <a href="https://en.wikipedia.org/wiki/Mortal_Kombat_(1995_film)">Mortal Kombat</a>, <a href="https://en.wikipedia.org/wiki/Antitrust_(film)">Antitrust</a>, <a href="https://en.wikipedia.org/wiki/American_Psycho_(film)">American Psycho</a>, and <a href="https://en.wikipedia.org/wiki/Paddington_(film)">Paddington</a>.</li>
+          <li><strong>Writing</strong>: wrote <a href="https://jakub.jankiewicz.org/blog/ai-code-open-source/">article on AI-coding on my blog</a> that blow up on hacker news.</li>
+          <li><strong>Reading</strong>: I've started reading <a href="https://en.wikipedia.org/wiki/Stardust_(Gaiman_novel)">Stardust</a> by Neil Gaiman (this time in English).</li>
+          <li><strong>Listening</strong>: found great AI song about AI <a href="https://www.youtube.com/watch?v=Z6_ENp_fO_Y">Working as Intended</a>. Listen various metal and rock bands, but I keep navigating thowards my mp3 collection from Spotify and YouTube. Also listeing to YouTube generated playlists.</li>
+          <li><strong>Watching</strong>: the last movies was <a href="https://en.wikipedia.org/wiki/O_Brother,_Where_Art_Thou%3F">O Brother, Where Art Thou?</a>.</li>
         </ul>
         <p>This is a <a href="https://nownownow.com/about">now page</a> inspired by <a href="https://sive.rs/">Derek Sivers</a></p>
     </article>
